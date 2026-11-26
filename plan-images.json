@@ -1,0 +1,294 @@
+[
+ {
+  "source": "assets/images/logo-maison.png",
+  "nom": "logo-maison",
+  "role": "logo",
+  "alt": "MARPA, La Maison des Fleurs"
+ },
+ {
+  "source": "recu/harmo/parties-communes.jpg",
+  "nom": "client/jardin-fleurs",
+  "role": "galerie",
+  "alt": "Massif de pétunias et de géraniums devant la maison de plain-pied, la serre et le jardin",
+  "beaute": 4,
+  "ratio": "4:3",
+  "cadrage": [
+   55,
+   55
+  ],
+  "page": "Les lieux de vie"
+ },
+ {
+  "source": "recu/harmo/logements.jpg",
+  "nom": "client/logement-meuble",
+  "role": "galerie",
+  "alt": "Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   55,
+   45
+  ]
+ },
+ {
+  "source": "recu/harmo/entretien-logement.jpg",
+  "nom": "client/logement-lit",
+  "role": "galerie",
+  "alt": "Chambre lumineuse avec lit et fauteuil",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   60,
+   55
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-vie.jpg",
+  "nom": "client/logement-chambre",
+  "role": "galerie",
+  "alt": "Chambre avec lit, fauteuil et grande penderie blanche",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   55,
+   50
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-vie-2.jpg",
+  "nom": "client/logement-cuisine",
+  "role": "vignette",
+  "alt": "Coin cuisine avec évier et plaques",
+  "beaute": 2,
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-eau.jpg",
+  "nom": "client/logement-salle-eau",
+  "role": "galerie",
+  "alt": "Salle d’eau avec douche de plain-pied et barre d’appui",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   40
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-eau-2.jpg",
+  "nom": "client/logement-terrasse",
+  "role": "galerie",
+  "alt": "Terrasse devant un logement, chaises de jardin et pot de géraniums",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   55,
+   60
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-vie-3.jpg",
+  "nom": "client/petit-salon",
+  "role": "galerie",
+  "alt": "Petit salon avec tapis de marche, vélo d’appartement et plantes",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   45,
+   55
+  ]
+ },
+ {
+  "source": "recu/harmo/salle-vie-4.jpg",
+  "nom": "client/salle-de-vie",
+  "role": "galerie",
+  "alt": "Salle de vie : tables de la salle à manger et cheminée",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   45
+  ]
+ },
+ {
+  "source": "recu/harmo/grande-salle-animation.jpg",
+  "nom": "client/grande-salle",
+  "role": "galerie",
+  "alt": "Fête dans la grande salle d’animation, résidents et familles à table",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   50
+  ]
+ },
+ {
+  "source": "recu/harmo/entretien-logement-2.jpg",
+  "nom": "client/linge",
+  "role": "vignette",
+  "alt": "Pile de pulls pliés",
+  "beaute": 3,
+  "ratio": "4:3",
+  "cadrage": [
+   50,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/g-accueil-jardin.jpg",
+  "source_mobile": "recu/grok/g-accueil-jardin-mobile.jpg",
+  "nom": "grok/accueil-jardin",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "ouverture (grande image derrière le titre)",
+  "priorite": "Indispensable",
+  "alt": "Jardin arboré au printemps, banc de bois et massifs fleuris",
+  "consigne_scene": "Wide view of a large old tree-lined garden: tall lime trees and an old oak framing a soft mown lawn path that curves between generous flowering beds of roses, lavender and white daisies, a simple wooden bench in a pool of sunlight on the right third of the frame, light morning haze between the trees, the left half of the image calm and open (lawn and soft sky) for a title",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/g-accueil-nuit.jpg",
+  "nom": "grok/accueil-nuit",
+  "role": "section-fond",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "fond de la section Jour et nuit",
+  "priorite": "Indispensable",
+  "alt": "Allée de jardin à l'heure bleue, une lanterne allumée sur un muret",
+  "consigne_scene": "A garden path at blue hour after sunset, deep blue-green sky, the dark silhouettes of tall trees, a single small warm lantern glowing on a low stone wall on the right side, a few soft out-of-focus warm lights far away, very calm and reassuring, the left two thirds of the image dark and quiet for text",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-accueil-visite.jpg",
+  "nom": "grok/accueil-visite",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "Accueil",
+  "emplacement": "appel final « Venez visiter »",
+  "priorite": "Conseillée",
+  "alt": "Table de jardin sous un arbre, deux tasses de café et un bouquet de fleurs",
+  "consigne_scene": "A small round garden table under the shade of a large tree, two simple white cups of coffee and a little bouquet of freshly cut garden flowers in a glass jar, two empty wooden chairs, warm early afternoon light with dappled leaf shadows, inviting and peaceful",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/g-services-table.jpg",
+  "nom": "grok/services-table",
+  "role": "carte-service",
+  "ratio": "16:10",
+  "page": "Les services",
+  "emplacement": "carte Restauration et ouverture de la page",
+  "priorite": "Indispensable",
+  "alt": "Table dressée pour le déjeuner dans une salle à manger lumineuse",
+  "consigne_scene": "A bright, simple dining room set for lunch: a long table with a white linen tablecloth, plain white plates, water glasses, a carafe of water, a basket of sliced country bread and a small vase of garden flowers, sunlight through large windows, homely and cheerful, not a restaurant",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-services-legumes.jpg",
+  "nom": "grok/services-legumes",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "Les services",
+  "emplacement": "Participer à la vie de la maison",
+  "priorite": "Conseillée",
+  "alt": "Légumes du jardin épluchés sur une table de cuisine en bois",
+  "consigne_scene": "A wooden kitchen table seen from slightly above with freshly peeled potatoes and carrots in an enamel bowl, a simple vegetable peeler, a bunch of leeks and a few herbs from the garden, soft morning window light, homely and calm",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-lieux-arbres.jpg",
+  "source_mobile": "recu/grok/g-lieux-arbres-mobile.jpg",
+  "nom": "grok/lieux-arbres",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "zone_texte": "bas",
+  "page": "Les lieux de vie",
+  "emplacement": "ouverture (image qui s'ouvre en plein écran)",
+  "priorite": "Indispensable",
+  "alt": "Grands arbres au-dessus d'une pelouse, lumière d'été qui traverse les feuilles",
+  "consigne_scene": "Low-angle view across a wide lawn under the canopy of very tall old lime trees and oaks in early summer, sunlight filtering through the leaves in soft beams, long dappled shadows on the grass, a border of wildflowers along the edge, deeply peaceful, the lower third of the image calm lawn for text",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/g-animations-atelier.jpg",
+  "nom": "grok/animations-atelier",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "Les animations",
+  "emplacement": "ouverture de la page (à côté du prochain rendez-vous)",
+  "priorite": "Indispensable",
+  "alt": "Table d'atelier avec fleurs coupées, vases, argile et outils de modelage",
+  "consigne_scene": "A long wooden table prepared for a creative afternoon workshop in a bright room: freshly cut garden flowers, small glass vases, garden scissors, a ball of grey modelling clay with a few wooden modelling tools, a linen cloth, warm afternoon light, joyful and tidy, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-animations-jeux.jpg",
+  "nom": "grok/animations-jeux",
+  "role": "vignette",
+  "ratio": "4:3",
+  "page": "Les animations",
+  "emplacement": "carte Jeux et loto",
+  "priorite": "Conseillée",
+  "alt": "Jeu de cartes et théière sur une table en bois",
+  "consigne_scene": "A friendly afternoon game table: a fanned deck of classic playing cards face down, a few wooden counters, a teapot and three cups on a wooden table with a checked cloth, soft afternoon light, cosy, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-animations-jardinage.jpg",
+  "nom": "grok/animations-jardinage",
+  "role": "vignette",
+  "ratio": "4:3",
+  "page": "Les animations",
+  "emplacement": "carte Jardinage",
+  "priorite": "Conseillée",
+  "alt": "Carré potager en bois avec jeunes plants, transplantoir et arrosoir",
+  "consigne_scene": "A raised wooden vegetable bed at comfortable table height with rows of young lettuce and herb seedlings, a small trowel resting on the edge and a galvanised watering can beside it, fresh spring morning light, nobody",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/g-animations-sortie.jpg",
+  "nom": "grok/animations-sortie",
+  "role": "vignette",
+  "ratio": "4:3",
+  "page": "Les animations",
+  "emplacement": "carte Sorties",
+  "priorite": "Conseillée",
+  "alt": "Panier de goûter et plaid au bord d'une rivière, sous les saules",
+  "consigne_scene": "A tea-time picnic on a quiet riverbank under willow trees: a wicker basket, a thermos, a plate of homemade biscuits and a folded plaid blanket on the grass, the wide calm river softly blurred behind, late afternoon golden light, nobody",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/g-contact-portail.jpg",
+  "nom": "grok/contact-portail",
+  "role": "galerie",
+  "ratio": "4:5",
+  "page": "Contact et visite",
+  "emplacement": "ouverture de la page, à côté du formulaire de visite",
+  "priorite": "Conseillée",
+  "alt": "Petit portail de jardin entrouvert sur une allée fleurie",
+  "consigne_scene": "A small white-painted wooden garden gate standing half open onto a gravel path lined with flowering shrubs and roses, the path leading softly out of focus into a green garden, morning light, welcoming, no house visible",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/g-404-banc.jpg",
+  "nom": "grok/404-banc",
+  "role": "404",
+  "ratio": "16:9",
+  "zone_texte": "gauche",
+  "page": "Page 404",
+  "emplacement": "image de la page introuvable",
+  "priorite": "Facultative",
+  "alt": "Banc de jardin vide sous un arbre, un chapeau de paille oublié",
+  "consigne_scene": "A single wooden garden bench alone under a large tree at the far right of the frame, a straw sun hat forgotten on the bench, a wide calm lawn, a gentle touch of humour, soft morning light, the left half calm for text",
+  "beaute": 4
+ }
+]

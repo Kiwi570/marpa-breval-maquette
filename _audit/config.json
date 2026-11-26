@@ -1,0 +1,5 @@
+{
+  "siteActuel": "www.marpadebreval.com",
+  "pagesTypes": ["/", "/les-logements", "/les-services", "/les-lieux", "/les-animations", "/contact"],
+  "effets": ["fleur", "cadran", "plan-logement", "rangee", "chiffre", "bandeau", "eventail", "prochain", "telephone"]
+}

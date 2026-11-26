@@ -1,0 +1,13 @@
+{
+ "id": "20261126-101654-rapide-cible",
+ "date": "2026-11-26T10:33:08.283Z",
+ "niveau": "rapide",
+ "pages": "/les-logements,/les-services,/les-lieux,/les-animations,/contact,/404",
+ "etapes": "toutes",
+ "version": "1",
+ "echecs": 32,
+ "aRegarder": 19,
+ "nonLances": 1,
+ "manquants": 0,
+ "statut": "échecs"
+}

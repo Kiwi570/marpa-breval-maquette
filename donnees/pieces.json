@@ -1,0 +1,6 @@
+[
+  { "id": "entree", "titre": "L'entrée et le coin cuisine", "texte": "Une entrée avec penderie et un coin cuisine pour préparer ses repas en toute autonomie.", "image": "CLIENT", "alt": "" },
+  { "id": "vie", "titre": "La chambre et la salle de vie", "texte": "Une salle de vie très ensoleillée. Des prises adaptées pour le téléphone, la télévision et internet, selon vos choix.", "image": "CLIENT", "alt": "" },
+  { "id": "eau", "titre": "La salle d'eau", "texte": "Douche et WC sécurisés : l'autonomie au quotidien, en toute sécurité.", "image": "CLIENT", "alt": "" },
+  { "id": "terrasse", "titre": "La terrasse", "texte": "Ouverte sur le jardin, pour discuter avec ses voisins, faire des plantations ou profiter du soleil.", "image": "CLIENT", "alt": "" }
+]

@@ -1,0 +1,16 @@
+{
+  "nom": "MARPA de Bréval",
+  "nomMaison": "La Maison des Fleurs",
+  "adresse": "https://marpa-breval-maquette.vercel.app",
+  "siteActuel": "www.marpadebreval.com",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "les-logements", "les-services", "les-lieux", "les-animations", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "visite" },
+  "couleurs": { "fond": "#F7F2E8", "texte": "#23302A", "voile": "#2F4A3A", "ouverture": "#F7F2E8", "menu": "#2F4A3A", "theme": "#F7F2E8" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "01 34 78 03 39", "telephoneLien": "+33134780339", "email": "marpa.breval@hotmail.fr", "adresse": "15 rue du Vieux Chêne, 78980 Bréval", "facebook": "https://www.facebook.com/marpa.breval.3/" },
+  "polices": ["/assets/polices/alegreya-latin-500-normal.woff2", "/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2"],
+  "imagePartage": "client/jardin-fleurs-1600.webp",
+  "curseur": false
+}

@@ -1,0 +1,1700 @@
+{
+  "logo-maison": {
+    "nom": "logo-maison",
+    "source": "assets/images/logo-maison.png",
+    "role": "logo",
+    "alt": "MARPA, La Maison des Fleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "0dd73dbf50891dff",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-maison-240.webp"
+    ],
+    "poids": {
+      "logo-maison-240.webp": 19764
+    },
+    "media": "c.media({ nom: 'logo-maison', alt: \"MARPA, La Maison des Fleurs\", sizes: '240px' })"
+  },
+  "client/jardin-fleurs": {
+    "nom": "client/jardin-fleurs",
+    "source": "recu/harmo/parties-communes.jpg",
+    "role": "galerie",
+    "alt": "Massif de pétunias et de géraniums devant la maison de plain-pied, la serre et le jardin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2f774b8bad13d44b",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/jardin-fleurs-1024.webp",
+      "client/jardin-fleurs-1168.webp",
+      "client/jardin-fleurs-1600.webp"
+    ],
+    "poids": {
+      "client/jardin-fleurs-1024.webp": 159162,
+      "client/jardin-fleurs-1168.webp": 198430,
+      "client/jardin-fleurs-1600.webp": 274914
+    },
+    "media": "c.media({ nom: 'client/jardin-fleurs', alt: \"Massif de pétunias et de géraniums devant la maison de plain-pied, la serre et le jardin\", cadrage: '55% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/logement-meuble": {
+    "nom": "client/logement-meuble",
+    "source": "recu/harmo/logements.jpg",
+    "role": "galerie",
+    "alt": "Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b0cdc3081453e24e",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 9.4,
+      "y": 8.3,
+      "l": 90.6,
+      "h": 91.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-meuble-1024.webp",
+      "client/logement-meuble-1168.webp",
+      "client/logement-meuble-1600.webp"
+    ],
+    "poids": {
+      "client/logement-meuble-1024.webp": 75532,
+      "client/logement-meuble-1168.webp": 103424,
+      "client/logement-meuble-1600.webp": 213918
+    },
+    "media": "c.media({ nom: 'client/logement-meuble', alt: \"Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs\", cadrage: '55% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/logement-lit": {
+    "nom": "client/logement-lit",
+    "source": "recu/harmo/entretien-logement.jpg",
+    "role": "galerie",
+    "alt": "Chambre lumineuse avec lit et fauteuil",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7297178d6094db49",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "60% 55%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 93.7,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-lit-1024.webp",
+      "client/logement-lit-1168.webp",
+      "client/logement-lit-1600.webp"
+    ],
+    "poids": {
+      "client/logement-lit-1024.webp": 42362,
+      "client/logement-lit-1168.webp": 55254,
+      "client/logement-lit-1600.webp": 110256
+    },
+    "media": "c.media({ nom: 'client/logement-lit', alt: \"Chambre lumineuse avec lit et fauteuil\", cadrage: '60% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/logement-chambre": {
+    "nom": "client/logement-chambre",
+    "source": "recu/harmo/salle-vie.jpg",
+    "role": "galerie",
+    "alt": "Chambre avec lit, fauteuil et grande penderie blanche",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "abb62a583ff3e087",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 16.7,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-chambre-1024.webp",
+      "client/logement-chambre-1168.webp",
+      "client/logement-chambre-1600.webp"
+    ],
+    "poids": {
+      "client/logement-chambre-1024.webp": 39262,
+      "client/logement-chambre-1168.webp": 52046,
+      "client/logement-chambre-1600.webp": 118892
+    },
+    "media": "c.media({ nom: 'client/logement-chambre', alt: \"Chambre avec lit, fauteuil et grande penderie blanche\", cadrage: '55% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/logement-cuisine": {
+    "nom": "client/logement-cuisine",
+    "source": "recu/harmo/salle-vie-2.jpg",
+    "role": "vignette",
+    "alt": "Coin cuisine avec évier et plaques",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "ed9d4a115a85d663",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 4.2,
+      "l": 90.6,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-cuisine-640.webp",
+      "client/logement-cuisine-800.webp"
+    ],
+    "poids": {
+      "client/logement-cuisine-640.webp": 17166,
+      "client/logement-cuisine-800.webp": 24236
+    },
+    "media": "c.media({ nom: 'client/logement-cuisine', alt: \"Coin cuisine avec évier et plaques\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "client/logement-salle-eau": {
+    "nom": "client/logement-salle-eau",
+    "source": "recu/harmo/salle-eau.jpg",
+    "role": "galerie",
+    "alt": "Salle d’eau avec douche de plain-pied et barre d’appui",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2c3633a91d3e4836",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-salle-eau-1024.webp",
+      "client/logement-salle-eau-1168.webp",
+      "client/logement-salle-eau-1600.webp"
+    ],
+    "poids": {
+      "client/logement-salle-eau-1024.webp": 31174,
+      "client/logement-salle-eau-1168.webp": 39584,
+      "client/logement-salle-eau-1600.webp": 69140
+    },
+    "media": "c.media({ nom: 'client/logement-salle-eau', alt: \"Salle d’eau avec douche de plain-pied et barre d’appui\", cadrage: '50% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/logement-terrasse": {
+    "nom": "client/logement-terrasse",
+    "source": "recu/harmo/salle-eau-2.jpg",
+    "role": "galerie",
+    "alt": "Terrasse devant un logement, chaises de jardin et pot de géraniums",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8df97a7546178ec9",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "55% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/logement-terrasse-1024.webp",
+      "client/logement-terrasse-1168.webp",
+      "client/logement-terrasse-1600.webp"
+    ],
+    "poids": {
+      "client/logement-terrasse-1024.webp": 140210,
+      "client/logement-terrasse-1168.webp": 181552,
+      "client/logement-terrasse-1600.webp": 252648
+    },
+    "media": "c.media({ nom: 'client/logement-terrasse', alt: \"Terrasse devant un logement, chaises de jardin et pot de géraniums\", cadrage: '55% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/petit-salon": {
+    "nom": "client/petit-salon",
+    "source": "recu/harmo/salle-vie-3.jpg",
+    "role": "galerie",
+    "alt": "Petit salon avec tapis de marche, vélo d’appartement et plantes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b2345ab06c69b07d",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/petit-salon-1024.webp",
+      "client/petit-salon-1168.webp",
+      "client/petit-salon-1600.webp"
+    ],
+    "poids": {
+      "client/petit-salon-1024.webp": 55286,
+      "client/petit-salon-1168.webp": 67818,
+      "client/petit-salon-1600.webp": 114136
+    },
+    "media": "c.media({ nom: 'client/petit-salon', alt: \"Petit salon avec tapis de marche, vélo d’appartement et plantes\", cadrage: '45% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/salle-de-vie": {
+    "nom": "client/salle-de-vie",
+    "source": "recu/harmo/salle-vie-4.jpg",
+    "role": "galerie",
+    "alt": "Salle de vie : tables de la salle à manger et cheminée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1655c96cee7751c5",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 6.3,
+      "y": 0,
+      "l": 90.6,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/salle-de-vie-1024.webp",
+      "client/salle-de-vie-1168.webp",
+      "client/salle-de-vie-1600.webp"
+    ],
+    "poids": {
+      "client/salle-de-vie-1024.webp": 75858,
+      "client/salle-de-vie-1168.webp": 92162,
+      "client/salle-de-vie-1600.webp": 142746
+    },
+    "media": "c.media({ nom: 'client/salle-de-vie', alt: \"Salle de vie : tables de la salle à manger et cheminée\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/grande-salle": {
+    "nom": "client/grande-salle",
+    "source": "recu/harmo/grande-salle-animation.jpg",
+    "role": "galerie",
+    "alt": "Fête dans la grande salle d’animation, résidents et familles à table",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "986058e4bb61872c",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 110,
+      "top": 0,
+      "width": 1780,
+      "height": 1335,
+      "source": [
+        2000,
+        1335
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "client/grande-salle-1024.webp",
+      "client/grande-salle-1168.webp",
+      "client/grande-salle-1600.webp"
+    ],
+    "poids": {
+      "client/grande-salle-1024.webp": 94110,
+      "client/grande-salle-1168.webp": 112760,
+      "client/grande-salle-1600.webp": 170918
+    },
+    "media": "c.media({ nom: 'client/grande-salle', alt: \"Fête dans la grande salle d’animation, résidents et familles à table\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "client/linge": {
+    "nom": "client/linge",
+    "source": "recu/harmo/entretien-logement-2.jpg",
+    "role": "vignette",
+    "alt": "Pile de pulls pliés",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "34f3ad9618d9540f",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 4.1,
+      "l": 100,
+      "h": 95.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 237,
+      "width": 1080,
+      "height": 810,
+      "source": [
+        1080,
+        1080
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1080 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "client/linge-640.webp",
+      "client/linge-800.webp"
+    ],
+    "poids": {
+      "client/linge-640.webp": 46306,
+      "client/linge-800.webp": 68682
+    },
+    "media": "c.media({ nom: 'client/linge', alt: \"Pile de pulls pliés\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/accueil-jardin": {
+    "nom": "grok/accueil-jardin",
+    "source": "recu/grok/g-accueil-jardin.jpg",
+    "role": "ouverture",
+    "alt": "Jardin arboré au printemps, banc de bois et massifs fleuris",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "8aaeee5fe6568616",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "43% 32%"
+    },
+    "cadrage": "52% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1792 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-jardin-640.webp",
+      "grok/accueil-jardin-1280.webp",
+      "grok/accueil-jardin-1920.webp",
+      "grok/accueil-jardin-mobile-640.webp",
+      "grok/accueil-jardin-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-jardin-640.webp": 64328,
+      "grok/accueil-jardin-1280.webp": 233036,
+      "grok/accueil-jardin-1920.webp": 301502,
+      "grok/accueil-jardin-mobile-640.webp": 212814,
+      "grok/accueil-jardin-mobile-1080.webp": 291630
+    },
+    "media": "c.media({ nom: 'grok/accueil-jardin', alt: \"Jardin arboré au printemps, banc de bois et massifs fleuris\", cadrage: '52% 38%', cadrageMobile: '43% 32%', sizes: '100vw', priorite: true })"
+  },
+  "grok/accueil-nuit": {
+    "nom": "grok/accueil-nuit",
+    "source": "recu/grok/g-accueil-nuit.jpg",
+    "role": "section-fond",
+    "alt": "Allée de jardin à l'heure bleue, une lanterne allumée sur un muret",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "1c2d1c461318b5ec",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "56% 61%"
+    },
+    "cadrage": "71% 61%",
+    "sujet": {
+      "x": 53.1,
+      "y": 27.8,
+      "l": 31.3,
+      "h": 61.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.67,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,43 fois (source de 1792 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-nuit-640.webp",
+      "grok/accueil-nuit-1280.webp",
+      "grok/accueil-nuit-1920.webp",
+      "grok/accueil-nuit-2560.webp",
+      "grok/accueil-nuit-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/accueil-nuit-640.webp": 25226,
+      "grok/accueil-nuit-1280.webp": 84884,
+      "grok/accueil-nuit-1920.webp": 141590,
+      "grok/accueil-nuit-2560.webp": 196660,
+      "grok/accueil-nuit-mobile-640.webp": 92866
+    },
+    "media": "c.media({ nom: 'grok/accueil-nuit', alt: \"Allée de jardin à l'heure bleue, une lanterne allumée sur un muret\", cadrage: '71% 61%', cadrageMobile: '56% 61%', sizes: '100vw' })"
+  },
+  "grok/accueil-visite": {
+    "nom": "grok/accueil-visite",
+    "source": "recu/grok/g-accueil-visite.jpg",
+    "role": "galerie",
+    "alt": "Table de jardin sous un arbre, deux tasses de café et un bouquet de fleurs",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "5f1db7c358b44f1f",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "37% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 72.7,
+      "h": 90
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 61,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-visite-1024.webp",
+      "grok/accueil-visite-1168.webp",
+      "grok/accueil-visite-1600.webp"
+    ],
+    "poids": {
+      "grok/accueil-visite-1024.webp": 237552,
+      "grok/accueil-visite-1168.webp": 278834,
+      "grok/accueil-visite-1600.webp": 296070
+    },
+    "media": "c.media({ nom: 'grok/accueil-visite', alt: \"Table de jardin sous un arbre, deux tasses de café et un bouquet de fleurs\", cadrage: '37% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/services-table": {
+    "nom": "grok/services-table",
+    "source": "recu/grok/g-services-table.jpg",
+    "role": "carte-service",
+    "alt": "Table dressée pour le déjeuner dans une salle à manger lumineuse",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "9dfb0ee79b5beed6",
+    "ratio": "16:10",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 161,
+      "top": 0,
+      "width": 1613,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/services-table-1168.webp"
+    ],
+    "poids": {
+      "grok/services-table-1168.webp": 62986
+    },
+    "media": "c.media({ nom: 'grok/services-table', alt: \"Table dressée pour le déjeuner dans une salle à manger lumineuse\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 10' })"
+  },
+  "grok/services-legumes": {
+    "nom": "grok/services-legumes",
+    "source": "recu/grok/g-services-legumes.jpg",
+    "role": "galerie",
+    "alt": "Légumes du jardin épluchés sur une table de cuisine en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "264120e66c721e39",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 185,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/services-legumes-1024.webp",
+      "grok/services-legumes-1168.webp",
+      "grok/services-legumes-1600.webp"
+    ],
+    "poids": {
+      "grok/services-legumes-1024.webp": 206008,
+      "grok/services-legumes-1168.webp": 242958,
+      "grok/services-legumes-1600.webp": 274848
+    },
+    "media": "c.media({ nom: 'grok/services-legumes', alt: \"Légumes du jardin épluchés sur une table de cuisine en bois\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/lieux-arbres": {
+    "nom": "grok/lieux-arbres",
+    "source": "recu/grok/g-lieux-arbres.jpg",
+    "role": "ouverture",
+    "alt": "Grands arbres au-dessus d'une pelouse, lumière d'été qui traverse les feuilles",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b9e59a563b8a6e7d",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "65% 35%"
+    },
+    "cadrage": "61% 51%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 84.4,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1792 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/lieux-arbres-640.webp",
+      "grok/lieux-arbres-1280.webp",
+      "grok/lieux-arbres-1920.webp",
+      "grok/lieux-arbres-mobile-640.webp",
+      "grok/lieux-arbres-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/lieux-arbres-640.webp": 69470,
+      "grok/lieux-arbres-1280.webp": 255086,
+      "grok/lieux-arbres-1920.webp": 305994,
+      "grok/lieux-arbres-mobile-640.webp": 230812,
+      "grok/lieux-arbres-mobile-1080.webp": 316948
+    },
+    "media": "c.media({ nom: 'grok/lieux-arbres', alt: \"Grands arbres au-dessus d'une pelouse, lumière d'été qui traverse les feuilles\", cadrage: '61% 51%', cadrageMobile: '65% 35%', sizes: '100vw', priorite: true })"
+  },
+  "grok/animations-atelier": {
+    "nom": "grok/animations-atelier",
+    "source": "recu/grok/g-animations-atelier.jpg",
+    "role": "galerie",
+    "alt": "Table d'atelier avec fleurs coupées, vases, argile et outils de modelage",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e3f1cae8bb9a00dd",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 330,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/animations-atelier-1024.webp",
+      "grok/animations-atelier-1168.webp",
+      "grok/animations-atelier-1600.webp"
+    ],
+    "poids": {
+      "grok/animations-atelier-1024.webp": 127774,
+      "grok/animations-atelier-1168.webp": 152214,
+      "grok/animations-atelier-1600.webp": 206564
+    },
+    "media": "c.media({ nom: 'grok/animations-atelier', alt: \"Table d'atelier avec fleurs coupées, vases, argile et outils de modelage\", cadrage: '45% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/animations-jeux": {
+    "nom": "grok/animations-jeux",
+    "source": "recu/grok/g-animations-jeux.jpg",
+    "role": "vignette",
+    "alt": "Jeu de cartes et théière sur une table en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "fd85ae4bdde71f36",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 96,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/animations-jeux-640.webp",
+      "grok/animations-jeux-800.webp"
+    ],
+    "poids": {
+      "grok/animations-jeux-640.webp": 49778,
+      "grok/animations-jeux-800.webp": 71496
+    },
+    "media": "c.media({ nom: 'grok/animations-jeux', alt: \"Jeu de cartes et théière sur une table en bois\", cadrage: '50% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/animations-jardinage": {
+    "nom": "grok/animations-jardinage",
+    "source": "recu/grok/g-animations-jardinage.jpg",
+    "role": "vignette",
+    "alt": "Carré potager en bois avec jeunes plants, transplantoir et arrosoir",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "a1fe9387b100e08e",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 79,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/animations-jardinage-640.webp",
+      "grok/animations-jardinage-800.webp"
+    ],
+    "poids": {
+      "grok/animations-jardinage-640.webp": 50632,
+      "grok/animations-jardinage-800.webp": 72690
+    },
+    "media": "c.media({ nom: 'grok/animations-jardinage', alt: \"Carré potager en bois avec jeunes plants, transplantoir et arrosoir\", cadrage: '50% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/animations-sortie": {
+    "nom": "grok/animations-sortie",
+    "source": "recu/grok/g-animations-sortie.jpg",
+    "role": "vignette",
+    "alt": "Panier de goûter et plaid au bord d'une rivière, sous les saules",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "c155767122f2bda6",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 96,
+      "top": 0,
+      "width": 1536,
+      "height": 1152,
+      "source": [
+        1728,
+        1152
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/animations-sortie-640.webp",
+      "grok/animations-sortie-800.webp"
+    ],
+    "poids": {
+      "grok/animations-sortie-640.webp": 85592,
+      "grok/animations-sortie-800.webp": 121568
+    },
+    "media": "c.media({ nom: 'grok/animations-sortie', alt: \"Panier de goûter et plaid au bord d'une rivière, sous les saules\", cadrage: '50% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "grok/contact-portail": {
+    "nom": "grok/contact-portail",
+    "source": "recu/grok/g-contact-portail.jpg",
+    "role": "galerie",
+    "alt": "Petit portail de jardin entrouvert sur une allée fleurie",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "f5c903b857028c85",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 145,
+      "width": 1320,
+      "height": 1650,
+      "source": [
+        1320,
+        1980
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1320 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-portail-1024.webp",
+      "grok/contact-portail-1168.webp",
+      "grok/contact-portail-1600.webp"
+    ],
+    "poids": {
+      "grok/contact-portail-1024.webp": 265602,
+      "grok/contact-portail-1168.webp": 256834,
+      "grok/contact-portail-1600.webp": 288438
+    },
+    "media": "c.media({ nom: 'grok/contact-portail', alt: \"Petit portail de jardin entrouvert sur une allée fleurie\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "grok/404-banc": {
+    "nom": "grok/404-banc",
+    "source": "recu/grok/g-404-banc.jpg",
+    "role": "404",
+    "alt": "Banc de jardin vide sous un arbre, un chapeau de paille oublié",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ac2596d4d0007cff",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "51% 34%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1792,
+      "height": 1008,
+      "source": [
+        1792,
+        1008
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1792 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/404-banc-640.webp",
+      "grok/404-banc-1280.webp",
+      "grok/404-banc-1920.webp"
+    ],
+    "poids": {
+      "grok/404-banc-640.webp": 65026,
+      "grok/404-banc-1280.webp": 214022,
+      "grok/404-banc-1920.webp": 288632
+    },
+    "media": "c.media({ nom: 'grok/404-banc', alt: \"Banc de jardin vide sous un arbre, un chapeau de paille oublié\", cadrage: '51% 34%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

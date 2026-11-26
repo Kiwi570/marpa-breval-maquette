@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MARPA de Bréval, directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,500&family=Atkinson+Hyperlegible+Next:wght@400;600&family=Young+Serif&family=Lexend:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,400&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE  planche de travail : trois directions pour une résidence autonomie, tendre et claire
+   IDEA   trois premiers écrans en miniature, chacun dans sa propre palette
+   PICTURE la mini-ouverture de chaque direction, avec ses vraies polices
+   COLOUR  chaque bande porte sa palette ; le reste reste neutre
+   TYPE    les polices de chaque direction, rendues pour de vrai */
+:root{color-scheme:light;--bg:#f3f1ec;--ink:#1d1d1b}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Public Sans",system-ui,sans-serif;overflow-x:clip}
+header{padding:clamp(24px,4vw,48px) max(5vw,16px) 8px}
+header h1{font:600 clamp(26px,3.4vw,40px)/1.1 "Public Sans",sans-serif;margin:0 0 6px;text-wrap:balance}
+header p{margin:0;max-width:70ch;color:#4a4a46}
+.dir{margin:24px max(5vw,16px);border-radius:18px;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.06),0 12px 30px -18px rgba(0,0,0,.35)}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);min-height:340px}
+.hero .txt{padding:clamp(22px,3.4vw,44px);display:flex;flex-direction:column;justify-content:center;gap:14px}
+.hero .vis{position:relative;overflow:hidden}
+.hero .vis svg{position:absolute;inset:0;width:100%;height:100%}
+.tag{font-size:14px;font-weight:600}
+.titre{margin:0;line-height:1.04;text-wrap:balance}
+.lede{margin:0;max-width:46ch;font-size:17px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border-radius:999px;font-weight:600;font-size:16px}
+.info{font-size:15px;font-weight:600}
+.det{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;background:#fff}
+.det>div{padding:22px clamp(18px,3vw,34px)}
+.det h3{margin:0 0 8px;font-size:15px;font-weight:600}
+.det p,.det li{margin:0 0 6px;font-size:15.5px}
+.det ul{margin:0;padding-left:18px}
+.sw{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+.sw div{flex:1 1 110px;border-radius:10px;padding:46px 10px 8px;font-size:13px;line-height:1.3;border:1px solid rgba(0,0,0,.08)}
+.reco{display:inline-block;background:#1d1d1b;color:#fff;border-radius:999px;padding:3px 12px;font-size:13px;font-weight:600;margin-left:8px;vertical-align:middle}
+footer{padding:8px max(5vw,16px) 40px;color:#4a4a46;font-size:14px}
+/* A */
+.a .hero{background:#F7F2E8;color:#23302A}
+.a .titre{font:500 clamp(34px,4.4vw,56px)/1.04 "Alegreya",serif}
+.a .titre em{font-style:italic;color:#B23F2A}
+.a .lede,.a .info{font-family:"Atkinson Hyperlegible Next",sans-serif}
+.a .btn{background:#B23F2A;color:#fff;font-family:"Atkinson Hyperlegible Next",sans-serif}
+.a .btn.b2{background:transparent;color:#23302A;border:2px solid #23302A}
+.a .tag{color:#2F4A3A;font-family:"Atkinson Hyperlegible Next",sans-serif}
+/* B */
+.b .hero{background:#FFFAF2;color:#1F3C5A}
+.b .titre{font:400 clamp(32px,4.2vw,54px)/1.06 "Young Serif",serif}
+.b .titre span{background:#F2B632;padding:0 .12em;border-radius:.15em;color:#1E2A36}
+.b .lede,.b .info,.b .tag,.b .btn{font-family:"Lexend",sans-serif}
+.b .btn{background:#1F3C5A;color:#fff}
+.b .btn.b2{background:#F2B632;color:#1E2A36}
+/* C */
+.c .hero{background:#1B2540;color:#F4F1EA}
+.c .titre{font:400 clamp(34px,4.4vw,56px)/1.05 "Spectral",serif}
+.c .titre em{color:#D8E6A3}
+.c .lede,.c .info,.c .tag,.c .btn{font-family:"Public Sans",sans-serif}
+.c .btn{background:#D8E6A3;color:#1B2540}
+.c .btn.b2{background:transparent;color:#F4F1EA;border:2px solid #F4F1EA}
+@media(max-width:760px){.hero{grid-template-columns:minmax(0,1fr)}.hero .vis{min-height:220px}.det{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header>
+<h1>MARPA de Bréval : trois directions</h1>
+<p>Premier écran de l'accueil en miniature, palettes avec contraste mesuré, polices réelles. Les dessins à droite tiennent la place des photos : la vraie maison et le vrai jardin y seront.</p>
+</header>
+
+<section class="dir a">
+ <div class="hero">
+  <div class="txt">
+   <div class="tag">Résidence autonomie · Bréval (78)</div>
+   <h2 class="titre">Chez soi, au milieu d'un <em>jardin</em> de 5&nbsp;000&nbsp;m²</h2>
+   <p class="lede">22 logements de plain-pied ouverts sur les arbres, une équipe présente de 7&nbsp;h à 21&nbsp;h et la liberté d'aller et venir.</p>
+   <div class="btns"><span class="btn">Demander une visite</span><span class="btn b2">01 34 78 03 39</span></div>
+   <div class="info">Équipe présente en ce moment · de 7&nbsp;h à 21&nbsp;h</div>
+  </div>
+  <div class="vis" aria-hidden="true">
+   <svg viewBox="0 0 400 340" preserveAspectRatio="xMidYMid slice"><rect width="400" height="340" fill="#DCE3D2"/><rect y="230" width="400" height="110" fill="#9DB08A"/><circle cx="90" cy="150" r="80" fill="#5E7A55"/><circle cx="300" cy="130" r="95" fill="#4A6647"/><rect x="140" y="170" width="170" height="70" fill="#F2E6D3"/><path d="M130 172 L225 120 L320 172Z" fill="#B23F2A"/><g transform="translate(200 72)"><g fill="#F7F2E8">
+   <ellipse rx="13" ry="26" transform="rotate(0) translate(0 -24)"/><ellipse rx="13" ry="26" transform="rotate(72) translate(0 -24)"/><ellipse rx="13" ry="26" transform="rotate(144) translate(0 -24)"/><ellipse rx="13" ry="26" transform="rotate(216) translate(0 -24)"/><ellipse rx="13" ry="26" transform="rotate(288) translate(0 -24)"/></g><circle r="12" fill="#B23F2A"/></g></svg>
+  </div>
+ </div>
+ <div class="det">
+  <div>
+   <h3>A. « La Maison des Fleurs » <span class="reco">Recommandé</span></h3>
+   <div class="sw">
+    <div style="background:#F7F2E8">Lin #F7F2E8<br>fond dominant</div>
+    <div style="background:#2F4A3A;color:#F7F2E8">Sauge #2F4A3A<br>bandes, nuit</div>
+    <div style="background:#B23F2A;color:#fff">Coquelicot #B23F2A<br>boutons 5,8:1</div>
+    <div style="background:#23302A;color:#F7F2E8">Encre #23302A<br>texte 12,3:1</div>
+   </div>
+   <p><strong>Polices :</strong> Alegreya (titres, italique calligraphiée pour le mot fort) et Atkinson Hyperlegible Next (texte, dessinée pour les personnes qui voient mal), 18&nbsp;px sur ordinateur.</p>
+   <p><strong>Proche de :</strong> Apasdechien et Artic pour le niveau (clair chaleureux, photos en grand).</p>
+  </div>
+  <div>
+   <h3>Accueil et animations</h3>
+   <ul>
+    <li>Intro : une fleur à cinq pétales (celle de « Maison des Fleurs ») s'ouvre, son cœur devient le trou par lequel la photo du jardin apparaît. Le voile entre pages reprend ce cœur.</li>
+    <li>Le logement de 31&nbsp;m² : grandes photos, pièces qui s'allument une à une sur un plan simple.</li>
+    <li>Jour et nuit : cadran de 24&nbsp;h réglé sur l'heure de Bréval (présence 7&nbsp;h–21&nbsp;h, médaillon la nuit).</li>
+    <li>Services en grandes cartes photo, semaine type tirée du vrai planning, galerie des lieux qui défile, mot de Manon en grand, « Venez visiter ».</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="dir b">
+ <div class="hero">
+  <div class="txt">
+   <div class="tag">Aujourd'hui à la Maison des Fleurs</div>
+   <h2 class="titre">15&nbsp;h, <span>composition florale</span> dans la grande salle</h2>
+   <p class="lede">Une résidence autonomie où il se passe quelque chose chaque jour : jardinage, promenade, cuisine, loto, sorties.</p>
+   <div class="btns"><span class="btn">Demander une visite</span><span class="btn b2">Voir la semaine</span></div>
+   <div class="info">Demain : promenade à 10&nbsp;h&nbsp;30</div>
+  </div>
+  <div class="vis" aria-hidden="true">
+   <svg viewBox="0 0 400 340" preserveAspectRatio="xMidYMid slice"><rect width="400" height="340" fill="#F6EBD2"/><g fill="#FFFFFF" stroke="#1F3C5A" stroke-width="3"><rect x="40" y="40" width="150" height="120" rx="14" transform="rotate(-4 115 100)"/><rect x="210" y="60" width="150" height="120" rx="14" transform="rotate(5 285 120)"/><rect x="120" y="180" width="170" height="120" rx="14" transform="rotate(-2 205 240)"/></g><circle cx="300" cy="70" r="26" fill="#F2B632"/><text x="72" y="105" font-family="Lexend" font-size="20" fill="#1F3C5A">Lun 16 h 30</text><text x="240" y="128" font-family="Lexend" font-size="20" fill="#1F3C5A">Mar 10 h</text><text x="150" y="248" font-family="Lexend" font-size="20" fill="#1F3C5A">Sam 15 h 30</text></svg>
+  </div>
+ </div>
+ <div class="det">
+  <div>
+   <h3>B. « La vie d'abord »</h3>
+   <div class="sw">
+    <div style="background:#FFFAF2">Blanc chaud #FFFAF2</div>
+    <div style="background:#1F3C5A;color:#fff">Bleu Seine #1F3C5A<br>boutons 11,3:1</div>
+    <div style="background:#F2B632;color:#1E2A36">Soleil #F2B632<br>texte foncé 8,0:1</div>
+   </div>
+   <p><strong>Polices :</strong> Young Serif (titres ronds et chaleureux) et Lexend (texte, pensé pour la facilité de lecture).</p>
+   <p><strong>Proche de :</strong> Nolanis et Coolcanyoning (net, joyeux, outils utiles).</p>
+  </div>
+  <div>
+   <h3>Accueil et animations</h3>
+   <ul>
+    <li>L'accueil ouvre sur le vrai programme du jour, calculé à la date (tiré du planning de novembre-décembre), puis la maison et les logements.</li>
+    <li>Cartes de la semaine qui se rangent et se filtrent (bouger, créer, se retrouver, sortir), photos posées comme des tirages.</li>
+    <li>Plus vivant et plus jeune de ton ; demande des mises à jour régulières du planning.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="dir c">
+ <div class="hero">
+  <div class="txt">
+   <div class="tag">MARPA La Maison des Fleurs</div>
+   <h2 class="titre">Libre le jour, <em>rassuré</em> la nuit</h2>
+   <p class="lede">Une résidence autonomie à taille humaine : son logement, ses meubles, ses sorties, et une équipe à portée de médaillon.</p>
+   <div class="btns"><span class="btn">Demander une visite</span><span class="btn b2">01 34 78 03 39</span></div>
+   <div class="info">Médaillon relié à l'équipe, 24&nbsp;h/24</div>
+  </div>
+  <div class="vis" aria-hidden="true">
+   <svg viewBox="0 0 400 340" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#F4F1EA"/><stop offset="1" stop-color="#2A3A63"/></linearGradient></defs><rect width="400" height="340" fill="url(#g)"/><circle cx="90" cy="90" r="34" fill="#F2C14E"/><circle cx="320" cy="80" r="22" fill="#D8E6A3"/><rect x="110" y="180" width="180" height="90" fill="#1B2540"/><rect x="130" y="200" width="36" height="30" fill="#F2C14E"/><rect x="234" y="200" width="36" height="30" fill="#F2C14E"/></svg>
+  </div>
+ </div>
+ <div class="det">
+  <div>
+   <h3>C. « Jour et nuit »</h3>
+   <div class="sw">
+    <div style="background:#F4F1EA">Craie #F4F1EA</div>
+    <div style="background:#1B2540;color:#F4F1EA">Nuit #1B2540<br>texte 13,4:1</div>
+    <div style="background:#D8E6A3;color:#1B2540">Tilleul #D8E6A3<br>boutons 11,4:1</div>
+   </div>
+   <p><strong>Polices :</strong> Spectral (titres sobres et élégants) et Public Sans (texte).</p>
+   <p><strong>Proche de :</strong> Ice Attitude pour l'ouverture sombre et le jeu de lumière.</p>
+  </div>
+  <div>
+   <h3>Accueil et animations</h3>
+   <ul>
+    <li>Le fond passe doucement du jour à la nuit en descendant la page, puis revient au jour pour la visite.</li>
+    <li>Plus institutionnel et rassurant ; moins de place pour le jardin et les couleurs.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+<footer>Planche de travail pour la maquette, non destinée au client.</footer>
+</body>
+</html>

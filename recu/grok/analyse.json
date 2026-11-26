@@ -1,0 +1,890 @@
+{
+  "dossier": "/home/claude/marpa-breval-maquette/recu/grok",
+  "date": "2026-11-26T11:48:47.515Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "g-404-banc.jpg",
+      "nom": "g-404-banc",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 865126,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 83.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        34
+      ],
+      "cadrage_css": "51% 34%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 67,
+        "bruit": 1.78,
+        "compression": 1.02,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8081c5c481e18010",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-accueil-jardin-mobile.jpg",
+      "nom": "g-accueil-jardin-mobile",
+      "drapeau": null,
+      "largeur": 1008,
+      "hauteur": 1792,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 1012030,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        32
+      ],
+      "cadrage_css": "43% 32%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 76.4,
+        "bruit": 2.58,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "1008 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "00c0e0e2e26438bc",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "g-accueil-jardin.jpg",
+      "nom": "g-accueil-jardin",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 938775,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        38
+      ],
+      "cadrage_css": "52% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 71.3,
+        "bruit": 2.37,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "2401018184a0c100",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-accueil-nuit.jpg",
+      "nom": "g-accueil-nuit",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 510708,
+      "transparence": false,
+      "sujet": {
+        "x": 53.1,
+        "y": 27.8,
+        "l": 31.3,
+        "h": 61.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        71,
+        61
+      ],
+      "cadrage_css": "71% 61%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 32.5,
+        "bruit": 0.9,
+        "compression": 1.09,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f0e0c8c8fefcdc",
+      "drapeaux": [
+        "calme gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "g-accueil-visite.jpg",
+      "nom": "g-accueil-visite",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 1025916,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 72.7,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        48
+      ],
+      "cadrage_css": "37% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "sombre",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 78.1,
+        "bruit": 1.05,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "8901597961c09604",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations-atelier.jpg",
+      "nom": "g-animations-atelier",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 609027,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        62
+      ],
+      "cadrage_css": "45% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 52.5,
+        "bruit": 0.99,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0607079e3943219",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations-jardinage.jpg",
+      "nom": "g-animations-jardinage",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 653637,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 44.3,
+        "bruit": 1.04,
+        "compression": 1.06,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7c1c0c80047c0c80",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations-jeux.jpg",
+      "nom": "g-animations-jeux",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 647872,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 96.9,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        46
+      ],
+      "cadrage_css": "50% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 36.2,
+        "bruit": 1.07,
+        "compression": 1.05,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7c783dada2a3ce18",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-animations-sortie.jpg",
+      "nom": "g-animations-sortie",
+      "drapeau": null,
+      "largeur": 1728,
+      "hauteur": 1152,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 849239,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        47
+      ],
+      "cadrage_css": "50% 47%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 53.2,
+        "bruit": 1.06,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ddfdf9f1fd65f868",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-contact-portail.jpg",
+      "nom": "g-contact-portail",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 1033368,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 80.2,
+        "bruit": 1.16,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "6118a49c98f8e1e0",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-lieux-arbres-mobile.jpg",
+      "nom": "g-lieux-arbres-mobile",
+      "drapeau": null,
+      "largeur": 1008,
+      "hauteur": 1792,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 1062479,
+      "transparence": false,
+      "sujet": {
+        "x": 11.1,
+        "y": 0,
+        "l": 88.9,
+        "h": 78.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        35
+      ],
+      "cadrage_css": "65% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        }
+      ],
+      "qualite": {
+        "nettete": 70.7,
+        "bruit": 2.6,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "1008 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "b0f97dfbdaf08000",
+      "drapeaux": [
+        "petite"
+      ]
+    },
+    {
+      "fichier": "g-lieux-arbres.jpg",
+      "nom": "g-lieux-arbres",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 993268,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.6,
+        "l": 84.4,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        51
+      ],
+      "cadrage_css": "61% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.44
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "haut",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 70.1,
+        "bruit": 2.41,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "62e4fcecf8f0e088",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-services-legumes.jpg",
+      "nom": "g-services-legumes",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1980,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 863212,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 3.1,
+        "l": 95.5,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        51
+      ],
+      "cadrage_css": "52% 51%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 52,
+        "bruit": 1.18,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "1921c98834643430",
+      "drapeaux": []
+    },
+    {
+      "fichier": "g-services-table.jpg",
+      "nom": "g-services-table",
+      "drapeau": null,
+      "largeur": 1792,
+      "hauteur": 1008,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 489862,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        60
+      ],
+      "cadrage_css": "54% 60%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 27,
+        "bruit": 0.67,
+        "compression": 1.08,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9090991c34ecc6b8",
+      "drapeaux": []
+    }
+  ]
+}

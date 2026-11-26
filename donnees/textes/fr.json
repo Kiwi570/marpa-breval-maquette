@@ -1,0 +1,355 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "actionEntete": "Demander une visite",
+    "actionCourte": "Visiter",
+    "appeler": "Appeler",
+    "sommaire": "Sur le site",
+    "suivre": "La vie de la maison",
+    "facebook": "Suivre la MARPA sur Facebook",
+    "partenaires": "Avec",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de site : rien n'est envoyé, les formulaires sont simulés.",
+    "legal": "Mentions légales et politique de confidentialité : à compléter",
+    "association": "Résidence autonomie gérée par l'association MARPA de la Région de Bréval, à but non lucratif.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "La Maison des Fleurs",
+    "logoLien": "MARPA de Bréval, accueil",
+    "nouvelOnglet": "(nouvel onglet)"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "MARPA de Bréval : résidence autonomie au milieu d'un jardin",
+      "description": "Résidence autonomie à taille humaine pour les plus de 60 ans à Bréval (78) : 23 logements de plain‑pied, jardin arboré de 5 000 m², équipe présente de 7 h à 21 h, téléassistance 24 h/24.",
+      "nav": "Accueil",
+      "partageAlt": "MARPA de Bréval, résidence autonomie au milieu d'un jardin",
+      "accroche": "Chez soi, au milieu d'un jardin"
+    },
+    "les-logements": {
+      "titre": "Les logements : MARPA de Bréval",
+      "description": "22 logements de plain‑pied de 31 m² et un logement de 46 m² pour un couple, chacun avec terrasse sur le jardin, coin cuisine et salle d'eau sécurisée.",
+      "nav": "Les logements",
+      "partageAlt": "Les logements de la MARPA de Bréval",
+      "accroche": "31 m² de plain‑pied, ouverts sur le jardin"
+    },
+    "les-services": {
+      "titre": "Les services : MARPA de Bréval",
+      "description": "Restauration, téléassistance 24 h/24, animations, entretien du logement et du linge : des services facultatifs, assurés par une équipe stable et formée.",
+      "nav": "Les services",
+      "partageAlt": "Les services de la MARPA de Bréval",
+      "accroche": "Des services, pas des contraintes"
+    },
+    "les-lieux": {
+      "titre": "Les lieux de vie : MARPA de Bréval",
+      "description": "Un jardin arboré de 5 000 m², une salle de vie avec cheminée, un petit salon, une grande salle d'animation : les lieux que l'on partage à la MARPA de Bréval.",
+      "nav": "Les lieux de vie",
+      "partageAlt": "Le jardin et les lieux de vie de la MARPA de Bréval",
+      "accroche": "Un jardin, une cheminée, des voisins"
+    },
+    "les-animations": {
+      "titre": "Les animations : MARPA de Bréval",
+      "description": "Gymnastique, jardinage, promenades, cuisine, loto, ateliers, sorties et rencontres avec les enfants : le programme des animations de la MARPA de Bréval.",
+      "nav": "Les animations",
+      "partageAlt": "Les animations de la MARPA de Bréval",
+      "accroche": "Il se passe quelque chose chaque jour"
+    },
+    "contact": {
+      "titre": "Contact et visite : MARPA de Bréval",
+      "description": "Appelez le 01 34 78 03 39 ou demandez une visite de la MARPA de Bréval, 15 rue du Vieux Chêne, 78980 Bréval.",
+      "nav": "Contact",
+      "partageAlt": "Contacter et visiter la MARPA de Bréval",
+      "accroche": "Venez visiter la Maison des Fleurs"
+    },
+    "404": {
+      "titre": "Page introuvable : MARPA de Bréval",
+      "description": "Cette page n'existe pas.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Résidence autonomie · Bréval (78)",
+      "titreA": "Chez soi,",
+      "titreB": "au milieu",
+      "titreC": "d'un ",
+      "titreMot": "jardin",
+      "texte": "22 logements de plain‑pied ouverts sur 5 000 m² d'arbres et de fleurs, une équipe présente de 7 h à 21 h, et la liberté d'aller et venir.",
+      "action": "Demander une visite",
+      "infoJour": "Équipe présente en ce moment",
+      "infoNuit": "La nuit, médaillon relié à l'équipe",
+      "infoHeures": "de 7 h à 21 h",
+      "defiler": "Découvrir la maison"
+    },
+    "pourqui": {
+      "titre": "Pour les plus de 60 ans qui veulent garder leur liberté, sans vivre seuls.",
+      "texte": "La MARPA de Bréval est une maison de vie à taille humaine, gérée par une association à but non lucratif. Elle n'est pas médicalisée : on y vit chez soi, avec des services et une équipe à côté.",
+      "l1t": "Sortir quand on veut",
+      "l1": "Pas d'horaires imposés, des visites libres.",
+      "l2t": "Garder sa voiture",
+      "l2": "Le véhicule personnel reste le bienvenu.",
+      "l3t": "Choisir son médecin",
+      "l3": "Et ses intervenants à domicile."
+    },
+    "logement": {
+      "surtitre": "Votre logement",
+      "titre": "31 m² à vous, de plain‑pied, ",
+      "titreMot": "ouverts sur le jardin",
+      "texte": "Une entrée avec coin cuisine et penderie, une chambre baignée de lumière, une salle d'eau sécurisée et une terrasse. Vous le meublez comme vous voulez, et votre animal est le bienvenu.",
+      "schema": "Schéma pour se repérer, ce n'est pas le plan exact",
+      "lien": "Voir les logements",
+      "c1": "logements de 31 m²",
+      "c2": "logement de 46 m² pour un couple"
+    },
+    "jour": {
+      "surtitre": "Jour et nuit",
+      "titre": "Libre le jour, ",
+      "titreMot": "rassuré la nuit",
+      "texte": "De 7 h à 21 h, l'équipe est dans la maison et le hall est ouvert. La nuit, on entre avec un digicode, et chaque résident porte un médaillon relié à l'équipe, qui intervient en cas d'urgence.",
+      "jour": "7 h – 21 h : équipe présente, hall ouvert",
+      "nuit": "21 h – 7 h : digicode, médaillon relié à l'équipe",
+      "maintenant": "Il est {heure} à Bréval",
+      "statutJour": "L'équipe est dans la maison.",
+      "statutNuit": "Le médaillon veille, l'équipe intervient sur appel.",
+      "cadran": "Cadran de 24 heures : présence de l'équipe de 7 h à 21 h, médaillon la nuit"
+    },
+    "services": {
+      "surtitre": "Les services",
+      "titre": "Des services, ",
+      "titreMot": "si vous le souhaitez",
+      "texte": "Une équipe stable, qualifiée et formée par la MARPA s'occupe de ce qui vous simplifie la vie. Rien n'est imposé.",
+      "lien": "Tous les services"
+    },
+    "semaine": {
+      "surtitre": "Une semaine à la Maison",
+      "titre": "Il se passe ",
+      "titreMot": "quelque chose chaque jour",
+      "texte": "Le vrai programme de novembre et décembre 2026 : choisissez une semaine, les rendez-vous se rangent tout seuls.",
+      "libelle": "Semaine",
+      "recap": "Par type",
+      "sansjs": "Gymnastique le lundi, jardinage le mardi, promenade le mercredi et le vendredi, cuisine le samedi, jeux le dimanche, et des ateliers, sorties et rencontres toute la semaine.",
+      "lien": "Tout le programme"
+    },
+    "lieux": {
+      "surtitre": "Les lieux",
+      "titre": "Une maison ",
+      "titreMot": "qui se partage",
+      "texte": "Faites défiler : du jardin à la grande salle.",
+      "region": "Les lieux de la maison, défilement horizontal",
+      "lien": "Les lieux de vie"
+    },
+    "temoignage": {
+      "citation": "Maison agréable et personnel bienveillant.",
+      "auteur": "Manon",
+      "qui": "arrière-petite-fille d'une résidente"
+    },
+    "faq": {
+      "titre": "Les questions que l'on nous pose"
+    },
+    "fin": {
+      "titre": "Venez prendre ",
+      "titreMot": "un café",
+      "texte": "Le plus simple est de venir voir : l'équipe vous fait visiter la maison, le jardin et un logement.",
+      "visite": "Demander une visite",
+      "appel": "01 34 78 03 39"
+    }
+  },
+  "logements": {
+    "tete": {
+      "surtitre": "Les logements",
+      "chiffre": "31",
+      "unite": "m²",
+      "titre": "de plain‑pied, ouverts sur le jardin",
+      "texte": "22 logements de 31 m² et un logement de 46 m² pour un couple, chacun avec sa terrasse.",
+      "action": "Demander une visite",
+      "info": "Animaux domestiques acceptés"
+    },
+    "pieces": {
+      "surtitre": "Pièce par pièce",
+      "titre": "Tout ce qu'il faut, ",
+      "titreMot": "rien de trop"
+    },
+    "couple": {
+      "chiffre": "46",
+      "titre": "Le logement pour un couple",
+      "texte": "Un logement de 46 m², avec une chambre en plus. Il n'y en a qu'un : parlez-en à l'équipe."
+    },
+    "chezvous": {
+      "titre": "Chez vous, ",
+      "titreMot": "avec vos souvenirs",
+      "texte": "Vous meublez votre logement à votre guise, avec vos meubles et vos souvenirs, pour vous sentir chez vous dès le premier jour.",
+      "animaux": "Les animaux domestiques sont autorisés."
+    },
+    "acces": {
+      "titre": "Entrer et sortir ",
+      "titreMot": "librement",
+      "hall": "Par le hall de la MARPA, ouvert de 7 h à 21 h, et la nuit avec un digicode.",
+      "terrasse": "Ou directement par la porte-fenêtre de votre terrasse : votre porte à vous."
+    },
+    "fin": {
+      "titre": "Voir un logement ",
+      "titreMot": "en vrai",
+      "texte": "L'équipe vous fait visiter un logement, la maison et le jardin."
+    }
+  },
+  "services": {
+    "tete": {
+      "surtitre": "Les services",
+      "titre": "Des services, ",
+      "titreMot": "pas des contraintes",
+      "texte": "Tous sont facultatifs. Ils sont assurés par une équipe stable, qualifiée et formée par la MARPA, pour votre bien-être et votre sécurité, sans rien enlever à votre indépendance.",
+      "action": "Demander une visite",
+      "info": "Médaillon d'appel 24 h/24"
+    },
+    "tiroirs": {
+      "titre": "Les cinq services",
+      "parler": "En parler",
+      "suite": "Voir le programme"
+    },
+    "participer": {
+      "titre": "Mettre la main ",
+      "titreMot": "à la pâte",
+      "texte": "Si vous en avez envie, vous pouvez participer à la vie de la maison : éplucher les légumes, jardiner, cuisiner. Personne n'y est obligé, beaucoup aiment ça.",
+      "l1": "Éplucher les légumes",
+      "l2": "Jardiner",
+      "l3": "Cuisiner"
+    },
+    "equipe": {
+      "titre": "L'équipe ",
+      "titreMot": "de la maison",
+      "texte": "Une équipe stable, qualifiée et formée par la MARPA.",
+      "agents": "Agents"
+    },
+    "fin": {
+      "titre": "Une question sur ",
+      "titreMot": "un service ?",
+      "texte": "Appelez l'équipe ou laissez-nous un message : nous vous répondons."
+    }
+  },
+  "lieux": {
+    "tete": {
+      "surtitre": "Les lieux de vie",
+      "titre": "Un jardin, une cheminée, ",
+      "titreMot": "des voisins",
+      "texte": "Un cadre sécurisé, chaleureux et à taille humaine, pensé pour se retrouver.",
+      "action": "Demander une visite",
+      "info": "Jardin arboré de 5 000 m²"
+    },
+    "liste": {
+      "titre": "Les lieux que l'on partage"
+    },
+    "terrasses": {
+      "titre": "Et devant chaque logement, ",
+      "titreMot": "une terrasse",
+      "texte": "Chaque logement a sa terrasse ouverte sur le jardin : on y discute avec ses voisins, on y fait des plantations, on y prend le soleil.",
+      "lien": "Voir les logements"
+    },
+    "fin": {
+      "titre": "Venir se promener ",
+      "titreMot": "dans le jardin",
+      "texte": "Le jardin se visite aussi : venez avec vos proches."
+    }
+  },
+  "animations": {
+    "tete": {
+      "surtitre": "Les animations",
+      "prochain": "Prochain rendez-vous",
+      "aujourdhui": "Aujourd'hui",
+      "demain": "Demain",
+      "titre": "Il se passe quelque chose chaque jour",
+      "texte": "Les animations sont choisies avec les résidents et organisées par l'équipe, des intervenants extérieurs et des bénévoles. Chacun y vient quand il veut.",
+      "action": "Demander une visite",
+      "sansjs": "Le programme de novembre et décembre 2026 est détaillé plus bas."
+    },
+    "agenda": {
+      "titre": "Les temps forts de novembre et décembre",
+      "texte": "Les dates passées se grisent toutes seules, la date du jour est repérée.",
+      "filtres": "Types d'animations",
+      "vide": "Aucune animation de ce type pour le moment.",
+      "maison": "À la Maison"
+    },
+    "regulier": {
+      "titre": "Les rendez-vous ",
+      "titreMot": "de chaque semaine",
+      "l1": "Lundi, 16 h 30 : gymnastique",
+      "l2": "Mardi, 10 h : jardinage",
+      "l3": "Mercredi et vendredi, 10 h 30 : promenade",
+      "l4": "Samedi, 15 h 30 : cuisine",
+      "l5": "Dimanche, 15 h : jeux"
+    },
+    "sorties": {
+      "titre": "Sortir, ",
+      "titreMot": "voir du monde",
+      "texte": "Les animations, ce sont aussi des sorties et des rencontres : elles créent du lien et entretiennent l'autonomie.",
+      "s1t": "Goûter au bord de la Seine",
+      "s2t": "Visite de la forêt de Rosny",
+      "s3t": "Restaurant et cinéma",
+      "s3": "Comme la sortie cinéma à Anet, le 3 novembre 2026."
+    },
+    "avec": {
+      "titre": "Avec qui",
+      "texte": "Les animations se font avec des partenaires du territoire : les Enfants du RIPE, le SMR, la mairie de Bréval, le Bazar culturel, le Club de l'amitié, l'école maternelle de Bréval, et Isabelle pour la peinture."
+    },
+    "fin": {
+      "titre": "Venir voir ",
+      "titreMot": "une animation",
+      "texte": "Lors de votre visite, l'équipe vous présente le programme du mois."
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact et visite",
+      "titre": "Venez visiter ",
+      "titreMot": "la Maison des Fleurs",
+      "texte": "Pour toute information, appelez l'équipe ou laissez une demande : nous vous rappelons pour convenir d'une visite.",
+      "appel": "Appeler la MARPA",
+      "info": "L'équipe peut vous faire visiter la maison"
+    },
+    "form": {
+      "titre": "Demande de visite",
+      "intro": "Trois étapes, une minute. Rien n'est envoyé : c'est une maquette.",
+      "q1": "Vous êtes",
+      "q1a": "La personne qui souhaite venir vivre ici",
+      "q1b": "Un proche, un membre de la famille",
+      "q1c": "Un professionnel (assistante sociale, CCAS)",
+      "q2": "Vous souhaitez",
+      "q2a": "Visiter la maison",
+      "q2b": "Recevoir des informations",
+      "q2c": "Parler d'une entrée prochaine",
+      "nom": "Votre nom",
+      "tel": "Votre téléphone",
+      "email": "Votre e-mail (facultatif)",
+      "message": "Un mot pour l'équipe (facultatif)",
+      "donnees": "Vos coordonnées servent seulement à vous recontacter. Politique de confidentialité : à compléter.",
+      "envoyer": "Envoyer la demande (simulé)",
+      "sujet": "À propos de",
+      "sujetGeneral": "Question générale"
+    },
+    "venir": {
+      "titre": "Venir ",
+      "titreMot": "à Bréval",
+      "texte": "15 rue du Vieux Chêne, 78980 Bréval, dans un jardin arboré, près du centre commercial et du bourg.",
+      "plan": "Plan simplifié pour se repérer : la MARPA, le bourg et le centre commercial",
+      "bourg": "Le bourg",
+      "commerces": "Centre commercial",
+      "maison": "La MARPA"
+    },
+    "equipe": {
+      "titre": "Qui vous répond"
+    },
+    "faq": {
+      "titre": "Questions fréquentes"
+    }
+  },
+  "introuvable": {
+    "titre": "Ce chemin ne mène nulle part",
+    "texte": "Même au fond du jardin, on retrouve toujours le chemin de la maison.",
+    "retour": "Revenir à l'accueil"
+  }
+}

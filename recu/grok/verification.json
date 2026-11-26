@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-26T11:18:19.779Z",
+  "plan": "/home/claude/marpa-breval-maquette/plan-images.json",
+  "attendus": 14,
+  "recus": 14,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "g-accueil-jardin.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Wide view of a large old tree-lined garden: tall lime trees and an old oak framing a soft mown lawn path that curves between generous flowering beds of roses, lavender and white daisies, a simple wooden bench in a pool of sunlight on the right third of the frame, light morning haze between the trees, the left half of the image calm and open (lawn and soft sky) for a title. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-accueil-jardin-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Wide view of a large old tree-lined garden: tall lime trees and an old oak framing a soft mown lawn path that curves between generous flowering beds of roses, lavender and white daisies, a simple wooden bench in a pool of sunlight on the right third of the frame, light morning haze between the trees, the left half of the image calm and open (lawn and soft sky) for a title. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-accueil-nuit.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A garden path at blue hour after sunset, deep blue-green sky, the dark silhouettes of tall trees, a single small warm lantern glowing on a low stone wall on the right side, a few soft out-of-focus warm lights far away, very calm and reassuring, the left two thirds of the image dark and quiet for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-services-table.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A bright, simple dining room set for lunch: a long table with a white linen tablecloth, plain white plates, water glasses, a carafe of water, a basket of sliced country bread and a small vase of garden flowers, sunlight through large windows, homely and cheerful, not a restaurant. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-lieux-arbres.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "Low-angle view across a wide lawn under the canopy of very tall old lime trees and oaks in early summer, sunlight filtering through the leaves in soft beams, long dappled shadows on the grass, a border of wildflowers along the edge, deeply peaceful, the lower third of the image calm lawn for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-lieux-arbres-mobile.jpg",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "consigne_corrigee": "Low-angle view across a wide lawn under the canopy of very tall old lime trees and oaks in early summer, sunlight filtering through the leaves in soft beams, long dappled shadows on the grass, a border of wildflowers along the edge, deeply peaceful, the lower third of the image calm lawn for text. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "fichier": "g-404-banc.jpg",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A single wooden garden bench alone under a large tree at the far right of the frame, a straw sun hat forgotten on the bench, a wide calm lawn, a gentle touch of humour, soft morning light, the left half calm for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/accueil-jardin",
+      "attendu": "g-accueil-jardin.jpg",
+      "fichier": "g-accueil-jardin.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide view of a large old tree-lined garden: tall lime trees and an old oak framing a soft mown lawn path that curves between generous flowering beds of roses, lavender and white daisies, a simple wooden bench in a pool of sunlight on the right third of the frame, light morning haze between the trees, the left half of the image calm and open (lawn and soft sky) for a title. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/accueil-jardin",
+      "mobile": true,
+      "attendu": "g-accueil-jardin-mobile.jpg",
+      "fichier": "g-accueil-jardin-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1008,
+      "hauteur": 1792,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Wide view of a large old tree-lined garden: tall lime trees and an old oak framing a soft mown lawn path that curves between generous flowering beds of roses, lavender and white daisies, a simple wooden bench in a pool of sunlight on the right third of the frame, light morning haze between the trees, the left half of the image calm and open (lawn and soft sky) for a title. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/accueil-nuit",
+      "attendu": "g-accueil-nuit.jpg",
+      "fichier": "g-accueil-nuit.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A garden path at blue hour after sunset, deep blue-green sky, the dark silhouettes of tall trees, a single small warm lantern glowing on a low stone wall on the right side, a few soft out-of-focus warm lights far away, very calm and reassuring, the left two thirds of the image dark and quiet for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/accueil-visite",
+      "attendu": "g-accueil-visite.jpg",
+      "fichier": "g-accueil-visite.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1152,
+      "hauteur": 1728,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/services-table",
+      "attendu": "g-services-table.jpg",
+      "fichier": "g-services-table.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A bright, simple dining room set for lunch: a long table with a white linen tablecloth, plain white plates, water glasses, a carafe of water, a basket of sliced country bread and a small vase of garden flowers, sunlight through large windows, homely and cheerful, not a restaurant. Aspect ratio 16:10, main subject well inside the central area with generous margins on every side, so the image can be cropped. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/services-legumes",
+      "attendu": "g-services-legumes.jpg",
+      "fichier": "g-services-legumes.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1152,
+      "hauteur": 1728,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/lieux-arbres",
+      "attendu": "g-lieux-arbres.jpg",
+      "fichier": "g-lieux-arbres.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Low-angle view across a wide lawn under the canopy of very tall old lime trees and oaks in early summer, sunlight filtering through the leaves in soft beams, long dappled shadows on the grass, a border of wildflowers along the edge, deeply peaceful, the lower third of the image calm lawn for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/lieux-arbres",
+      "mobile": true,
+      "attendu": "g-lieux-arbres-mobile.jpg",
+      "fichier": "g-lieux-arbres-mobile.jpg",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 0.56 au lieu de 784×1168"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1008,
+      "hauteur": 1792,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "Low-angle view across a wide lawn under the canopy of very tall old lime trees and oaks in early summer, sunlight filtering through the leaves in soft beams, long dappled shadows on the grass, a border of wildflowers along the edge, deeply peaceful, the lower third of the image calm lawn for text. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in portrait format, 784×1168 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    },
+    {
+      "nom": "grok/animations-atelier",
+      "attendu": "g-animations-atelier.jpg",
+      "fichier": "g-animations-atelier.jpg",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1152,
+      "hauteur": 1728,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/animations-jeux",
+      "attendu": "g-animations-jeux.jpg",
+      "fichier": "g-animations-jeux.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/animations-jardinage",
+      "attendu": "g-animations-jardinage.jpg",
+      "fichier": "g-animations-jardinage.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/animations-sortie",
+      "attendu": "g-animations-sortie.jpg",
+      "fichier": "g-animations-sortie.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1728,
+      "hauteur": 1152,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/contact-portail",
+      "attendu": "g-contact-portail.jpg",
+      "fichier": "g-contact-portail.jpg",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1152,
+      "hauteur": 1728,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      }
+    },
+    {
+      "nom": "grok/404-banc",
+      "attendu": "g-404-banc.jpg",
+      "fichier": "g-404-banc.jpg",
+      "priorite": "Facultative",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1792,
+      "hauteur": 1008,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A single wooden garden bench alone under a large tree at the far right of the frame, a straw sun hat forgotten on the bench, a wide calm lawn, a gentle touch of humour, soft morning light, the left half calm for text. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Contemporary editorial hospitality photography, quiet and slow, calm, warm and luminous mood, palette of warm linen white, sage and deep green foliage, soft poppy red accents and pale wood, soft natural light with gentle leaf shadows, tactile pale oak, washed linen, terracotta and fresh garden flowers, set in a quiet village of the Île-de-France countryside on a mild day of late spring, medium-format look, subtle 35mm film grain, generous negative space, realistic, high detail. No guests, no staff, no bed with someone in it, no famous landmark, no postcard cliché, no room presented as the real establishment, no signage. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "site": "https://www.marpadebreval.com/",
+  "date": "2026-11-26T09:39:51.880Z",
+  "pages": [
+    "https://www.marpadebreval.com/",
+    "https://www.marpadebreval.com/contact",
+    "https://www.marpadebreval.com/leslogements",
+    "https://www.marpadebreval.com/lespartiescommunes",
+    "https://www.marpadebreval.com/lesservices",
+    "https://www.marpadebreval.com/mentionsl%C3%A9gales",
+    "https://www.marpadebreval.com/"
+  ],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "origine": "https://static.wixstatic.com/media/70af31_849030b55d2b46e99dd0dc16473432ec~mv2.png",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 6,
+      "emplacement": "img (entete)",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 900,
+      "hauteur": 300,
+      "poids": 78917,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "logo",
+      "marque": "principale"
+    },
+    {
+      "fichier": "marpa-breval-residence-autonomie.jpg",
+      "nom": "marpa-breval-residence-autonomie",
+      "origine": "https://static.wixstatic.com/media/70af31_a286cf52f4d74928809dbe311ee2e204f000.jpg",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 1920,
+      "hauteur": 1080,
+      "poids": 223035,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "3-novembre-2026.png",
+      "nom": "3-novembre-2026",
+      "origine": "https://static.wixstatic.com/media/70af31_770c934a5e2346719e0c677aa61f8c56~mv2.jpg",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "3 novembre 2026",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 1538,
+      "hauteur": 1023,
+      "poids": 2092915,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "atelier-modelage.png",
+      "nom": "atelier-modelage",
+      "origine": "https://static.wixstatic.com/media/70af31_fac9febc3565417abc12c5c039fbe316~mv2.png",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "ATELIER MODELAGE",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 1448,
+      "hauteur": 1086,
+      "poids": 2653349,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "3-novembre-2026-2.png",
+      "nom": "3-novembre-2026-2",
+      "origine": "https://static.wixstatic.com/media/70af31_a9011110d00e4823a0e6e138533f7524~mv2.png",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "3 novembre 2026",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 500,
+      "hauteur": 500,
+      "poids": 134994,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "3-novembre-2026-3.png",
+      "nom": "3-novembre-2026-3",
+      "origine": "https://static.wixstatic.com/media/70af31_14c0237aa83f4f85aba0e8c7d50807e2~mv2.png",
+      "page": "https://www.marpadebreval.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "3 novembre 2026",
+        "page": "MARPA DE BRÉVAL, UNE RÉSIDENCE AUTONOMIE À TAILLE HUMAINE",
+        "fichier_origine": ""
+      },
+      "largeur": 500,
+      "hauteur": 500,
+      "poids": 24477,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact.png",
+      "nom": "contact",
+      "origine": "https://static.wixstatic.com/media/70af31_8df7190013ac4026bc9de9808c81553e~mv2.png",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "CONTACT",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 1536,
+      "hauteur": 1024,
+      "poids": 2102906,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "origine": "https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": "cb_scout5_hdpi"
+      },
+      "largeur": 430,
+      "hauteur": 1670,
+      "poids": 104139,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8262!3i5630!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=11735",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 4236,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8260!3i5630!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=72754",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 4918,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8259!3i5631!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=87713",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 5620,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8263!3i5629!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=20338",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 5456,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8260!3i5629!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=46331",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 8282,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-7.webp",
+      "nom": "contact-7",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8263!3i5631!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=13780",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 4154,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-8.webp",
+      "nom": "contact-8",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8259!3i5629!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=94271",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 3264,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-9.webp",
+      "nom": "contact-9",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8261!3i5631!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=74799",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 8784,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-10.webp",
+      "nom": "contact-10",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8259!3i5630!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=120694",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 11074,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-11.webp",
+      "nom": "contact-11",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8262!3i5631!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=109825",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 5434,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-12.webp",
+      "nom": "contact-12",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8263!3i5630!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=46761",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 3030,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-13.webp",
+      "nom": "contact-13",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8261!3i5629!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=81357",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 5868,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-14.webp",
+      "nom": "contact-14",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8262!3i5629!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=116383",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 5580,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-15.webp",
+      "nom": "contact-15",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8260!3i5631!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=39773",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 7288,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "contact-16.webp",
+      "nom": "contact-16",
+      "origine": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i8261!3i5630!4i256!2m3!1e0!2sm!3i805571400!3m18!2sfr!3sFR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmd8cC5jOiNlOWU5ZTl8cC5sOjE3LHMudDo1fHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMCxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZnxwLmw6MTcscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmZmZmZ8cC5sOjI5fHAudzowLjIscy50OjUwfHMuZTpnfHAuYzojZmZmZmZmfHAubDoxOCxzLnQ6NTF8cy5lOmd8cC5jOiNmZmZmZmZ8cC5sOjE2LHMudDoyfHMuZTpnfHAuYzojZjVmNWY1fHAubDoyMSxzLnQ6NDB8cy5lOmd8cC5jOiNkZWRlZGV8cC5sOjIxLHMuZTpsLnQuc3xwLnY6b258cC5jOiNmZmZmZmZ8cC5sOjE2LHMuZTpsLnQuZnxwLnM6MzZ8cC5jOiMzMzMzMzN8cC5sOjQwLHMuZTpsLml8cC52Om9mZixzLnQ6NHxzLmU6Z3xwLmM6I2YyZjJmMnxwLmw6MTkscy50OjF8cy5lOmcuZnxwLmM6I2ZlZmVmZXxwLmw6MjAscy50OjF8cy5lOmcuc3xwLmM6I2ZlZmVmZXxwLmw6MTd8cC53OjEuMg!4e0!5m2!1e3!5f2!23i46991212!23i47054750!23i47083502&key=AIzaSyCu6mU4lWgbxynxwy3yYJZcEZKO0QYnFu4&token=107780",
+      "page": "https://www.marpadebreval.com/contact",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "CONTACT",
+        "fichier_origine": ""
+      },
+      "largeur": 512,
+      "hauteur": 512,
+      "poids": 10934,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "salle-vie.jpg",
+      "nom": "salle-vie",
+      "origine": "https://static.wixstatic.com/media/70af31_387ac61385be49c1bc5455afca4a3155~mv2.jpg",
+      "page": "https://www.marpadebreval.com/leslogements",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE DE VIE",
+        "page": "LES LOGEMENTS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 449538,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "logements.jpg",
+      "nom": "logements",
+      "origine": "https://static.wixstatic.com/media/70af31_3bd162dbef4548f5bdbc6a7dec28aa30~mv2.jpg",
+      "page": "https://www.marpadebreval.com/leslogements",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LES LOGEMENTS",
+        "page": "LES LOGEMENTS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 585296,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "salle-vie-2.jpg",
+      "nom": "salle-vie-2",
+      "origine": "https://static.wixstatic.com/media/70af31_61bec479191840fb9b8ad2bd14342dc2~mv2.jpg",
+      "page": "https://www.marpadebreval.com/leslogements",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE DE VIE",
+        "page": "LES LOGEMENTS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 335033,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "salle-eau.jpg",
+      "nom": "salle-eau",
+      "origine": "https://static.wixstatic.com/media/70af31_35f2450031dd48348f4300635dcdc174~mv2.jpg",
+      "page": "https://www.marpadebreval.com/leslogements",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE D'EAU",
+        "page": "LES LOGEMENTS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 309576,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "salle-eau-2.jpg",
+      "nom": "salle-eau-2",
+      "origine": "https://static.wixstatic.com/media/70af31_a6a1cfea08c54e0c81a36d17096d9b68~mv2.jpg",
+      "page": "https://www.marpadebreval.com/leslogements",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE D'EAU",
+        "page": "LES LOGEMENTS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 687700,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "grande-salle-animation.jpg",
+      "nom": "grande-salle-animation",
+      "origine": "https://static.wixstatic.com/media/70af31_4f5b3025c2f94ff09e266910d6820324~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lespartiescommunes",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA GRANDE SALLE D'ANIMATION",
+        "page": "LES PARTIES COMMUNES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1335,
+      "largeur_origine": 7360,
+      "hauteur_origine": 4912,
+      "poids": 436835,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "parties-communes.jpg",
+      "nom": "parties-communes",
+      "origine": "https://static.wixstatic.com/media/70af31_c2fbeca4de1f4fb3b88e3ff8ecab3c2d~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lespartiescommunes",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LES PARTIES COMMUNES",
+        "page": "LES PARTIES COMMUNES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 676978,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "salle-vie-3.jpg",
+      "nom": "salle-vie-3",
+      "origine": "https://static.wixstatic.com/media/70af31_f6496e5e1856494ebb718d75747bcc9c~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lespartiescommunes",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE DE VIE",
+        "page": "LES PARTIES COMMUNES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 390728,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "salle-vie-4.jpg",
+      "nom": "salle-vie-4",
+      "origine": "https://static.wixstatic.com/media/70af31_f0ccde59c3e04730a8866929d0a28311~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lespartiescommunes",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA SALLE DE VIE",
+        "page": "LES PARTIES COMMUNES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 428869,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "lieu"
+    },
+    {
+      "fichier": "entretien-logement.jpg",
+      "nom": "entretien-logement",
+      "origine": "https://static.wixstatic.com/media/70af31_50c19c1cc3914d3db73db9feffcdbbae~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lesservices",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "L'ENTRETIEN DU LOGEMENT",
+        "page": "LES SERVICES",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3264,
+      "hauteur_origine": 2448,
+      "poids": 401902,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "entretien-logement-2.png",
+      "nom": "entretien-logement-2",
+      "origine": "https://static.wixstatic.com/media/70af31_6d2a3571d52f4dff8e53d29decdfaaac~mv2.png",
+      "page": "https://www.marpadebreval.com/lesservices",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "L'ENTRETIEN DU LOGEMENT",
+        "page": "LES SERVICES",
+        "fichier_origine": ""
+      },
+      "largeur": 1080,
+      "hauteur": 1080,
+      "poids": 1215918,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "services.webp",
+      "nom": "services",
+      "origine": "https://static.wixstatic.com/media/70af31_3af41664eb0c494b854036751d4fe676~mv2.webp",
+      "page": "https://www.marpadebreval.com/lesservices",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LES SERVICES",
+        "page": "LES SERVICES",
+        "fichier_origine": ""
+      },
+      "largeur": 1024,
+      "hauteur": 1024,
+      "poids": 320784,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "teleassistance.webp",
+      "nom": "teleassistance",
+      "origine": "https://static.wixstatic.com/media/70af31_ca65a16e2b6a4e5f857c0d0d1a3290a2~mv2.webp",
+      "page": "https://www.marpadebreval.com/lesservices",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA TÉLÉASSISTANCE",
+        "page": "LES SERVICES",
+        "fichier_origine": ""
+      },
+      "largeur": 1024,
+      "hauteur": 1024,
+      "poids": 192692,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "teleassistance-2.jpg",
+      "nom": "teleassistance-2",
+      "origine": "https://static.wixstatic.com/media/70af31_65f8a574eb354af9b3a63c5d142d7bd3~mv2.jpg",
+      "page": "https://www.marpadebreval.com/lesservices",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "LA TÉLÉASSISTANCE",
+        "page": "LES SERVICES",
+        "fichier_origine": ""
+      },
+      "largeur": 1024,
+      "hauteur": 840,
+      "poids": 910852,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://www.marpadebreval.com/undefined",
+      "raison": "pas une image"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.parastorage.com/services/santa-resources/resources/editor/designPanel/panelTypes/default_pin_icon.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://maps.gstatic.com/mapfiles/transparent.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/70af31_745a5f6d774849c1a58ff0c5ed378733~mv2.png",
+      "raison": "300 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/70af31_5f391762d3f148848d716681ab3bfc20~mv2.png",
+      "raison": "300 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/70af31_d2c8f2356e7a4475b2b3031e0b2a4540~mv2.png",
+      "raison": "300 px de large"
+    },
+    {
+      "url": "https://maps.gstatic.com/mapfiles/api-3/images/drag-cross_hdpi.png",
+      "raison": "26 px de large"
+    }
+  ]
+}

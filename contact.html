@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et visite : MARPA de Bréval</title>
+<meta name="description" content="Appelez le 01 34 78 03 39 ou demandez une visite de la MARPA de Bréval, 15 rue du Vieux Chêne, 78980 Bréval.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://marpa-breval-maquette.vercel.app/contact">
+<style>:root{--fond:#F7F2E8;--texte:#23302A;--voile-fond:#2F4A3A;--ouverture-fond:#F7F2E8;--menu-fond:#2F4A3A}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F7F2E8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MARPA de Bréval">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et visite : MARPA de Bréval">
+<meta property="og:description" content="Appelez le 01 34 78 03 39 ou demandez une visite de la MARPA de Bréval, 15 rue du Vieux Chêne, 78980 Bréval.">
+<meta property="og:url" content="https://marpa-breval-maquette.vercel.app/contact">
+<meta property="og:image" content="https://marpa-breval-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Contacter et visiter la MARPA de Bréval">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MARPA de Bréval, La Maison des Fleurs","url":"https://marpa-breval-maquette.vercel.app/","telephone":"+33134780339","email":"marpa.breval@hotmail.fr","address":{"@type":"PostalAddress","streetAddress":"15 rue du Vieux Chêne","postalCode":"78980","addressLocality":"Bréval","addressCountry":"FR"},"description":"Résidence autonomie non médicalisée pour personnes âgées autonomes de plus de 60 ans : 22 logements de plain‑pied de 31 m² et un logement de 46 m², jardin arboré de 5 000 m², personnel présent de 7 h à 21 h et téléassistance 24 h/24. Gérée par une association à but non lucratif.","sameAs":["https://www.facebook.com/marpa.breval.3/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="fleur fleur--voile" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="fleur fleur--intro" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-ouverture-objet><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg>
+  <p class="ouverture-nom">MARPA de Bréval</p>
+  <p class="ouverture-ligne">La Maison des Fleurs</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil">
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#visite" data-libelle="Contact">Demander une visite</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-logements" class="menu-lien" data-libelle="Les logements">Les logements</a></li><li style="--i:2"><a href="/les-services" class="menu-lien" data-libelle="Les services">Les services</a></li><li style="--i:3"><a href="/les-lieux" class="menu-lien" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li style="--i:4"><a href="/les-animations" class="menu-lien" data-libelle="Les animations">Les animations</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33134780339">Appeler 01 34 78 03 39</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-contact" id="debut">
+  <div class="conteneur ouv-contact-grille">
+    <div class="ouv-contact-texte">
+      <p class="surtitre" data-anime>Contact et visite</p>
+      <h1 data-anime="lignes">Venez visiter <em class="mot">la Maison des Fleurs</em></h1>
+      <p data-anime>Pour toute information, appelez l&#39;équipe ou laissez une demande : nous vous rappelons pour convenir d&#39;une visite.</p>
+      <a class="telephone-geant" href="tel:+33134780339" data-action-principale data-iris-centre data-effet="telephone"><span class="telephone-libelle">Appeler la MARPA</span><span class="telephone-numero">01 34 78 03 39</span></a>
+      <p class="ouv-info" data-info-cle><span class="point-vert" aria-hidden="true"></span>L&#39;équipe peut vous faire visiter la maison</p>
+      <p class="contact-coord" data-anime>15 rue du Vieux Chêne, 78980 Bréval<br><span class="selectionnable">marpa.breval@hotmail.fr</span></p>
+      <figure class="media contact-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/contact-portail-1600.webp" srcset="/assets/images/grok/contact-portail-1024.webp 1024w, /assets/images/grok/contact-portail-1168.webp 1168w, /assets/images/grok/contact-portail-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 30vw" alt="Petit portail de jardin entrouvert sur une allée fleurie" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div class="fpe ouv-contact-form" data-module="formulaire-par-etapes" id="visite" aria-labelledby="fpe-titre">
+      <div class="fpe__carton">
+        <div class="fpe__tete">
+          <h2 class="fpe__h2" id="fpe-titre">Demande de visite</h2>
+          <p class="fpe__intro">Trois étapes, une minute. Rien n&#39;est envoyé : c&#39;est une maquette.</p>
+        </div>
+        <form class="fpe__form" action="#" method="post" novalidate>
+          <div class="fpe__progression"><ol class="fpe__reperes" aria-label="Progression"></ol><div class="fpe__barre" aria-hidden="true"><span></span></div><p class="fpe__etat" aria-live="polite"></p></div>
+          <fieldset class="fpe__etape" data-etape="Vous">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Vous êtes</h3></legend>
+            <div class="fpe__groupe fpe__cartes" data-libelle="Vous êtes">
+              <label class="fpe__carte"><input type="radio" name="qui" value="resident" required><span class="fpe__carte-titre">La personne qui souhaite venir vivre ici</span></label><label class="fpe__carte"><input type="radio" name="qui" value="proche"><span class="fpe__carte-titre">Un proche, un membre de la famille</span></label><label class="fpe__carte"><input type="radio" name="qui" value="pro"><span class="fpe__carte-titre">Un professionnel (assistante sociale, CCAS)</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Votre demande">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Vous souhaitez</h3></legend>
+            <div class="fpe__groupe fpe__cartes" data-libelle="Vous souhaitez">
+              <label class="fpe__carte"><input type="radio" name="demande" value="visite" required><span class="fpe__carte-titre">Visiter la maison</span></label><label class="fpe__carte"><input type="radio" name="demande" value="informations"><span class="fpe__carte-titre">Recevoir des informations</span></label><label class="fpe__carte"><input type="radio" name="demande" value="entree"><span class="fpe__carte-titre">Parler d'une entrée prochaine</span></label>
+            </div>
+            <div class="fpe__champ"><label for="fpe-sujet">À propos de</label>
+              <select id="fpe-sujet" name="sujet">
+                <option value="">Question générale</option>
+                <option value="visite">Visiter la maison</option>
+                <option value="couple">Le logement de 46 m² pour un couple</option>
+                <option value="restauration">La restauration</option><option value="teleassistance">La téléassistance</option><option value="animations">Les animations</option><option value="entretien">L&#39;entretien du logement</option><option value="linge">L&#39;entretien du linge</option>
+              </select></div>
+            <div class="fpe__champ"><label for="fpe-message">Un mot pour l&#39;équipe (facultatif)</label><textarea id="fpe-message" name="message" rows="3"></textarea></div>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Coordonnées">
+            <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous rappeler ?</h3></legend>
+            <div class="fpe__grille">
+              <div class="fpe__champ"><label for="fpe-nom">Votre nom <i aria-hidden="true">*</i></label><input id="fpe-nom" name="nom" autocomplete="name" required></div>
+              <div class="fpe__champ"><label for="fpe-tel">Votre téléphone <i aria-hidden="true">*</i></label><input id="fpe-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" required pattern="[0-9 +().\-]{8,20}"></div>
+              <div class="fpe__champ"><label for="fpe-email">Votre e-mail (facultatif)</label><input id="fpe-email" name="email" type="email" autocomplete="email"></div>
+            </div>
+            <p class="mention-donnees">Vos coordonnées servent seulement à vous recontacter. Politique de confidentialité : à compléter.</p>
+          </fieldset>
+          <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
+            <legend class="fpe__legende"><h3 class="fpe__titre">Vérifiez votre demande</h3></legend>
+            <div class="fpe__recap"></div>
+          </fieldset>
+          <div class="fpe__nav">
+            <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+            <button class="fpe__bouton" type="button" data-suivant>Continuer</button>
+            <button class="fpe__bouton" type="submit">Envoyer la demande (simulé)</button>
+          </div>
+        </form>
+        <div class="fpe__fin" hidden>
+          <h3 tabindex="-1">Merci, c'est noté (simulation)</h3>
+          <p data-resume></p>
+          <p>Rien n'a été envoyé : c'est une maquette. Sur le vrai site, l'équipe vous rappellera.</p>
+          <div class="fpe__nav"><button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="venir" id="venir">
+  <div class="conteneur venir-grille">
+    <div>
+      <h2 data-anime="lignes">Venir <em class="mot">à Bréval</em></h2>
+      <p data-anime>15 rue du Vieux Chêne, 78980 Bréval, dans un jardin arboré, près du centre commercial et du bourg.</p>
+    </div>
+    <figure class="plan-acces" data-visuel>
+      <svg viewBox="0 0 400 300" role="img" aria-label="Plan simplifié pour se repérer : la MARPA, le bourg et le centre commercial" data-fx="trace">
+        <path class="route" d="M0 210 C 90 200 150 170 210 150 S 330 110 400 100"/>
+        <path class="route" d="M180 0 C 190 80 200 120 210 150 S 230 240 240 300"/>
+        <path class="route route--petite" d="M210 150 C 250 175 280 200 300 250"/>
+        <rect class="zone" x="140" y="60" width="90" height="60" rx="10"/>
+        <rect class="zone" x="290" y="150" width="80" height="50" rx="10"/>
+      </svg>
+      <span class="plan-etiquette plan-etiquette--bourg" data-repere>Le bourg</span>
+      <span class="plan-etiquette plan-etiquette--commerces" data-repere>Centre commercial</span>
+      <span class="plan-marqueur" data-repere><span class="plan-marqueur-point" aria-hidden="true"></span>La MARPA</span>
+      <figcaption>Plan simplifié, pour se repérer.</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="repond conteneur" id="equipe">
+  <h2 data-anime="lignes">Qui vous répond</h2>
+  <ul class="equipe-liste equipe-liste--compacte" data-anime="cascade" data-visuel>
+    <li class="personne personne--resp"><span class="initiales" aria-hidden="true">SC</span><strong>Servane du Cleuziou</strong><span>Responsable</span></li><li class="personne personne--resp"><span class="initiales" aria-hidden="true">LM</span><strong>Laurence Marie</strong><span>Responsable adjointe</span></li>
+    <li class="personne"><span class="initiales" aria-hidden="true">+4</span><strong>Fernanda, Viviane, Fatima, Oumy</strong><span>Agents</span></li>
+  </ul>
+</section>
+<section class="faq-contact conteneur" id="questions">
+  <div>
+    <h2 data-anime="lignes">Questions fréquentes</h2>
+    <details class="faq-item" data-anime><summary>Pour qui est la MARPA ?</summary><p>Pour des personnes âgées autonomes de plus de 60 ans, qui souhaitent vivre chez elles avec des services et la présence d&#39;une équipe.</p></details><details class="faq-item" data-anime><summary>Est-ce une maison médicalisée ?</summary><p>Non. La MARPA est une résidence autonomie : chacun garde son médecin et choisit librement ses intervenants à domicile.</p></details><details class="faq-item" data-anime><summary>Puis-je venir avec mes meubles et mon animal ?</summary><p>Oui. Chaque logement se meuble à votre goût, avec vos meubles et vos souvenirs, et les animaux domestiques sont acceptés.</p></details><details class="faq-item" data-anime><summary>Que se passe-t-il la nuit ?</summary><p>Le hall s&#39;ouvre avec un digicode. Chaque résident porte un médaillon relié à l&#39;équipe, qui intervient en cas d&#39;appel d&#39;urgence, 24 h/24.</p></details><details class="faq-item" data-anime><summary>Quels sont les tarifs ?</summary><p>Les tarifs vous sont communiqués par l&#39;équipe, au téléphone ou lors de la visite.</p></details><details class="faq-item" data-anime><summary>Peut-on visiter ?</summary><p>Oui, l&#39;équipe vous fait visiter la maison, le jardin et un logement. Appelez-nous ou laissez une demande de visite.</p></details>
+  </div>
+  <div class="faq-dessin" data-visuel aria-hidden="true">
+    <svg viewBox="0 0 200 200" data-fx="trace"><circle cx="100" cy="100" r="80"/><path d="M78 80c0-14 10-22 22-22s22 8 22 20c0 16-22 18-22 34"/><circle cx="100" cy="138" r="3"/></svg>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img src="/assets/images/logo-maison-clair.png" alt="" width="401" height="230" class="pied-logo" loading="lazy">
+      <p>Résidence autonomie gérée par l&#39;association MARPA de la Région de Bréval, à but non lucratif.</p>
+    </div>
+    <div>
+      <p class="pied-titre">MARPA de Bréval</p>
+      <p>15 rue du Vieux Chêne, 78980 Bréval<br><a href="tel:+33134780339">01 34 78 03 39</a><br><a href="mailto:marpa.breval@hotmail.fr">marpa.breval@hotmail.fr</a></p>
+      <p><a href="https://www.facebook.com/marpa.breval.3/" target="_blank" rel="noopener">Suivre la MARPA sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Sur le site">
+      <p class="pied-titre">Sur le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Avec</p>
+      <ul><li><a href="https://www.marpa.fr/" target="_blank" rel="noopener">Réseau national des MARPA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.msa.fr/lfp" target="_blank" rel="noopener">MSA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.mairie-breval.fr/" target="_blank" rel="noopener">Mairie de Bréval<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.yvelines.fr/" target="_blank" rel="noopener">Département des Yvelines<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.ccpif.fr/" target="_blank" rel="noopener">Communauté de communes des Portes de l&#39;Île-de-France<span class="visuellement-cache"> (nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de site : rien n&#39;est envoyé, les formulaires sont simulés.</p><p><a href="#haut" data-sans-transition>Retour en haut</a></p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+</div>
+</body>
+</html>

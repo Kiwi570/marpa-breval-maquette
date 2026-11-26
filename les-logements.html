@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les logements : MARPA de Bréval</title>
+<meta name="description" content="22 logements de plain‑pied de 31 m² et un logement de 46 m² pour un couple, chacun avec terrasse sur le jardin, coin cuisine et salle d&#39;eau sécurisée.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://marpa-breval-maquette.vercel.app/les-logements">
+<style>:root{--fond:#F7F2E8;--texte:#23302A;--voile-fond:#2F4A3A;--ouverture-fond:#F7F2E8;--menu-fond:#2F4A3A}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F7F2E8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MARPA de Bréval">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les logements : MARPA de Bréval">
+<meta property="og:description" content="22 logements de plain‑pied de 31 m² et un logement de 46 m² pour un couple, chacun avec terrasse sur le jardin, coin cuisine et salle d&#39;eau sécurisée.">
+<meta property="og:url" content="https://marpa-breval-maquette.vercel.app/les-logements">
+<meta property="og:image" content="https://marpa-breval-maquette.vercel.app/assets/partage/les-logements-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les logements de la MARPA de Bréval">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MARPA de Bréval, La Maison des Fleurs","url":"https://marpa-breval-maquette.vercel.app/","telephone":"+33134780339","email":"marpa.breval@hotmail.fr","address":{"@type":"PostalAddress","streetAddress":"15 rue du Vieux Chêne","postalCode":"78980","addressLocality":"Bréval","addressCountry":"FR"},"description":"Résidence autonomie non médicalisée pour personnes âgées autonomes de plus de 60 ans : 22 logements de plain‑pied de 31 m² et un logement de 46 m², jardin arboré de 5 000 m², personnel présent de 7 h à 21 h et téléassistance 24 h/24. Gérée par une association à but non lucratif.","sameAs":["https://www.facebook.com/marpa.breval.3/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="fleur fleur--voile" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg><span data-voile-libelle>Les logements</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="fleur fleur--intro" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-ouverture-objet><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg>
+  <p class="ouverture-nom">MARPA de Bréval</p>
+  <p class="ouverture-ligne">La Maison des Fleurs</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil">
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-logements" data-libelle="Les logements" aria-current="page">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#visite" data-libelle="Contact">Demander une visite</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-logements" class="menu-lien" data-libelle="Les logements" aria-current="page">Les logements</a></li><li style="--i:2"><a href="/les-services" class="menu-lien" data-libelle="Les services">Les services</a></li><li style="--i:3"><a href="/les-lieux" class="menu-lien" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li style="--i:4"><a href="/les-animations" class="menu-lien" data-libelle="Les animations">Les animations</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33134780339">Appeler 01 34 78 03 39</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-chiffre" id="debut">
+  <div class="conteneur ouv-chiffre-tete">
+    <p class="surtitre" data-anime>Les logements</p>
+    <h1 class="ouv-chiffre-titre"><span class="geant" data-iris-centre data-effet="chiffre"><span class="geant-n">31</span><span class="geant-u">m²</span></span> <span class="ouv-chiffre-suite" data-anime="lignes">de plain‑pied, ouverts sur le jardin</span></h1>
+    <div class="ouv-chiffre-bas">
+      <p data-anime>22 logements de 31 m² et un logement de 46 m² pour un couple, chacun avec sa terrasse.</p>
+      <p class="ouv-chiffre-actions" data-anime>
+        <a href="/contact?sujet=visite#visite" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander une visite</a>
+        <span class="ouv-info" data-info-cle><svg class="picto picto--petit" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M24 40S8 30 8 18a8 8 0 0 1 16-3 8 8 0 0 1 16 3c0 12-16 22-16 22z"/></svg>Animaux domestiques acceptés</span>
+      </p>
+    </div>
+  </div>
+  <div class="bandeau-photos">
+    <figure class="media bandeau-a" data-effet="bandeau" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/client/logement-meuble-1600.webp" srcset="/assets/images/client/logement-meuble-1024.webp 1024w, /assets/images/client/logement-meuble-1168.webp 1168w, /assets/images/client/logement-meuble-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 60vw" alt="Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs" width="1600" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <figure class="media bandeau-b" data-effet="bandeau" style="--cadrage:60% 55%">
+  <picture>
+    <img src="/assets/images/client/logement-lit-1600.webp" srcset="/assets/images/client/logement-lit-1024.webp 1024w, /assets/images/client/logement-lit-1168.webp 1168w, /assets/images/client/logement-lit-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 40vw" alt="Chambre lumineuse avec lit et fauteuil" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="pieces" id="pieces">
+  <div class="conteneur">
+    <div class="tete-section">
+      <p class="surtitre" data-anime>Pièce par pièce</p>
+      <h2 data-anime="lignes">Tout ce qu&#39;il faut, <em class="mot">rien de trop</em></h2>
+    </div>
+    <div class="pieces-grille">
+      <div class="pieces-plan" data-collant-plan>
+        <div class="plan-bloc plan-bloc--colonne">
+          <svg class="plan" viewBox="0 0 320 220" role="img" aria-label="Schéma pour se repérer, ce n'est pas le plan exact" data-effet="plan-logement">
+  <rect class="plan-piece" data-piece="entree" x="12" y="12" width="96" height="88" rx="4"/>
+  <rect class="plan-piece" data-piece="eau" x="12" y="108" width="96" height="76" rx="4"/>
+  <rect class="plan-piece" data-piece="vie" x="116" y="12" width="128" height="172" rx="4"/>
+  <rect class="plan-piece plan-piece--dehors" data-piece="terrasse" x="252" y="40" width="56" height="144" rx="4"/>
+  <path class="plan-mur" d="M12 12 H244 V184 H12 Z"/>
+  <g class="plan-num"><g data-repere><circle cx="60" cy="56" r="13"/><text x="60" y="61">1</text></g><g data-repere><circle cx="180" cy="98" r="13"/><text x="180" y="103">2</text></g><g data-repere><circle cx="60" cy="146" r="13"/><text x="60" y="151">3</text></g><g data-repere><circle cx="280" cy="112" r="13"/><text x="280" y="117">4</text></g></g>
+</svg>
+          <ol class="plan-legende"><li data-piece="entree">L&#39;entrée et le coin cuisine</li><li data-piece="vie">La chambre et la salle de vie</li><li data-piece="eau">La salle d&#39;eau</li><li data-piece="terrasse">La terrasse</li></ol>
+        </div>
+        <p class="plan-note">Schéma pour se repérer, ce n&#39;est pas le plan exact</p>
+      </div>
+      <ol class="pieces-liste">
+        <li class="piece" id="piece-entree" data-piece="entree">
+          <figure class="media piece-media piece-media--petite" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/logement-cuisine-800.webp" srcset="/assets/images/client/logement-cuisine-640.webp 640w, /assets/images/client/logement-cuisine-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Coin cuisine avec évier et plaques" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <div class="piece-texte">
+            <span class="piece-num" aria-hidden="true">1</span>
+            <h3>L&#39;entrée et le coin cuisine</h3>
+            <p>Une entrée avec penderie et un coin cuisine pour préparer ses repas en toute autonomie.</p>
+          </div>
+        </li><li class="piece" id="piece-vie" data-piece="vie">
+          <figure class="media piece-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/logement-chambre-1600.webp" srcset="/assets/images/client/logement-chambre-1024.webp 1024w, /assets/images/client/logement-chambre-1168.webp 1168w, /assets/images/client/logement-chambre-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Chambre avec lit, fauteuil et grande penderie blanche" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <div class="piece-texte">
+            <span class="piece-num" aria-hidden="true">2</span>
+            <h3>La chambre et la salle de vie</h3>
+            <p>Une salle de vie très ensoleillée. Des prises adaptées pour le téléphone, la télévision et internet, selon vos choix.</p>
+          </div>
+        </li><li class="piece" id="piece-eau" data-piece="eau">
+          <figure class="media piece-media piece-media--petite" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/logement-salle-eau-1600.webp" srcset="/assets/images/client/logement-salle-eau-1024.webp 1024w, /assets/images/client/logement-salle-eau-1168.webp 1168w, /assets/images/client/logement-salle-eau-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Salle d’eau avec douche de plain‑pied et barre d’appui" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <div class="piece-texte">
+            <span class="piece-num" aria-hidden="true">3</span>
+            <h3>La salle d&#39;eau</h3>
+            <p>Douche et WC sécurisés : l&#39;autonomie au quotidien, en toute sécurité.</p>
+          </div>
+        </li><li class="piece" id="piece-terrasse" data-piece="terrasse">
+          <figure class="media piece-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/logement-terrasse-1600.webp" srcset="/assets/images/client/logement-terrasse-1024.webp 1024w, /assets/images/client/logement-terrasse-1168.webp 1168w, /assets/images/client/logement-terrasse-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Terrasse devant un logement, chaises de jardin et pot de géraniums" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <div class="piece-texte">
+            <span class="piece-num" aria-hidden="true">4</span>
+            <h3>La terrasse</h3>
+            <p>Ouverte sur le jardin, pour discuter avec ses voisins, faire des plantations ou profiter du soleil.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="couple" id="couple">
+  <div class="conteneur couple-grille">
+    <div class="couple-chiffre" data-visuel>
+      <p class="geant geant--moyen" aria-hidden="true"><span class="geant-n" data-compteur="46">46</span><span class="geant-u">m²</span></p>
+      <svg class="plan" viewBox="0 0 320 220" role="img" aria-label="Schéma du logement de 46 m² avec une chambre en plus">
+  <rect class="plan-piece" data-piece="entree" x="12" y="12" width="96" height="88" rx="4"/>
+  <rect class="plan-piece" data-piece="eau" x="12" y="108" width="96" height="76" rx="4"/>
+  <rect class="plan-piece" data-piece="vie" x="116" y="12" width="82" height="172" rx="4"/>
+  <rect class="plan-piece actif" data-piece="chambre" x="206" y="12" width="78" height="172" rx="4"/>
+  <rect class="plan-piece plan-piece--dehors" data-piece="terrasse" x="292" y="40" width="22" height="144" rx="4"/>
+  <path class="plan-mur" d="M12 12 H284 V184 H12 Z"/>
+  <path class="plan-cloison" d="M202 12 V184"/>
+</svg>
+    </div>
+    <div>
+      <h2 data-anime="lignes">Le logement pour un couple</h2>
+      <p data-anime>Un logement de 46 m², avec une chambre en plus. Il n&#39;y en a qu&#39;un : parlez-en à l&#39;équipe.</p>
+      <p data-anime><a href="/contact?sujet=couple#visite" class="lien-fleche" data-libelle="Contact">En parler à l’équipe</a></p>
+    </div>
+  </div>
+</section>
+<section class="chezvous conteneur" id="chez-vous">
+  <div class="chezvous-dessin" data-visuel>
+    <svg class="dessin-fauteuil" viewBox="0 0 240 200" aria-hidden="true" data-fx="trace">
+      <path d="M58 118V64c0-18 13-28 28-28h68c15 0 28 10 28 28v54"/>
+      <path d="M40 112c-10 0-16 6-16 15v35h192v-35c0-9-6-15-16-15s-15 6-15 15v13H55v-13c0-9-5-15-15-15z"/>
+      <path d="M48 162v22M192 162v22"/>
+      <path d="M80 70c10-8 24-8 34 0M126 70c10-8 24-8 34 0"/>
+      <path d="M196 60c8-14 24-14 30-2 4 8-2 16-12 18"/>
+      <path d="M205 112c0-14 6-22 14-24 6-2 9 4 7 9l-4 9c6 2 9 7 9 13v11h-26z"/>
+      <path d="M213 92l-3-8 8 5M224 92l3-8-8 5"/>
+    </svg>
+  </div>
+  <div>
+    <h2 data-anime="lignes">Chez vous, <em class="mot">avec vos souvenirs</em></h2>
+    <p data-anime>Vous meublez votre logement à votre guise, avec vos meubles et vos souvenirs, pour vous sentir chez vous dès le premier jour.</p>
+    <p class="chezvous-animaux" data-anime><svg class="picto picto--petit" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M24 40S8 30 8 18a8 8 0 0 1 16-3 8 8 0 0 1 16 3c0 12-16 22-16 22z"/></svg>Les animaux domestiques sont autorisés.</p>
+  </div>
+</section>
+<section class="acces" id="acces">
+  <div class="conteneur">
+    <h2 data-anime="lignes">Entrer et sortir <em class="mot">librement</em></h2>
+    <ul class="acces-cartes" data-anime="cascade" data-visuel>
+      <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><rect x="12" y="6" width="24" height="36" rx="3"/><g><circle cx="19" cy="15" r="1.6"/><circle cx="24" cy="15" r="1.6"/><circle cx="29" cy="15" r="1.6"/><circle cx="19" cy="21" r="1.6"/><circle cx="24" cy="21" r="1.6"/><circle cx="29" cy="21" r="1.6"/><circle cx="19" cy="27" r="1.6"/><circle cx="24" cy="27" r="1.6"/><circle cx="29" cy="27" r="1.6"/></g><path d="M19 35h10"/></svg><p>Par le hall de la MARPA, ouvert de 7 h à 21 h, et la nuit avec un digicode.</p></li>
+      <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M8 42V8h32v34"/><path d="M24 8v34"/><path d="M4 42h40"/><path d="M28 26h3"/></svg><p>Ou directement par la porte-fenêtre de votre terrasse : votre porte à vous.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="appel" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-dessin" data-visuel><svg class="fleur fleur--trait fleur--appel" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-fx="trace"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg></div>
+    <div class="appel-texte">
+      <h2 data-anime="lignes">Voir un logement <em class="mot">en vrai</em></h2>
+      <p data-anime>L&#39;équipe vous fait visiter un logement, la maison et le jardin.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact?sujet=visite#visite" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
+        <a class="bouton bouton--contour-clair" href="tel:+33134780339">01 34 78 03 39</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img src="/assets/images/logo-maison-clair.png" alt="" width="401" height="230" class="pied-logo" loading="lazy">
+      <p>Résidence autonomie gérée par l&#39;association MARPA de la Région de Bréval, à but non lucratif.</p>
+    </div>
+    <div>
+      <p class="pied-titre">MARPA de Bréval</p>
+      <p>15 rue du Vieux Chêne, 78980 Bréval<br><a href="tel:+33134780339">01 34 78 03 39</a><br><a href="mailto:marpa.breval@hotmail.fr">marpa.breval@hotmail.fr</a></p>
+      <p><a href="https://www.facebook.com/marpa.breval.3/" target="_blank" rel="noopener">Suivre la MARPA sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Sur le site">
+      <p class="pied-titre">Sur le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-logements" data-libelle="Les logements" aria-current="page">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Avec</p>
+      <ul><li><a href="https://www.marpa.fr/" target="_blank" rel="noopener">Réseau national des MARPA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.msa.fr/lfp" target="_blank" rel="noopener">MSA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.mairie-breval.fr/" target="_blank" rel="noopener">Mairie de Bréval<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.yvelines.fr/" target="_blank" rel="noopener">Département des Yvelines<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.ccpif.fr/" target="_blank" rel="noopener">Communauté de communes des Portes de l&#39;Île-de-France<span class="visuellement-cache"> (nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de site : rien n&#39;est envoyé, les formulaires sont simulés.</p><p><a href="#haut" data-sans-transition>Retour en haut</a></p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+</div>
+</body>
+</html>

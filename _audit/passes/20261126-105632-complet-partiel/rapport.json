@@ -1,0 +1,267 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-accueil-texte:nth-of-type(2) > p.ouv-actions:nth-of-type(3) > a.bouton « Demander une visite »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-accueil-texte:nth-of-type(2) > p.ouv-actions:nth-of-type(3) > span.ouv-info « Équipe présente de 7 h à 21 h · médaillon 24 h/24 »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "375×667",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.introuvable-texte > p.introuvable-info:nth-of-type(3) « 01 34 78 03 39 · 15 rue du Vieux Chêne, 78980 Brév »",
+      "lieux": [
+        "375×667 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1024×768",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(2) > span.fpe__nom:nth-of-type(2) « Votre demande »",
+      "lieux": [
+        "1024×768 normal",
+        "1280×720 normal",
+        "1000×560 normal",
+        "1024×768 sansWebgl",
+        "1000×560 sansWebgl",
+        "1280×720 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1024×768",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(3) > span.fpe__nom:nth-of-type(2) « Coordonnées »",
+      "lieux": [
+        "1024×768 normal",
+        "1000×560 normal",
+        "1024×768 sansWebgl",
+        "1000×560 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "le contenu dépasse de son cadre",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1024×768",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(4) > span.fpe__nom:nth-of-type(2) « Récapitulatif »",
+      "lieux": [
+        "1024×768 normal",
+        "1000×560 normal",
+        "1024×768 sansWebgl",
+        "1000×560 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(3) > span.fpe__num:nth-of-type(1) « 3 »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1024×768",
+      "mode": "normal",
+      "selecteur": "div.fpe__progression:nth-of-type(1) > ol.fpe__reperes > li.fpe__repere:nth-of-type(2) > span.fpe__nom:nth-of-type(2) « Votre demande »",
+      "lieux": [
+        "1024×768 normal",
+        "1000×560 normal",
+        "1024×768 sansWebgl",
+        "1000×560 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-contact-grille > div.ouv-contact-texte:nth-of-type(1) > p.ouv-info:nth-of-type(3) « L'équipe peut vous faire visiter la maison »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/les-animations",
+      "taille": "1000×560",
+      "mode": "normal",
+      "selecteur": "section#debut > div.prochain > p:nth-of-type(3) > a.bouton « Demander une visite »",
+      "lieux": [
+        "1000×560 normal",
+        "1280×720 normal",
+        "1024×768 sansJs",
+        "1000×560 sansJs",
+        "1000×560 sansWebgl",
+        "1280×720 sansJs",
+        "1366×768 sansJs",
+        "1280×720 sansWebgl",
+        "1440×900 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/les-animations",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.prochain > div.prochain-carte « Prochain rendez-vous Programme de novembre et déce »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/les-lieux",
+      "taille": "2560×1440",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouv-cadre-bas > div.cartouche > p.ouv-chiffre-actions:nth-of-type(3) > a.bouton « Demander une visite »",
+      "lieux": [
+        "2560×1440 normal",
+        "844×390 sansJs",
+        "1024×768 sansJs",
+        "1000×560 sansJs",
+        "1280×720 sansJs",
+        "1366×768 sansJs",
+        "1440×900 sansJs",
+        "1728×1000 sansJs",
+        "1920×1080 sansJs",
+        "2560×1440 sansJs",
+        "2560×1440 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/les-lieux",
+      "taille": "2560×1440",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouv-cadre-bas > div.cartouche > p.ouv-chiffre-actions:nth-of-type(3) > span.ouv-info « Jardin arboré de 5 000 m² »",
+      "lieux": [
+        "2560×1440 normal",
+        "844×390 sansJs",
+        "1024×768 sansJs",
+        "1000×560 sansJs",
+        "1280×720 sansJs",
+        "1366×768 sansJs",
+        "1440×900 sansJs",
+        "2560×1440 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/les-services",
+      "taille": "1000×560",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-eventail-texte:nth-of-type(1) > p.ouv-chiffre-actions:nth-of-type(3) > span.ouv-info « Médaillon d'appel 24 h/24 »",
+      "lieux": [
+        "1000×560 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "débordement horizontal",
+      "detail": "page large de 930 px — largeurs : 920 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "balayage 320–1920",
+      "mode": "normal",
+      "lieux": [
+        "balayage 320–1920 normal"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « : »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.smn:nth-of-type(2) > div.smn__corps:nth-of-type(2) > div.smn__feuille > p.smn__journal « 23 nov. – 29 nov. : 10 rendez-vous, 10 rendez-vous »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « : »",
+      "etape": "mesures",
+      "page": "/les-animations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#agenda > div.agd__tete:nth-of-type(1) > p.agd__prochaine:nth-of-type(2) « Prochaine date : Composition florale, dans 3 h 01 »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    }
+  ],
+  "nonLances": [],
+  "oks": {
+    "mesures": 273,
+    "balayage": 6,
+    "tient dans l’écran": 8
+  },
+  "infos": [
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Tient dans l'écran / : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /les-animations : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /les-logements : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /les-services : aucune section épinglée ou plein écran."
+  ],
+  "grille": []
+}

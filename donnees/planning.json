@@ -1,0 +1,334 @@
+{
+ "source": "Planning des animations de novembre-décembre 2026 (PDF du site actuel) et accueil du site actuel",
+ "types": [
+  {
+   "id": "bouger",
+   "nom": "Bouger",
+   "teinte": 2
+  },
+  {
+   "id": "mains",
+   "nom": "Faire de ses mains",
+   "teinte": 1
+  },
+  {
+   "id": "ensemble",
+   "nom": "Se retrouver",
+   "teinte": 3
+  },
+  {
+   "id": "rencontres",
+   "nom": "Rencontres et sorties",
+   "teinte": 4
+  }
+ ],
+ "evenements": [
+  {
+   "date": "2026-11-03",
+   "heure": null,
+   "titre": "Sortie cinéma à Anet",
+   "type": "rencontres",
+   "fort": true,
+   "lieu": "Anet"
+  },
+  {
+   "date": "2026-11-16",
+   "heure": "16:30",
+   "titre": "Gymnastique",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-17",
+   "heure": "10:00",
+   "titre": "Jardinage",
+   "type": "mains"
+  },
+  {
+   "date": "2026-11-18",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-18",
+   "heure": null,
+   "titre": "Film : La Grande Vadrouille",
+   "type": "ensemble",
+   "fort": true
+  },
+  {
+   "date": "2026-11-19",
+   "heure": "10:30",
+   "titre": "Les Enfants du RIPE",
+   "type": "rencontres",
+   "fort": true,
+   "texte": "Rencontre avec les enfants accompagnés par le RIPE.",
+   "court": "Enfants du RIPE"
+  },
+  {
+   "date": "2026-11-19",
+   "heure": "15:00",
+   "titre": "Réveil sensoriel",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-20",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-20",
+   "heure": "15:00",
+   "titre": "Sport avec le SMR",
+   "type": "bouger",
+   "fort": true,
+   "court": "Sport avec le SMR"
+  },
+  {
+   "date": "2026-11-21",
+   "heure": "15:30",
+   "titre": "Cuisine",
+   "type": "mains"
+  },
+  {
+   "date": "2026-11-22",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  },
+  {
+   "date": "2026-11-23",
+   "heure": "13:00",
+   "titre": "Dictée intergénérationnelle au château de Versailles",
+   "type": "rencontres",
+   "fort": true,
+   "lieu": "Château de Versailles",
+   "texte": "Réservée aux résidents inscrits.",
+   "court": "Dictée à Versailles"
+  },
+  {
+   "date": "2026-11-23",
+   "heure": "16:30",
+   "titre": "Gymnastique",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-24",
+   "heure": "10:00",
+   "titre": "Jardinage",
+   "type": "mains"
+  },
+  {
+   "date": "2026-11-24",
+   "heure": "14:00",
+   "titre": "Goûter avec la mairie de Bréval",
+   "type": "rencontres",
+   "fort": true,
+   "court": "Goûter avec la mairie"
+  },
+  {
+   "date": "2026-11-25",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-25",
+   "heure": "15:30",
+   "titre": "Loto",
+   "type": "ensemble",
+   "fort": true
+  },
+  {
+   "date": "2026-11-26",
+   "heure": "15:00",
+   "titre": "Composition florale",
+   "type": "mains",
+   "fort": true
+  },
+  {
+   "date": "2026-11-27",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-11-28",
+   "heure": "15:30",
+   "titre": "Cuisine",
+   "type": "mains"
+  },
+  {
+   "date": "2026-11-29",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  },
+  {
+   "date": "2026-11-30",
+   "heure": "16:30",
+   "titre": "Gymnastique",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-01",
+   "heure": "10:00",
+   "titre": "Jardinage",
+   "type": "mains"
+  },
+  {
+   "date": "2026-12-01",
+   "heure": "11:00",
+   "titre": "Messe",
+   "type": "ensemble",
+   "fort": true
+  },
+  {
+   "date": "2026-12-01",
+   "heure": "14:30",
+   "titre": "Peinture avec Isabelle",
+   "type": "mains",
+   "fort": true,
+   "court": "Peinture"
+  },
+  {
+   "date": "2026-12-02",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-02",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  },
+  {
+   "date": "2026-12-03",
+   "heure": "10:30",
+   "titre": "Les Enfants du RIPE",
+   "type": "rencontres",
+   "fort": true,
+   "texte": "Rencontre avec les enfants accompagnés par le RIPE.",
+   "court": "Enfants du RIPE"
+  },
+  {
+   "date": "2026-12-03",
+   "heure": "15:00",
+   "titre": "Réveil sensoriel",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-04",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-04",
+   "heure": "15:30",
+   "titre": "Jeu « 2 minutes ensemble »",
+   "type": "ensemble",
+   "fort": true,
+   "court": "2 minutes ensemble"
+  },
+  {
+   "date": "2026-12-05",
+   "heure": "15:30",
+   "titre": "Soins des mains",
+   "type": "mains",
+   "fort": true
+  },
+  {
+   "date": "2026-12-06",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  },
+  {
+   "date": "2026-12-07",
+   "heure": null,
+   "titre": "Activités avec l’école maternelle de Bréval",
+   "type": "rencontres",
+   "fort": true,
+   "confirmer": true,
+   "texte": "À confirmer."
+  },
+  {
+   "date": "2026-12-07",
+   "heure": "16:30",
+   "titre": "Gymnastique",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-08",
+   "heure": "10:00",
+   "titre": "Jardinage",
+   "type": "mains"
+  },
+  {
+   "date": "2026-12-08",
+   "heure": "14:30",
+   "titre": "Modelage avec le Bazar culturel",
+   "type": "mains",
+   "fort": true,
+   "court": "Modelage"
+  },
+  {
+   "date": "2026-12-09",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-09",
+   "heure": "15:00",
+   "titre": "Club de l’amitié",
+   "type": "ensemble",
+   "fort": true,
+   "texte": "Goûter du club."
+  },
+  {
+   "date": "2026-12-10",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  },
+  {
+   "date": "2026-12-11",
+   "heure": null,
+   "titre": "Activités avec l’école maternelle de Bréval",
+   "type": "rencontres",
+   "fort": true,
+   "confirmer": true,
+   "texte": "À confirmer."
+  },
+  {
+   "date": "2026-12-11",
+   "heure": "10:30",
+   "titre": "Promenade",
+   "type": "bouger"
+  },
+  {
+   "date": "2026-12-11",
+   "heure": "15:00",
+   "titre": "Film : Intouchables",
+   "type": "ensemble",
+   "fort": true
+  },
+  {
+   "date": "2026-12-12",
+   "heure": "15:30",
+   "titre": "Loto",
+   "type": "ensemble",
+   "fort": true
+  },
+  {
+   "date": "2026-12-13",
+   "heure": "15:00",
+   "titre": "Jeux",
+   "type": "ensemble"
+  }
+ ]
+}

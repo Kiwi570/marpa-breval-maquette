@@ -1,0 +1,6 @@
+[
+  { "id": "jardin", "titre": "Le jardin arboré", "chiffre": "5 000 m²", "texte": "Un grand jardin entoure la maison. Résidents et familles peuvent s'y promener, s'y installer ou y jardiner.", "image": "CLIENT", "alt": "" },
+  { "id": "salle-de-vie", "titre": "La salle de vie", "chiffre": "", "texte": "Salle à manger, coin salon et cheminée : un lieu convivial, ouvert à tous.", "image": "CLIENT", "alt": "" },
+  { "id": "petit-salon", "titre": "Le petit salon", "chiffre": "", "texte": "Pour se reposer ou se retrouver, avec une bibliothèque, un vélo d'appartement et un tapis de marche.", "image": "CLIENT", "alt": "" },
+  { "id": "grande-salle", "titre": "La grande salle d'animation", "chiffre": "", "texte": "Fêtes, danse, portes ouvertes, barbecues, concours de belote : tout ce qui rompt l'isolement. Wi-Fi pour les résidents et les familles.", "image": "CLIENT", "alt": "" }
+]

@@ -1,0 +1,17 @@
+{
+ "id": "20261126-103413-rapide-cible-partiel",
+ "date": "2026-11-26T10:41:19.721Z",
+ "niveau": "rapide",
+ "pages": "/les-logements,/les-services,/les-animations,/les-lieux,/contact,/404",
+ "etapes": [
+  "mesures",
+  "films",
+  "parcours"
+ ],
+ "version": "1",
+ "echecs": 10,
+ "aRegarder": 3,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

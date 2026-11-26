@@ -1,0 +1,22 @@
+[
+  { "id": "restauration", "titre": "La restauration", "resume": "Trois repas cuisinés sur place, pour qui le souhaite",
+    "texte": "Petit-déjeuner, déjeuner et dîner sont proposés à ceux qui le souhaitent, dans une salle à manger conviviale. Les repas sont cuisinés sur place par le personnel.",
+    "points": ["Repas préparés dans la cuisine de la maison", "Une salle à manger où l'on se retrouve", "Un coin cuisine dans chaque logement pour cuisiner chez soi"],
+    "image": "grok/services-table", "alt": "Table dressée pour le déjeuner dans une salle à manger lumineuse" },
+  { "id": "teleassistance", "titre": "La téléassistance", "resume": "Un médaillon relié à l'équipe, 24 h/24",
+    "texte": "Chaque résident dispose d'un médaillon relié directement au personnel de la MARPA. En cas d'urgence, il suffit d'appuyer, de jour comme de nuit.",
+    "points": ["Équipe présente de 7 h à 21 h", "Intervention la nuit en cas d'appel d'urgence", "Le médaillon se porte sur soi, partout dans la maison"],
+    "image": "grok/accueil-nuit", "alt": "Allée de jardin à l'heure bleue, une lanterne allumée sur un muret" },
+  { "id": "animations", "titre": "Les animations", "resume": "Toute l'année, choisies avec les résidents",
+    "texte": "Des animations sont proposées toute l'année, en concertation avec les résidents. Elles sont organisées par le personnel, des professionnels extérieurs et des bénévoles, pour créer du lien et garder son autonomie.",
+    "points": ["Sorties : goûter au bord de la Seine, forêt de Rosny, restaurant", "Jeux de société et de cartes, gymnastique, marche, chant", "Réveil sensoriel, rencontres avec des enfants"],
+    "image": "grok/animations-atelier", "alt": "Table d'atelier avec fleurs coupées, vases, argile et outils de modelage" },
+  { "id": "entretien", "titre": "L'entretien du logement", "resume": "Assuré par le personnel qualifié, si vous le souhaitez",
+    "texte": "Un service d'entretien du logement est proposé à ceux qui le souhaitent. Il est assuré par le personnel qualifié de la MARPA.",
+    "points": ["Service facultatif", "Assuré par l'équipe de la maison"],
+    "image": "CLIENT", "alt": "" },
+  { "id": "linge", "titre": "L'entretien du linge", "resume": "Les vêtements de chacun lavés à part",
+    "texte": "Le personnel de la MARPA peut entretenir votre linge. Pour des raisons d'hygiène, les vêtements de chaque résident sont lavés séparément.",
+    "points": ["Service facultatif", "Linge de chaque résident lavé séparément"],
+    "image": "CLIENT", "alt": "" }
+]

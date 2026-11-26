@@ -1,0 +1,2883 @@
+{
+  "dossier": "/Users/paul/Downloads/marpa-breval-recu",
+  "date": "2026-11-26T09:39:59.350Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "logo-clair.png",
+      "nom": "logo-clair",
+      "drapeau": "logo",
+      "largeur": 900,
+      "hauteur": 300,
+      "ratio": "3:1",
+      "ratio_valeur": 3,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 78917,
+      "transparence": true,
+      "sujet": {
+        "x": 7.4,
+        "y": 26.5,
+        "l": 67.6,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        53
+      ],
+      "cadrage_css": "44% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 68.2,
+        "bruit": 0.23,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "logo",
+        "a_verifier": false,
+        "texte": "RÉSIDENCE · AUTONOMIE · à taille humaine · Marpa · LA MAISON · DES FLEURS",
+        "blocs": 6,
+        "surface": 43.7,
+        "details": [
+          {
+            "texte": "RÉSIDENCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AUTONOMIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "à taille humaine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marpa",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA MAISON",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DES FLEURS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "18193773195975c5",
+      "drapeaux": [
+        "logo",
+        "texte du logo"
+      ]
+    },
+    {
+      "fichier": "marpa-breval-residence-autonomie.jpg",
+      "nom": "marpa-breval-residence-autonomie",
+      "drapeau": "autre",
+      "largeur": 1920,
+      "hauteur": 1080,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 223035,
+      "transparence": false,
+      "sujet": {
+        "x": 49.3,
+        "y": 29.4,
+        "l": 39.9,
+        "h": 30.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        48
+      ],
+      "cadrage_css": "59% 48%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 55.9,
+        "bruit": 0.26,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Bienvenue dans les MARPA d'lle-de-France · Marpa · Maison d'Accueil et de Résidence Pour l'Autonomie · Des résidences autonomies conçues · par la Mutualité Soci",
+        "blocs": 9,
+        "surface": 20.8,
+        "details": [
+          {
+            "texte": "Bienvenue dans les MARPA d'lle-de-France",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marpa",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Maison d'Accueil et de Résidence Pour l'Autonomie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Des résidences autonomies conçues",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "par la Mutualité Sociale Agricole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "santé",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "famille",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "retraite",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "services",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1333063e1a531323",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "3-novembre-2026.png",
+      "nom": "3-novembre-2026",
+      "drapeau": "autre",
+      "largeur": 1538,
+      "hauteur": 1023,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2092915,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 34.4,
+        "l": 84.1,
+        "h": 48.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        49
+      ],
+      "cadrage_css": "42% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        }
+      ],
+      "qualite": {
+        "nettete": 62.5,
+        "bruit": 0.92,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "PRODUCTION · SCENE · DIRECTOR · CAMERA · TAKE",
+        "blocs": 5,
+        "surface": 1.3,
+        "details": [
+          {
+            "texte": "PRODUCTION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SCENE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DIRECTOR",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CAMERA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TAKE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "bc7c73243577f3f4",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "atelier-modelage.png",
+      "nom": "atelier-modelage",
+      "drapeau": "lieu",
+      "largeur": 1448,
+      "hauteur": 1086,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2653349,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 21.5,
+        "l": 77.2,
+        "h": 78.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        57
+      ],
+      "cadrage_css": "46% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "haut",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 41.4,
+        "bruit": 1.32,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3736957565cd8c71",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "3-novembre-2026-2.png",
+      "nom": "3-novembre-2026-2",
+      "drapeau": "autre",
+      "largeur": 500,
+      "hauteur": 500,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 134994,
+      "transparence": true,
+      "sujet": {
+        "x": 34.7,
+        "y": 32,
+        "l": 33,
+        "h": 32.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        46
+      ],
+      "cadrage_css": "52% 46%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 40.8,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "500 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "04000c4d4d0c0000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "3-novembre-2026-3.png",
+      "nom": "3-novembre-2026-3",
+      "drapeau": "autre",
+      "largeur": 500,
+      "hauteur": 500,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 24477,
+      "transparence": true,
+      "sujet": {
+        "x": 9,
+        "y": 36,
+        "l": 27.6,
+        "h": 29.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        30,
+        51
+      ],
+      "cadrage_css": "30% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0.01
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 79,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "500 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Yvelines · Le Département",
+        "blocs": 2,
+        "surface": 4.5,
+        "details": [
+          {
+            "texte": "Yvelines",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le Département",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2042617627214420",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact.png",
+      "nom": "contact",
+      "drapeau": "autre",
+      "largeur": 1536,
+      "hauteur": 1024,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2102906,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 22.1,
+        "l": 38.2,
+        "h": 30.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        37
+      ],
+      "cadrage_css": "49% 37%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 18,
+        "bruit": 0.95,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "aacb6bc3d81ad99b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 5.9,
+        "y": 4.4,
+        "l": 69.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-2.webp",
+      "nom": "contact-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 4236,
+      "transparence": false,
+      "sujet": {
+        "x": 7.4,
+        "y": 36.8,
+        "l": 48.5,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        26,
+        47
+      ],
+      "cadrage_css": "26% 47%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 2.8,
+        "bruit": 0.08,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rte de Boissy",
+        "blocs": 1,
+        "surface": 5,
+        "details": [
+          {
+            "texte": "Rte de Boissy",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0a08206040801014",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme droite/haut/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-3.webp",
+      "nom": "contact-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 4918,
+      "transparence": false,
+      "sujet": {
+        "x": 2.9,
+        "y": 5.9,
+        "l": 57.4,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 2.9,
+        "bruit": 0.08,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rte de Rosny · LOT",
+        "blocs": 2,
+        "surface": 5.8,
+        "details": [
+          {
+            "texte": "Rte de Rosny",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LOT",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "60c0008800c00000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-4.webp",
+      "nom": "contact-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5620,
+      "transparence": false,
+      "sujet": {
+        "x": 49.7,
+        "y": 34.5,
+        "l": 34.3,
+        "h": 29,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        65,
+        44
+      ],
+      "cadrage_css": "65% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 15.7,
+        "bruit": 0.11,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "RITOIRE · Rte Ritoire",
+        "blocs": 2,
+        "surface": 3.8,
+        "details": [
+          {
+            "texte": "RITOIRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte Ritoire",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0914021308400000",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-5.webp",
+      "nom": "contact-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5456,
+      "transparence": false,
+      "sujet": {
+        "x": 51.5,
+        "y": 32.4,
+        "l": 20.6,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        44
+      ],
+      "cadrage_css": "62% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.96,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        }
+      ],
+      "qualite": {
+        "nettete": 22.8,
+        "bruit": 0.08,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rte de Boissy · Rte de Bréval",
+        "blocs": 2,
+        "surface": 9.1,
+        "details": [
+          {
+            "texte": "Rte de Boissy",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Bréval",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "01050a0216882020",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/gauche/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-6.webp",
+      "nom": "contact-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8282,
+      "transparence": false,
+      "sujet": {
+        "x": 21.1,
+        "y": 37.9,
+        "l": 32.2,
+        "h": 29.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        56
+      ],
+      "cadrage_css": "43% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.02
+        },
+        {
+          "cote": "gauche",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 34.6,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Saint-Illiers-le-Bois · YVELINES",
+        "blocs": 2,
+        "surface": 8.9,
+        "details": [
+          {
+            "texte": "Saint-Illiers-le-Bois",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "YVELINES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0000200b1d051438",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "contact-7.webp",
+      "nom": "contact-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 4154,
+      "transparence": false,
+      "sujet": {
+        "x": 42.6,
+        "y": 23.5,
+        "l": 51.5,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        74,
+        38
+      ],
+      "cadrage_css": "74% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 2.7,
+        "bruit": 0.07,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LA FORT · Rue de",
+        "blocs": 2,
+        "surface": 3.3,
+        "details": [
+          {
+            "texte": "LA FORT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0201014822100400",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "contact-8.webp",
+      "nom": "contact-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 3264,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 26.5,
+        "l": 45.6,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        54
+      ],
+      "cadrage_css": "55% 54%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.84,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 2.3,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rue des Tol",
+        "blocs": 1,
+        "surface": 1.9,
+        "details": [
+          {
+            "texte": "Rue des Tol",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0504040404040202",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme gauche/haut/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-9.webp",
+      "nom": "contact-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 8784,
+      "transparence": false,
+      "sujet": {
+        "x": 33.8,
+        "y": 35.3,
+        "l": 26.5,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.95,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 24.6,
+        "bruit": 0.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Neauphlette · LE COI",
+        "blocs": 2,
+        "surface": 3.1,
+        "details": [
+          {
+            "texte": "Neauphlette",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE COI",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "859882044eb2a0a0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "contact-10.webp",
+      "nom": "contact-10",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 11074,
+      "transparence": false,
+      "sujet": {
+        "x": 19.1,
+        "y": 17.6,
+        "l": 57.4,
+        "h": 66.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        48
+      ],
+      "cadrage_css": "47% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 37.6,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Villiers-en-Désœuvre · EURE · EURE-ET-LOIR · LE HAI",
+        "blocs": 4,
+        "surface": 6.7,
+        "details": [
+          {
+            "texte": "Villiers-en-Désœuvre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EURE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EURE-ET-LOIR",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE HAI",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "82010b264bb0384d",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme droite/gauche/bas/haut"
+      ]
+    },
+    {
+      "fichier": "contact-11.webp",
+      "nom": "contact-11",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5434,
+      "transparence": false,
+      "sujet": {
+        "x": 57.2,
+        "y": 39,
+        "l": 36.2,
+        "h": 28.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        70,
+        48
+      ],
+      "cadrage_css": "70% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.92,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 23.4,
+        "bruit": 0.1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LAUNAY · LA HAIE · MONTAISE · GNET",
+        "blocs": 4,
+        "surface": 3.7,
+        "details": [
+          {
+            "texte": "LAUNAY",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA HAIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MONTAISE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GNET",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "2a070601010cc0a0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "contact-12.webp",
+      "nom": "contact-12",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 3030,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 35.3,
+        "l": 25,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        53
+      ],
+      "cadrage_css": "52% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 2.7,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0000002010010002",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme haut/gauche/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-13.webp",
+      "nom": "contact-13",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5868,
+      "transparence": false,
+      "sujet": {
+        "x": 51.2,
+        "y": 2.2,
+        "l": 40.7,
+        "h": 74.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        46
+      ],
+      "cadrage_css": "67% 46%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.99,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 29.5,
+        "bruit": 0.1,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "La Scellée · Rue du Hamel · LE HAMEL",
+        "blocs": 3,
+        "surface": 4.8,
+        "details": [
+          {
+            "texte": "La Scellée",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du Hamel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE HAMEL",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0109478701010503",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "contact-14.webp",
+      "nom": "contact-14",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 5580,
+      "transparence": false,
+      "sujet": {
+        "x": 54.4,
+        "y": 79.4,
+        "l": 25,
+        "h": 14.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        87
+      ],
+      "cadrage_css": "67% 87%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.98,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 3.4,
+        "bruit": 0.11,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large",
+          "floue"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LA BUTTE",
+        "blocs": 1,
+        "surface": 1.1,
+        "details": [
+          {
+            "texte": "LA BUTTE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0b10001000008003",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "texte décoratif",
+        "calme gauche/haut/droite/bas"
+      ]
+    },
+    {
+      "fichier": "contact-15.webp",
+      "nom": "contact-15",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 7288,
+      "transparence": false,
+      "sujet": {
+        "x": 42.6,
+        "y": 30.9,
+        "l": 32.4,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        59,
+        43
+      ],
+      "cadrage_css": "59% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.97,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.93,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "droite",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 23.5,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LA BÂTE · Rue de Guain · LA COUARDE",
+        "blocs": 3,
+        "surface": 8,
+        "details": [
+          {
+            "texte": "LA BÂTE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue de Guain",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA COUARDE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "84984ca511214040",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "contact-16.webp",
+      "nom": "contact-16",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 10934,
+      "transparence": false,
+      "sujet": {
+        "x": 16.2,
+        "y": 29.4,
+        "l": 72.1,
+        "h": 33.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        45
+      ],
+      "cadrage_css": "54% 45%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.8,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        }
+      ],
+      "qualite": {
+        "nettete": 40.6,
+        "bruit": 0.18,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rue René Dhal · Rue René Dha · LES LOGES · Bréval · Rue du Gén Patton",
+        "blocs": 5,
+        "surface": 11.7,
+        "details": [
+          {
+            "texte": "Rue René Dhal",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue René Dha",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES LOGES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bréval",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rue du Gén Patton",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "02902621914d3331",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "salle-vie.jpg",
+      "nom": "salle-vie",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 449538,
+      "transparence": false,
+      "sujet": {
+        "x": 49.3,
+        "y": 43.8,
+        "l": 25.2,
+        "h": 44.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        55
+      ],
+      "cadrage_css": "63% 55%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.81,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        }
+      ],
+      "qualite": {
+        "nettete": 21.6,
+        "bruit": 0.79,
+        "compression": 1.41,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "030e0684cc488404",
+      "drapeaux": [
+        "lieu",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "logements.jpg",
+      "nom": "logements",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 585296,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 25,
+        "l": 75,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        42
+      ],
+      "cadrage_css": "47% 42%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.44,
+          "ton": "moyen",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 30.6,
+        "bruit": 1.13,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SCRABBLE",
+        "blocs": 1,
+        "surface": 0.1,
+        "details": [
+          {
+            "texte": "SCRABBLE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "73363664613939e7",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "salle-vie-2.jpg",
+      "nom": "salle-vie-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 335033,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 39.7,
+        "l": 33.8,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        54
+      ],
+      "cadrage_css": "48% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "bas",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        }
+      ],
+      "qualite": {
+        "nettete": 20.9,
+        "bruit": 0.59,
+        "compression": 1.46,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a4a48cac8c848484",
+      "drapeaux": [
+        "lieu",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "salle-eau.jpg",
+      "nom": "salle-eau",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 309576,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 17.6,
+        "l": 50,
+        "h": 35.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        36
+      ],
+      "cadrage_css": "52% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 18.6,
+        "bruit": 0.48,
+        "compression": 1.42,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "6c69253072626ace",
+      "drapeaux": [
+        "lieu",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "salle-eau-2.jpg",
+      "nom": "salle-eau-2",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 687700,
+      "transparence": false,
+      "sujet": {
+        "x": 41.7,
+        "y": 58.6,
+        "l": 24.9,
+        "h": 41.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        69
+      ],
+      "cadrage_css": "52% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.25
+        }
+      ],
+      "qualite": {
+        "nettete": 59.4,
+        "bruit": 1.54,
+        "compression": 1.15,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0c4d007868666cbc",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "grande-salle-animation.jpg",
+      "nom": "grande-salle-animation",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1335,
+      "ratio": "3:2",
+      "ratio_valeur": 1.498,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 436835,
+      "transparence": false,
+      "sujet": {
+        "x": 4.5,
+        "y": 39.3,
+        "l": 95.5,
+        "h": 25.5,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        53,
+        51
+      ],
+      "cadrage_css": "53% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 36.3,
+        "bruit": 0.79,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "ece8a8c8cc9cd4f3",
+      "drapeaux": [
+        "lieu",
+        "3 visages"
+      ]
+    },
+    {
+      "fichier": "parties-communes.jpg",
+      "nom": "parties-communes",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 676978,
+      "transparence": false,
+      "sujet": {
+        "x": 19.5,
+        "y": 35.7,
+        "l": 74,
+        "h": 63.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        58
+      ],
+      "cadrage_css": "52% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 70.5,
+        "bruit": 1.44,
+        "compression": 1.12,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "806860640292070b",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "salle-vie-3.jpg",
+      "nom": "salle-vie-3",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 390728,
+      "transparence": false,
+      "sujet": {
+        "x": 33.4,
+        "y": 22.7,
+        "l": 37.8,
+        "h": 69.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        53
+      ],
+      "cadrage_css": "56% 53%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.38,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "moyen",
+          "recouvre_sujet": 0.13
+        }
+      ],
+      "qualite": {
+        "nettete": 33.4,
+        "bruit": 0.84,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c808084849003811",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "salle-vie-4.jpg",
+      "nom": "salle-vie-4",
+      "drapeau": "lieu",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 428869,
+      "transparence": false,
+      "sujet": {
+        "x": 12.3,
+        "y": 51.2,
+        "l": 85.2,
+        "h": 48.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        63
+      ],
+      "cadrage_css": "53% 63%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.16,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "bas",
+          "score": 0.11,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.34
+        }
+      ],
+      "qualite": {
+        "nettete": 32,
+        "bruit": 0.76,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "a4a0aaced2d0d0bd",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "entretien-logement.jpg",
+      "nom": "entretien-logement",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 401902,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 28.7,
+        "l": 94.1,
+        "h": 64.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        51
+      ],
+      "cadrage_css": "58% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.63,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "moyen",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "bas",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 21.3,
+        "bruit": 0.69,
+        "compression": 1.37,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "078bc985c48888c5",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "entretien-logement-2.png",
+      "nom": "entretien-logement-2",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 1080,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 1215918,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 16.9,
+        "l": 93.8,
+        "h": 83.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        49
+      ],
+      "cadrage_css": "46% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 42.9,
+        "bruit": 0.98,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "2098186e46c61652",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "services.webp",
+      "nom": "services",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 320784,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 24.5,
+        "l": 100,
+        "h": 69.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.7
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 37.1,
+        "bruit": 1.03,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "0261545415140e84",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "teleassistance.webp",
+      "nom": "teleassistance",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 1024,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 192692,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 14.7,
+        "l": 25,
+        "h": 27.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        28
+      ],
+      "cadrage_css": "45% 28%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.27,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 14.6,
+        "bruit": 0.57,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "6d43d4240ce29e1e",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "teleassistance-2.jpg",
+      "nom": "teleassistance-2",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 840,
+      "ratio": "5:4",
+      "ratio_valeur": 1.219,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 910852,
+      "transparence": false,
+      "sujet": {
+        "x": 17.8,
+        "y": 0,
+        "l": 62,
+        "h": 80.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        49,
+        36
+      ],
+      "cadrage_css": "49% 36%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        }
+      ],
+      "qualite": {
+        "nettete": 32.3,
+        "bruit": 1.52,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "b0b0b072a6ae7838",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    }
+  ]
+}

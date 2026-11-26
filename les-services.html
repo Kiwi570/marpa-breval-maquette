@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Les services : MARPA de Bréval</title>
+<meta name="description" content="Restauration, téléassistance 24 h/24, animations, entretien du logement et du linge : des services facultatifs, assurés par une équipe stable et formée.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://marpa-breval-maquette.vercel.app/les-services">
+<style>:root{--fond:#F7F2E8;--texte:#23302A;--voile-fond:#2F4A3A;--ouverture-fond:#F7F2E8;--menu-fond:#2F4A3A}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F7F2E8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MARPA de Bréval">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Les services : MARPA de Bréval">
+<meta property="og:description" content="Restauration, téléassistance 24 h/24, animations, entretien du logement et du linge : des services facultatifs, assurés par une équipe stable et formée.">
+<meta property="og:url" content="https://marpa-breval-maquette.vercel.app/les-services">
+<meta property="og:image" content="https://marpa-breval-maquette.vercel.app/assets/partage/les-services-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Les services de la MARPA de Bréval">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MARPA de Bréval, La Maison des Fleurs","url":"https://marpa-breval-maquette.vercel.app/","telephone":"+33134780339","email":"marpa.breval@hotmail.fr","address":{"@type":"PostalAddress","streetAddress":"15 rue du Vieux Chêne","postalCode":"78980","addressLocality":"Bréval","addressCountry":"FR"},"description":"Résidence autonomie non médicalisée pour personnes âgées autonomes de plus de 60 ans : 22 logements de plain‑pied de 31 m² et un logement de 46 m², jardin arboré de 5 000 m², personnel présent de 7 h à 21 h et téléassistance 24 h/24. Gérée par une association à but non lucratif.","sameAs":["https://www.facebook.com/marpa.breval.3/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><svg class="fleur fleur--voile" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg><span data-voile-libelle>Les services</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <svg class="fleur fleur--intro" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-ouverture-objet><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg>
+  <p class="ouverture-nom">MARPA de Bréval</p>
+  <p class="ouverture-ligne">La Maison des Fleurs</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil">
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services" aria-current="page">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#visite" data-libelle="Contact">Demander une visite</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/les-logements" class="menu-lien" data-libelle="Les logements">Les logements</a></li><li style="--i:2"><a href="/les-services" class="menu-lien" data-libelle="Les services" aria-current="page">Les services</a></li><li style="--i:3"><a href="/les-lieux" class="menu-lien" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li style="--i:4"><a href="/les-animations" class="menu-lien" data-libelle="Les animations">Les animations</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33134780339">Appeler 01 34 78 03 39</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-eventail conteneur" id="debut">
+  <div class="ouv-eventail-texte">
+    <p class="surtitre" data-anime>Les services</p>
+    <h1 data-anime="lignes">Des services, <em class="mot">pas des contraintes</em></h1>
+    <p data-anime>Tous sont facultatifs. Ils sont assurés par une équipe stable, qualifiée et formée par la MARPA, pour votre bien-être et votre sécurité, sans rien enlever à votre indépendance.</p>
+    <p class="ouv-chiffre-actions" data-anime>
+      <a href="/contact?sujet=visite#visite" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander une visite</a>
+      <span class="ouv-info" data-info-cle><span class="point-vert" aria-hidden="true"></span>Médaillon d&#39;appel 24 h/24</span>
+    </p>
+  </div>
+  <div class="eventail" data-iris-centre>
+    <figure class="media eventail-carte eventail-carte--1" data-effet="eventail" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/client/linge-800.webp" srcset="/assets/images/client/linge-640.webp 640w, /assets/images/client/linge-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Pile de pulls pliés" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <figure class="media eventail-carte eventail-carte--2" data-grok data-effet="eventail" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/animations-atelier-1600.webp" srcset="/assets/images/grok/animations-atelier-1024.webp 1024w, /assets/images/grok/animations-atelier-1168.webp 1168w, /assets/images/grok/animations-atelier-1600.webp 1600w" sizes="(max-width: 760px) 45vw, 22vw" alt="Table d’atelier avec fleurs coupées, vases, argile et outils de modelage" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <figure class="media eventail-carte eventail-carte--3" data-grok data-effet="eventail" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/services-table-1168.webp" srcset="/assets/images/grok/services-table-1168.webp 1168w" sizes="(max-width: 760px) 60vw, 28vw" alt="Table dressée pour le déjeuner dans une salle à manger lumineuse" width="1168" height="730" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="ofr socle-cadre services-tiroirs" data-module="offre-a-tiroirs" aria-labelledby="ofr-titre" id="les-cinq">
+  <div class="ofr__tete">
+    <h2 class="ofr__h2" id="ofr-titre" data-anime="lignes">Les cinq services</h2>
+  </div>
+  <div class="ofr__corps">
+    <ol class="ofr__tiroirs">
+      <li class="ofr__tiroir" id="restauration" data-sujet="restauration">
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">01</span><span class="ofr__nom">La restauration</span><span class="ofr__resume">Trois repas cuisinés sur place, pour qui le souhaite</span></button></h3>
+        <div class="ofr__contenu"><div class="ofr__interieur">
+          <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/services-table-1168.webp" srcset="/assets/images/grok/services-table-1168.webp 1168w" sizes="(max-width: 760px) 100vw, 40vw" alt="Table dressée pour le déjeuner dans une salle à manger lumineuse" width="1168" height="730" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <p>Petit-déjeuner, déjeuner et dîner sont proposés à ceux qui le souhaitent, dans une salle à manger conviviale. Les repas sont cuisinés sur place par le personnel.</p>
+          <ul><li>Repas préparés dans la cuisine de la maison</li><li>Une salle à manger où l&#39;on se retrouve</li><li>Un coin cuisine dans chaque logement pour cuisiner chez soi</li></ul>
+          <a href="/contact?sujet=restauration#visite" class="socle-bouton socle-bouton--plein ofr__parler" data-libelle="Contact">En parler</a>
+        </div></div>
+      </li><li class="ofr__tiroir" id="teleassistance" data-sujet="teleassistance">
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">02</span><span class="ofr__nom">La téléassistance</span><span class="ofr__resume">Un médaillon relié à l&#39;équipe, 24 h/24</span></button></h3>
+        <div class="ofr__contenu"><div class="ofr__interieur">
+          <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-nuit-mobile-640.webp 640w" sizes="(max-width: 760px) 100vw, 40vw">
+    <img src="/assets/images/grok/accueil-nuit-1280.webp" srcset="/assets/images/grok/accueil-nuit-640.webp 640w, /assets/images/grok/accueil-nuit-1280.webp 1280w, /assets/images/grok/accueil-nuit-1920.webp 1920w, /assets/images/grok/accueil-nuit-2560.webp 2560w" sizes="(max-width: 760px) 100vw, 40vw" alt="Allée de jardin à l’heure bleue, une lanterne allumée sur un muret" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <p>Chaque résident dispose d&#39;un médaillon relié directement au personnel de la MARPA. En cas d&#39;urgence, il suffit d&#39;appuyer, de jour comme de nuit.</p>
+          <ul><li>Équipe présente de 7 h à 21 h</li><li>Intervention la nuit en cas d&#39;appel d&#39;urgence</li><li>Le médaillon se porte sur soi, partout dans la maison</li></ul>
+          <a href="/contact?sujet=teleassistance#visite" class="socle-bouton socle-bouton--plein ofr__parler" data-libelle="Contact">En parler</a>
+        </div></div>
+      </li><li class="ofr__tiroir" id="animations" data-sujet="animations">
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">03</span><span class="ofr__nom">Les animations</span><span class="ofr__resume">Toute l&#39;année, choisies avec les résidents</span></button></h3>
+        <div class="ofr__contenu"><div class="ofr__interieur">
+          <figure class="media ofr__image" data-grok style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/animations-atelier-1600.webp" srcset="/assets/images/grok/animations-atelier-1024.webp 1024w, /assets/images/grok/animations-atelier-1168.webp 1168w, /assets/images/grok/animations-atelier-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 40vw" alt="Table d’atelier avec fleurs coupées, vases, argile et outils de modelage" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <p>Des animations sont proposées toute l&#39;année, en concertation avec les résidents. Elles sont organisées par le personnel, des professionnels extérieurs et des bénévoles, pour créer du lien et garder son autonomie.</p>
+          <ul><li>Sorties : goûter au bord de la Seine, forêt de Rosny, restaurant</li><li>Jeux de société et de cartes, gymnastique, marche, chant</li><li>Réveil sensoriel, rencontres avec des enfants</li></ul>
+          <a href="/les-animations" class="socle-bouton socle-bouton--plein ofr__parler" data-libelle="Les animations">Voir le programme</a>
+        </div></div>
+      </li><li class="ofr__tiroir" id="entretien" data-sujet="entretien">
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">04</span><span class="ofr__nom">L&#39;entretien du logement</span><span class="ofr__resume">Assuré par le personnel qualifié, si vous le souhaitez</span></button></h3>
+        <div class="ofr__contenu"><div class="ofr__interieur">
+          <figure class="media ofr__image" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/logement-lit-1600.webp" srcset="/assets/images/client/logement-lit-1024.webp 1024w, /assets/images/client/logement-lit-1168.webp 1168w, /assets/images/client/logement-lit-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 40vw" alt="Chambre lumineuse avec lit et fauteuil" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <p>Un service d&#39;entretien du logement est proposé à ceux qui le souhaitent. Il est assuré par le personnel qualifié de la MARPA.</p>
+          <ul><li>Service facultatif</li><li>Assuré par l&#39;équipe de la maison</li></ul>
+          <a href="/contact?sujet=entretien#visite" class="socle-bouton socle-bouton--plein ofr__parler" data-libelle="Contact">En parler</a>
+        </div></div>
+      </li><li class="ofr__tiroir" id="linge" data-sujet="linge">
+        <h3 class="ofr__titre"><button type="button" class="ofr__poignee"><span class="ofr__num">05</span><span class="ofr__nom">L&#39;entretien du linge</span><span class="ofr__resume">Les vêtements de chacun lavés à part</span></button></h3>
+        <div class="ofr__contenu"><div class="ofr__interieur">
+          <figure class="media ofr__image" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/client/linge-800.webp" srcset="/assets/images/client/linge-640.webp 640w, /assets/images/client/linge-800.webp 800w" sizes="(max-width: 760px) 100vw, 40vw" alt="Pile de pulls pliés" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <p>Le personnel de la MARPA peut entretenir votre linge. Pour des raisons d&#39;hygiène, les vêtements de chaque résident sont lavés séparément.</p>
+          <ul><li>Service facultatif</li><li>Linge de chaque résident lavé séparément</li></ul>
+          <a href="/contact?sujet=linge#visite" class="socle-bouton socle-bouton--plein ofr__parler" data-libelle="Contact">En parler</a>
+        </div></div>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="participer" id="participer">
+  <div class="conteneur participer-grille">
+    <figure class="media participer-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/services-legumes-1600.webp" srcset="/assets/images/grok/services-legumes-1024.webp 1024w, /assets/images/grok/services-legumes-1168.webp 1168w, /assets/images/grok/services-legumes-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 40vw" alt="Légumes du jardin épluchés sur une table de cuisine en bois" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div>
+      <h2 data-anime="lignes">Mettre la main <em class="mot">à la pâte</em></h2>
+      <p data-anime>Si vous en avez envie, vous pouvez participer à la vie de la maison : éplucher les légumes, jardiner, cuisiner. Personne n&#39;y est obligé, beaucoup aiment ça.</p>
+      <ul class="participer-liste" data-anime="cascade">
+        <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M10 30c0-8 6-14 14-14s14 6 14 14c0 6-6 10-14 10S10 36 10 30z"/><path d="M24 16c0-5 3-8 7-9M24 16c-2-4-6-6-10-6"/></svg><span>Éplucher les légumes</span></li>
+        <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M24 42V22"/><path d="M24 26c-8 0-12-5-12-12 7 0 12 4 12 12zM24 22c0-8 5-13 13-13 0 8-5 13-13 13z"/><path d="M10 42h28"/></svg><span>Jardiner</span></li>
+        <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M10 22h28v6a14 14 0 0 1-28 0z"/><path d="M6 22h36"/><path d="M18 14c0-3 3-3 3-6M27 14c0-3 3-3 3-6"/></svg><span>Cuisiner</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="equipe conteneur" id="equipe">
+  <div class="tete-section">
+    <h2 data-anime="lignes">L&#39;équipe <em class="mot">de la maison</em></h2>
+    <p data-anime>Une équipe stable, qualifiée et formée par la MARPA.</p>
+  </div>
+  <ul class="equipe-liste" data-anime="cascade" data-visuel>
+    <li class="personne personne--resp"><span class="initiales" aria-hidden="true">SC</span><strong>Servane du Cleuziou</strong><span>Responsable</span></li><li class="personne personne--resp"><span class="initiales" aria-hidden="true">LM</span><strong>Laurence Marie</strong><span>Responsable adjointe</span></li>
+    <li class="personne"><span class="initiales" aria-hidden="true">F</span><strong>Fernanda</strong><span>Agent</span></li><li class="personne"><span class="initiales" aria-hidden="true">V</span><strong>Viviane</strong><span>Agent</span></li><li class="personne"><span class="initiales" aria-hidden="true">F</span><strong>Fatima</strong><span>Agent</span></li><li class="personne"><span class="initiales" aria-hidden="true">O</span><strong>Oumy</strong><span>Agent</span></li>
+  </ul>
+</section>
+<section class="appel" id="appel">
+  <div class="conteneur appel-grille">
+    <div class="appel-dessin" data-visuel><svg class="fleur fleur--trait fleur--appel" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-fx="trace"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg></div>
+    <div class="appel-texte">
+      <h2 data-anime="lignes">Une question sur <em class="mot">un service ?</em></h2>
+      <p data-anime>Appelez l&#39;équipe ou laissez-nous un message : nous vous répondons.</p>
+      <p class="appel-actions" data-anime>
+        <a href="/contact?sujet=visite#visite" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
+        <a class="bouton bouton--contour-clair" href="tel:+33134780339">01 34 78 03 39</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-maison">
+      <img src="/assets/images/logo-maison-clair.png" alt="" width="401" height="230" class="pied-logo" loading="lazy">
+      <p>Résidence autonomie gérée par l&#39;association MARPA de la Région de Bréval, à but non lucratif.</p>
+    </div>
+    <div>
+      <p class="pied-titre">MARPA de Bréval</p>
+      <p>15 rue du Vieux Chêne, 78980 Bréval<br><a href="tel:+33134780339">01 34 78 03 39</a><br><a href="mailto:marpa.breval@hotmail.fr">marpa.breval@hotmail.fr</a></p>
+      <p><a href="https://www.facebook.com/marpa.breval.3/" target="_blank" rel="noopener">Suivre la MARPA sur Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+    </div>
+    <nav aria-label="Sur le site">
+      <p class="pied-titre">Sur le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services" aria-current="page">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Avec</p>
+      <ul><li><a href="https://www.marpa.fr/" target="_blank" rel="noopener">Réseau national des MARPA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.msa.fr/lfp" target="_blank" rel="noopener">MSA<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.mairie-breval.fr/" target="_blank" rel="noopener">Mairie de Bréval<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.yvelines.fr/" target="_blank" rel="noopener">Département des Yvelines<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.ccpif.fr/" target="_blank" rel="noopener">Communauté de communes des Portes de l&#39;Île-de-France<span class="visuellement-cache"> (nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales et politique de confidentialité : à compléter</p><p>Maquette de site : rien n&#39;est envoyé, les formulaires sont simulés.</p><p><a href="#haut" data-sans-transition>Retour en haut</a></p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+</div>
+</body>
+</html>

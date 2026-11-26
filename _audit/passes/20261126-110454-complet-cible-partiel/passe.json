@@ -1,0 +1,15 @@
+{
+ "id": "20261126-110454-complet-cible-partiel",
+ "date": "2026-11-26T11:10:30.978Z",
+ "niveau": "complet",
+ "pages": "/,/404,/contact,/les-animations,/les-lieux,/les-services",
+ "etapes": [
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 2,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}
