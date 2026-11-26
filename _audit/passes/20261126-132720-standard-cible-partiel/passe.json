@@ -1,0 +1,16 @@
+{
+ "id": "20261126-132720-standard-cible-partiel",
+ "date": "2026-11-26T13:28:59.220Z",
+ "niveau": "standard",
+ "pages": "/,/les-lieux,/les-services,/les-animations",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

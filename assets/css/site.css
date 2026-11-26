@@ -350,7 +350,20 @@ html.js:not(.secours):not([data-arrivee="retour"]) .eventail-carte { --f: 0; }
 @media (max-width: 760px) {
   .ouv-eventail { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 12px; }
   .eventail { height: 52vw; max-width: 460px; width: 100%; margin-inline: auto; }
-  .eventail-carte { width: 40%; } .eventail-carte--3 { width: 44%; }
+  /* Sur téléphone, les trois photos se posent côte à côte (à peine inclinées) : chaque mention reste lisible. */
+  .eventail { height: 50vw; }
+  .eventail-carte { width: 31%; border-width: 4px; border-radius: 16px; }
+  .eventail-carte--1 { left: 1%; top: 12%; --r: -4; --dx: 0; }
+  .eventail-carte--2 { left: 34.5%; top: 2%; --r: 2; --dx: 0; }
+  .eventail-carte--3 { left: auto; right: 1%; top: 14%; width: 31%; --r: 4; --dx: 0; }
+  .eventail-carte .mention-vraie, .eventail-carte .mention-ia { left: 6px; right: 6px; bottom: 6px; text-align: center; }
+}
+@media (max-width: 480px) {
+  /* Petit téléphone : deux photos seulement, plus grandes. */
+  .eventail { height: 64vw; }
+  .eventail-carte--2 { display: none; }
+  .eventail-carte--1 { left: 2%; width: 46%; top: 6%; }
+  .eventail-carte--3 { right: 2%; width: 46%; top: 12%; }
 }
 @media (max-height: 820px) and (min-width: 761px) { .ouv-eventail h1 { font-size: clamp(2.2rem, min(4.6vw, 8vh), 4rem); } }
 @media (max-height: 500px) and (min-width: 761px) { .ouv-eventail .surtitre, .ouv-eventail-texte > p:not(.ouv-chiffre-actions) { display: none; } .ouv-eventail { padding-top: calc(var(--entete-h) + 8px); } .eventail { height: 70vh; } }
@@ -397,7 +410,7 @@ html.js:not(.secours):not([data-arrivee="retour"]) .eventail-carte { --f: 0; }
 .jardin { background: var(--lin); }
 .jardin [data-collant] { display: grid; place-items: center; }
 .jardin-media { position: absolute; inset: 0; }
-.jardin-mots { position: relative; z-index: 2; margin: 0; display: flex; gap: .3em; font-family: var(--police-titres); font-size: clamp(3.4rem, 12vw, 10rem); line-height: 1; color: var(--lin); text-shadow: 0 6px 30px rgba(0, 0, 0, .35); pointer-events: none; }
+.jardin-mots { position: relative; z-index: 2; margin: 0; display: flex; gap: .3em; font-family: var(--police-titres); font-size: clamp(3.4rem, 12vw, 10rem); line-height: 1; color: var(--lin); text-shadow: 0 1px 2px rgba(20, 30, 25, .95), 0 0 1px rgba(20, 30, 25, .9), 0 6px 30px rgba(0, 0, 0, .35); pointer-events: none; }
 .jardin-legende { position: absolute; z-index: 2; left: var(--gouttiere); bottom: clamp(20px, 5vh, 48px); max-width: 30rem; padding: 22px 26px; background: var(--lin); border-radius: 22px; }
 .jardin-legende h2 { font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.4rem); }
 .jardin-legende p { margin: 0; }
@@ -605,3 +618,124 @@ html:not(.js) :is(.ouv-eventail, .ouv-prochain) { min-height: 0; }
 .ofr .ofr__visuel picture, .ofr .ofr__visuel img { width: 100%; height: 100%; object-fit: cover; }
 .ofr .ofr__visuel .mention-ia { display: block; }
 .ofr .ofr__num { font-size: 1rem; }
+
+/* =================== v2 : corrections de l'audit UX =================== */
+
+/* La fleur de l'ouverture se cueille : un clic fait tomber des pétales. */
+button.ouv-fleur { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 50%; }
+button.ouv-fleur:focus-visible { outline-offset: 6px; }
+
+/* Vraies photos de la MARPA : même cadre partout (tirage clair), étiquette « Photo de la MARPA ». */
+.media[data-vraie] { border-radius: 10px; box-shadow: 0 0 0 7px #FFFDF8, 0 18px 34px -22px rgba(35, 48, 42, .55); }
+.media[data-vraie] img { filter: saturate(1.04) contrast(1.03); }
+.mention-vraie { position: absolute; left: 10px; bottom: 10px; z-index: 2; padding: 4px 10px; border-radius: 999px; background: rgba(255, 253, 248, .94); color: var(--sauge); font: 600 13px/1.3 var(--police-texte); pointer-events: none; }
+.mention-vraie::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--sauge); vertical-align: 1px; }
+
+/* La maison, en vrai (juste après l'ouverture). */
+.envrai { padding-block: clamp(64px, 9vw, 120px) clamp(24px, 4vw, 48px); }
+.envrai-grille { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: center; }
+.envrai-photo { aspect-ratio: 4 / 3; rotate: -1.2deg; }
+.envrai-chiffres { list-style: none; margin: 22px 0 18px; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, auto)); gap: 14px 40px; justify-content: start; }
+.envrai-chiffres li { display: grid; gap: 2px; }
+.envrai-chiffres strong { font-family: var(--police-titres); font-weight: 500; font-size: clamp(2.4rem, 1.8rem + 2vw, 3.4rem); line-height: 1.1; color: var(--sauge); font-variant-numeric: tabular-nums; }
+.envrai-chiffres span { font-size: 1rem; color: var(--texte-doux); }
+.envrai-asso { grid-column: 1 / -1; display: flex !important; align-items: center; gap: 10px; font-weight: 600; }
+.envrai-asso span { color: var(--encre) !important; }
+@media (max-width: 760px) { .envrai-grille { grid-template-columns: minmax(0, 1fr); } .envrai-photo { rotate: none; } }
+
+/* Pour qui et témoignage resserrés. */
+.pourqui { padding-block: clamp(48px, 7vw, 96px) clamp(40px, 6vw, 80px); }
+.temoin { padding-block: clamp(48px, 7vw, 96px); }
+.fleur--temoin { max-width: 240px; }
+
+/* Pictogrammes plus lisibles : trait plus épais, pastille lin foncé. */
+.picto { stroke-width: 2.4; padding: 8px; width: 60px; height: 60px; border-radius: 50%; background: var(--lin-2); }
+.picto--petit { padding: 0; background: none; width: 26px; height: 26px; }
+.picto--grand { width: 80px; height: 80px; }
+
+/* Services de l'accueil : cinq cartes dessinées au trait, même famille. */
+.service-carte a { padding: clamp(16px, 2vw, 24px); border-radius: 22px; background: var(--lin-2); transition: background-color .3s; align-content: start; }
+@media (hover: hover) { .service-carte a:hover { background: color-mix(in srgb, var(--lin-2) 70%, var(--lin)); } }
+.service-dessin { display: grid; place-items: center; aspect-ratio: 4 / 3; border-radius: 16px; background: var(--lin); }
+.dessin-service { width: 56%; height: auto; fill: none; stroke: var(--accent); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.service-carte p { font-size: 1rem; }
+.service-plus { margin-top: 6px; font-weight: 600; color: var(--sauge); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: .25em; }
+.service-plus::after { content: " →"; color: var(--accent); }
+@media (max-width: 640px) { .service-dessin { aspect-ratio: 16 / 9; } }
+
+/* Tarifs et entrée. */
+.tarifs { padding-block: clamp(32px, 5vw, 64px) clamp(56px, 8vw, 100px); }
+.tarifs-cartes { list-style: none; margin: 0 0 22px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); }
+.tarifs-cartes li { padding: clamp(20px, 2.6vw, 32px); border-radius: 22px; background: var(--lin-2); }
+.tarifs-cartes h3 { margin: 14px 0 8px; }
+.tarifs-cartes p { margin: 0; color: var(--texte-doux); }
+.tarifs-cartes .picto { background: var(--lin); }
+@media (max-width: 860px) { .tarifs-cartes { grid-template-columns: minmax(0, 1fr); } }
+
+/* Cadran qu'on fait tourner : soleil, lune, repère « maintenant », poignée. */
+.cadran-zone { border-radius: 50%; cursor: grab; touch-action: none; outline: none; }
+.cadran-zone:active { cursor: grabbing; }
+.cadran-zone:focus-visible { box-shadow: 0 0 0 4px var(--lin); }
+.cadran-soleil circle:first-child, .cadran-lune circle { fill: var(--sauge); stroke: var(--lin); stroke-width: 2; }
+.cadran-soleil circle + circle, .cadran-soleil path { fill: none; stroke: var(--lin); stroke-width: 1.8; stroke-linecap: round; }
+.cadran-soleil circle:nth-child(2) { fill: var(--lin); }
+.cadran-lune path { fill: var(--lin); }
+.cadran-maintenant { fill: var(--lin); stroke: var(--accent); stroke-width: 3; }
+.cadran-poignee { fill: var(--accent); stroke: var(--lin); stroke-width: 3; }
+.cadran-rdv { margin-top: 6px; max-width: 26rem; min-height: 3.2em; font-weight: 600; }
+.cadran-liens { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-top: 6px; }
+.cadran-retour { min-height: 44px; padding: 0 16px; border-radius: 999px; border: 2px solid var(--lin); background: none; color: var(--lin); font-weight: 600; }
+.lien-fleche--clair { color: var(--lin); text-decoration-color: var(--lin); }
+.lien-fleche--clair::after { color: var(--lin); }
+.cadran-statut { min-height: 9em; }
+
+/* Fins de page : appel en lin foncé avec la fleur coquelicot, le pied de page seul en vert. */
+.appel { background: var(--lin-2); color: var(--encre); }
+.appel-dessin { color: var(--accent); }
+.appel .mot { color: var(--accent); }
+.appel-texte > p { color: var(--texte-doux); }
+
+/* Coquelicot réservé aux boutons et au mot fort : chiffres, plan et prochain rendez-vous en sauge. */
+.logement-chiffres strong, .geant { color: var(--sauge); }
+.plan-piece.actif { fill: color-mix(in srgb, var(--sauge) 22%, var(--lin)); }
+.plan-legende li.actif { color: var(--sauge); }
+.prochain-carte { background: var(--sauge); }
+
+/* Textes secondaires à 16 px au moins (lecteurs âgés). */
+.libertes span, .plan-legende, .lieu-carte p, .pied li, .pied-maison p, .pied-bas, .sorties-cartes p, .personne span:last-child, .plan-note, .ouv-info, .acces-cartes p, .contact-coord { font-size: 1rem; }
+.smn .smn__table th, .smn .smn__creneau, .smn .smn__journal, .smn .smn__etiquette, .smn .smn__onglet-j { font-size: 1rem; }
+.smn .smn__creneau { padding: 9px 10px 9px 12px; line-height: 1.3; }
+.smn .smn__table td { height: 104px; }
+.agd .agd__quand, .agd .agd__texte, .agd .agd__lieu, .agd .agd__mois, .agd .agd__compte, .agd .agd__prochaine, .agd .agd__filtre { font-size: 1rem; }
+.ofr .ofr__resume { font-size: 1rem; }
+
+/* Semaine simplifiée : sans récapitulatif par type, le jour même mis en avant. */
+.smn .smn__recap { display: none !important; }
+.smn .smn__corps { grid-template-columns: minmax(0, 1fr) !important; }
+/* Aujourd'hui : la colonne est teintée, l'en-tête porte un trait ; sur téléphone, un point sur l'onglet suffit. */
+.smn td.smn-aujourdhui { background: color-mix(in srgb, var(--accent) 7%, var(--lin)) !important; }
+.smn th.smn-aujourdhui { color: var(--accent); box-shadow: inset 0 -3px 0 var(--accent); }
+.smn.est-telephone td.smn-aujourdhui { background: transparent !important; }
+.smn.est-telephone th.smn-aujourdhui { box-shadow: none; }
+.smn [role="tab"].smn-onglet-jour { position: relative; }
+.smn [role="tab"].smn-onglet-jour::before { content: ""; position: absolute; top: 5px; right: 5px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.smn [role="tab"][aria-selected="true"].smn-onglet-jour::before { background: var(--fond); }
+
+/* Agenda resserré : une ligne par date, sans bouton par date ; un seul « Imprimer le programme ». */
+.agd .agd__actions { display: none !important; }
+.agd .agd__date { padding-block: 14px; }
+.agenda-imprimer { margin: 14px 0 0; }
+
+/* Les lieux : vraies photos moins grandes que le texte ne les appelle. */
+.lieu { grid-template-columns: minmax(0, .9fr) minmax(0, 1fr); }
+
+@media print {
+  [data-entete], [data-barre-fixe], .pied, .appel, [data-voile], .ouverture-panneau, .evitement { display: none !important; }
+  main > section:not(#agenda):not(#chaque-semaine) { display: none !important; }
+  body { background: #fff; padding: 0; }
+  .agenda-imprimer, .agd__filtres, .agd__outils { display: none !important; }
+  .regulier-photos { display: none !important; }
+}
+
+/* Le journal du semainier répète la phrase au-dessus de la grille : gardé pour les lecteurs d'écran seulement. */
+.smn .smn__journal { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

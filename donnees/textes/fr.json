@@ -4,7 +4,7 @@
     "menu": "Menu",
     "fermer": "Fermer",
     "actionEntete": "Demander une visite",
-    "actionCourte": "Visiter",
+    "actionCourte": "Une visite",
     "appeler": "Appeler",
     "sommaire": "Sur le site",
     "suivre": "La vie de la maison",
@@ -20,7 +20,8 @@
     "lecture": "Lecture",
     "introLigne": "La Maison des Fleurs",
     "logoLien": "MARPA de Bréval, accueil",
-    "nouvelOnglet": "(nouvel onglet)"
+    "nouvelOnglet": "(nouvel onglet)",
+    "photoVraie": "Photo de la MARPA"
   },
   "pages": {
     "accueil": {
@@ -80,12 +81,13 @@
       "titreB": "au milieu",
       "titreC": "d'un ",
       "titreMot": "jardin",
-      "texte": "22 logements de plain‑pied ouverts sur 5 000 m² d'arbres et de fleurs, une équipe présente de 7 h à 21 h, et la liberté d'aller et venir.",
+      "texte": "23 logements de plain‑pied ouverts sur 5 000 m² d'arbres et de fleurs, une équipe présente de 7 h à 21 h, et la liberté d'aller et venir.",
       "action": "Demander une visite",
       "infoJour": "Équipe présente en ce moment",
       "infoNuit": "La nuit, médaillon relié à l'équipe",
       "infoHeures": "de 7 h à 21 h",
-      "defiler": "Découvrir la maison"
+      "defiler": "Découvrir la maison",
+      "fleur": "Faire tomber des pétales"
     },
     "pourqui": {
       "titre": "Pour les plus de 60 ans qui veulent garder leur liberté, sans vivre seuls.",
@@ -117,14 +119,20 @@
       "maintenant": "Il est {heure} à Bréval",
       "statutJour": "L'équipe est dans la maison.",
       "statutNuit": "Le médaillon veille, l'équipe intervient sur appel.",
-      "cadran": "Cadran de 24 heures : présence de l'équipe de 7 h à 21 h, médaillon la nuit"
+      "cadran": "Cadran de 24 heures : présence de l'équipe de 7 h à 21 h, médaillon la nuit",
+      "glisser": "Faites tourner l'aiguille : à chaque heure, ce qui se passe à la Maison.",
+      "retour": "Revenir à maintenant",
+      "programme": "Voir le programme",
+      "curseur": "Heure de la journée",
+      "maintenantMot": "maintenant"
     },
     "services": {
       "surtitre": "Les services",
       "titre": "Des services, ",
       "titreMot": "si vous le souhaitez",
       "texte": "Une équipe stable, qualifiée et formée par la MARPA s'occupe de ce qui vous simplifie la vie. Rien n'est imposé.",
-      "lien": "Tous les services"
+      "lien": "Tous les services",
+      "plus": "En savoir plus"
     },
     "semaine": {
       "surtitre": "Une semaine à la Maison",
@@ -140,7 +148,7 @@
       "surtitre": "Les lieux",
       "titre": "Une maison ",
       "titreMot": "qui se partage",
-      "texte": "Faites défiler : du jardin à la grande salle.",
+      "texte": "Du jardin à la grande salle, un lieu après l’autre.",
       "region": "Les lieux de la maison, défilement horizontal",
       "lien": "Les lieux de vie"
     },
@@ -158,6 +166,23 @@
       "texte": "Le plus simple est de venir voir : l'équipe vous fait visiter la maison, le jardin et un logement.",
       "visite": "Demander une visite",
       "appel": "01 34 78 03 39"
+    },
+    "envrai": {
+      "surtitre": "La maison, en vrai",
+      "titre": "15 rue du Vieux Chêne, ",
+      "titreMot": "à Bréval",
+      "texte": "Une maison de plain‑pied dans un jardin arboré, près du centre commercial et du bourg. Chaque logement a sa terrasse sur le jardin.",
+      "c1": "logements de plain‑pied",
+      "c2": "m² de jardin arboré",
+      "c3": "Gérée par une association à but non lucratif",
+      "lien": "Voir les lieux de vie"
+    },
+    "tarifs": {
+      "surtitre": "Tarifs et entrée",
+      "titre": "Les questions ",
+      "titreMot": "que l'on n'ose pas toujours poser",
+      "texte": "Les réponses de l'équipe, simplement.",
+      "lien": "Toutes les questions"
     }
   },
   "logements": {
@@ -269,10 +294,12 @@
     },
     "agenda": {
       "titre": "Les temps forts de novembre et décembre",
-      "texte": "Les dates passées se grisent toutes seules, la date du jour est repérée.",
+      "texte": "Les dates passées se rangent toutes seules, la date du jour est repérée. Pour l'afficher chez vous, imprimez le programme.",
       "filtres": "Types d'animations",
       "vide": "Aucune animation de ce type pour le moment.",
-      "maison": "À la Maison"
+      "maison": "À la Maison",
+      "imprimer": "Imprimer le programme",
+      "imprime": "Impression lancée"
     },
     "regulier": {
       "titre": "Les rendez-vous ",
@@ -338,7 +365,8 @@
       "plan": "Plan simplifié pour se repérer : la MARPA, le bourg et le centre commercial",
       "bourg": "Le bourg",
       "commerces": "Centre commercial",
-      "maison": "La MARPA"
+      "maison": "La MARPA",
+      "itineraire": "Itinéraire jusqu'à la MARPA"
     },
     "equipe": {
       "titre": "Qui vous répond"

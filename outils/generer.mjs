@@ -151,10 +151,11 @@ function contexte(l, meta) {
       const srcset = (n, ws) => ws.map((w) => `/assets/images/${n}-${w}.webp ${w}w`).join(', ');
       const grok = nom.startsWith('grok/') || nom.includes('/grok/');
       const style = `--cadrage:${cadrage}` + (ratio ? `;aspect-ratio:${ratio}` : '') + (cadrageMobile ? `;--cadrage-mobile:${cadrageMobile}` : '');
-      return html`<figure class="media ${classe}"${grok ? brut(' data-grok') : ''}${brut(attrs ? ' ' + attrs : '')} style="${style}">
+      const vraie = nom.startsWith('client/');
+      return html`<figure class="media ${classe}"${grok ? brut(' data-grok') : ''}${vraie ? brut(' data-vraie') : ''}${brut(attrs ? ' ' + attrs : '')} style="${style}">
   <picture>${mobiles.length ? html`<source media="(max-width: 760px) and (orientation: portrait)" srcset="${srcset(`${nom}-mobile`, mobiles)}" sizes="${sizes}">` : ''}
     <img src="${src}"${tailles.length ? html` srcset="${srcset(nom, tailles)}" sizes="${sizes}"` : ''} alt="${alt}"${dims ? brut(` width="${dims.largeur}" height="${dims.hauteur}"`) : ''} ${brut(priorite ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"')} decoding="async">
-  </picture>${grok ? html`<figcaption class="mention-ia">${brutTexte('commun.mentionIa')}</figcaption>` : ''}${legende ? html`<figcaption class="media-legende">${legende}</figcaption>` : ''}
+  </picture>${grok ? html`<figcaption class="mention-ia">${brutTexte('commun.mentionIa')}</figcaption>` : ''}${vraie ? html`<figcaption class="mention-vraie">${brutTexte('commun.photoVraie')}</figcaption>` : ''}${legende ? html`<figcaption class="media-legende">${legende}</figcaption>` : ''}
 </figure>`;
     },
   };

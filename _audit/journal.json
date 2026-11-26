@@ -56,7 +56,7 @@
           "etape": "livraison",
           "budget": 5,
           "debut": "2026-11-26T12:50:51+01:00",
-          "fin": ""
+          "fin": "2026-11-26T12:51:19+01:00"
         }
       ],
       "attentes": [
@@ -100,6 +100,61 @@
       ],
       "grilleDispenses": {},
       "notes": "Accueil et pages construites avant l'arrivée des images Grok (visuels provisoires) ; passe des formats et partage faits pendant l'attente des images Grok (12:18) ; aperçu en films après leur pose."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "les-logements",
+        "les-services",
+        "les-lieux",
+        "les-animations",
+        "contact"
+      ],
+      "demande": "mises à jour v2 issues de l'audit d'expérience (points P1, P2 et la fleur qui se cueille)",
+      "etapes": [
+        {
+          "etape": "audit d'expérience (document)",
+          "budget": 20,
+          "debut": "2026-11-26T13:05:00+01:00",
+          "fin": "2026-11-26T13:25:00+01:00"
+        },
+        {
+          "etape": "v2 : données, gabarits, styles et effets",
+          "budget": 45,
+          "debut": "2026-11-26T13:27:00+01:00",
+          "fin": "2026-11-26T13:50:00+01:00"
+        },
+        {
+          "etape": "v2 : audit, regard neuf et corrections",
+          "budget": 20,
+          "debut": "2026-11-26T13:50:00+01:00",
+          "fin": "2026-11-26T14:34:00+01:00"
+        },
+        {
+          "etape": "livraison v2",
+          "budget": 5,
+          "debut": "2026-11-26T14:34:00+01:00",
+          "fin": "2026-11-26T14:38:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "audit": {
+        "niveau": "rapide, standard, relances ciblées et passe des formats (complet, mesures et écran)",
+        "echecsPremierPassage": 2,
+        "relances": 2,
+        "corrections": [
+          "contraste des grands mots du jardin (ombre resserrée)",
+          "mentions des photos de l'éventail des services masquées sur téléphone : photos côte à côte, deux seulement sur petit écran",
+          "espace insécable dans la phrase du prochain rendez-vous de l'agenda"
+        ],
+        "aRegarder": [
+          "« à compléter » dans la mention de confidentialité du formulaire (politique à fournir)",
+          "rechargement au milieu des pages Animations et Services : écart dû aux filtres et tiroirs ouverts par le test avant le rechargement",
+          "points 4, 5 et 7 de la grille, déjà notés en v1"
+        ]
+      }
     }
   ]
 }

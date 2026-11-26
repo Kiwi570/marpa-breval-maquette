@@ -54,7 +54,7 @@ function entete(c) {
   return html`<header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="${c.url('accueil')}" data-libelle="${c.libelle('accueil')}" aria-label="${c.s('commun.logoLien')}"${c.page.cle === 'accueil' ? brut(' aria-current="page"') : ''}>
-      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230">
     </a>
     <nav data-nav aria-label="${c.s('commun.navigation')}">
       <ul>${navigation(c).filter((k) => k !== 'accueil').map((k) => html`<li>${c.lien(k)}</li>`)}</ul>

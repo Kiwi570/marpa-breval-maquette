@@ -1,8 +1,8 @@
-/* Pont entre les modules de la bibliothèque (import { pret } from '../../socle/socle.js?v=1') et le socle du projet :
+/* Pont entre les modules de la bibliothèque (import { pret } from '../../socle/socle.js?v=2') et le socle du projet :
    même GSAP (chargé par le gabarit), même boucle, même rafraîchissement regroupé, même défilement (aucun Lenis ici).
    Fichier propre au projet : le reste du dossier socle/ n'est pas modifié. */
-import { rafraichir as rafraichirSocle } from './mesures.js?v=1';
-import { boucle as boucleSocle } from './boucles.js?v=1';
+import { rafraichir as rafraichirSocle } from './mesures.js?v=2';
+import { boucle as boucleSocle } from './boucles.js?v=2';
 
 const charges = {};
 function script(src) {

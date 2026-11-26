@@ -22,13 +22,13 @@ Pages du site actuel non reprises : aucune (le menu « Plus » du site actuel es
 
 | Page | Ce qui manque | Ce qui est affiché à la place |
 |---|---|---|
-| Toutes | Tarifs (loyer, charges, repas, services) | « Les tarifs vous sont communiqués par l'équipe, au téléphone ou lors de la visite. » (questions fréquentes) |
+| Toutes | Tarifs (loyer, charges, repas, services) | « Les tarifs vous sont communiqués par l'équipe, au téléphone ou lors de la visite. » (accueil et questions fréquentes) |
 | Contact | Horaires d'accueil du public et de visite | Présence de l'équipe de 7 h à 21 h (donnée du site actuel) |
 | Les services | Horaires des repas | Aucun horaire affiché |
 | Les logements | Plan exact du logement | Schéma marqué « Schéma pour se repérer, ce n'est pas le plan exact » |
 | Contact | Plan d'accès réel | Plan simplifié marqué comme tel |
 | Les animations | Programme après le 13 décembre 2026 | « Le prochain programme sera affiché ici. » quand le planning est épuisé |
-| Toutes | Conditions d'admission détaillées, aides au logement | Non affichées |
+| Toutes | Conditions d'admission détaillées, aides au logement | Accueil (« Les questions que l'on n'ose pas toujours poser ») et questions fréquentes : « Posez la question à l'équipe : elle vous renseigne… » ; déroulé d'une entrée décrit sans délai ni pièce à fournir |
 
 ### Incohérences relevées sur le site actuel
 

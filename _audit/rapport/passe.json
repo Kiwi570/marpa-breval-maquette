@@ -1,15 +1,15 @@
 {
- "id": "20261126-114904-standard-cible-partiel",
- "date": "2026-11-26T11:50:41.020Z",
- "niveau": "standard",
- "pages": "/,/les-animations,/les-services,/contact",
+ "id": "20261126-133054-complet-partiel",
+ "date": "2026-11-26T13:38:23.186Z",
+ "niveau": "complet",
+ "pages": "toutes",
  "etapes": [
-  "fichiers",
-  "mesures"
+  "mesures",
+  "ecran"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 4,
+ "aRegarder": 0,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

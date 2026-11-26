@@ -84,6 +84,7 @@ export default (c) => {
     <div>
       <h2 data-anime="lignes">${titre(c, 'contact.venir')}</h2>
       <p data-anime>${c.t('contact.venir.texte')}</p>
+      <p data-anime><a class="bouton bouton--contour" href="https://www.google.com/maps/dir/?api=1&amp;destination=15%20rue%20du%20Vieux%20Ch%C3%AAne%2078980%20Br%C3%A9val" target="_blank" rel="noopener">${c.t('contact.venir.itineraire')}<span class="visuellement-cache"> ${c.t('commun.nouvelOnglet')}</span></a></p>
     </div>
     <figure class="plan-acces" data-visuel>
       <svg viewBox="0 0 400 300" role="img" aria-label="${c.s('contact.venir.plan')}" data-fx="trace">

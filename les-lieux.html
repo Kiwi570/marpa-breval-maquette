@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F2E8">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -71,7 +71,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil">
-      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230">
     </a>
     <nav data-nav aria-label="Navigation principale">
       <ul><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie" aria-current="page">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
@@ -125,10 +125,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="jardin" id="jardin" data-fx="plein-ecran" data-fx-depart="inset(14% 18% 14% 18% round 28px)">
   <div data-collant>
-    <figure class="media jardin-media" data-fx-cible style="--cadrage:55% 55%">
+    <figure class="media jardin-media" data-vraie data-fx-cible style="--cadrage:55% 55%">
   <picture>
     <img src="/assets/images/client/jardin-fleurs-1600.webp" srcset="/assets/images/client/jardin-fleurs-1024.webp 1024w, /assets/images/client/jardin-fleurs-1168.webp 1168w, /assets/images/client/jardin-fleurs-1600.webp 1600w" sizes="100vw" alt="Massif de pétunias et de géraniums devant la maison de plain‑pied, la serre et le jardin" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
     <p class="jardin-mots" aria-hidden="true" data-audit-ignorer><span data-fx-ecarte="g">5 000</span> <span data-fx-ecarte="d">m²</span></p>
     <div class="jardin-legende" data-fx-apres>
@@ -140,10 +140,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="lieux-liste conteneur" id="partages">
   <h2 class="lieux-liste-titre" data-anime="lignes">Les lieux que l&#39;on partage</h2>
   <article class="lieu" id="salle-de-vie">
-    <figure class="media lieu-photo" data-anime="rideau" style="--cadrage:50% 50%">
+    <figure class="media lieu-photo" data-vraie data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/salle-de-vie-1600.webp" srcset="/assets/images/client/salle-de-vie-1024.webp 1024w, /assets/images/client/salle-de-vie-1168.webp 1168w, /assets/images/client/salle-de-vie-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 55vw" alt="Salle de vie : tables de la salle à manger et cheminée" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
     <div class="lieu-texte">
       <span class="lieu-num" aria-hidden="true">01</span>
@@ -151,10 +151,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>Salle à manger, coin salon et cheminée : un lieu convivial, ouvert à tous.</p>
     </div>
   </article><article class="lieu lieu--inverse" id="petit-salon">
-    <figure class="media lieu-photo" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
+    <figure class="media lieu-photo" data-vraie data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/petit-salon-1600.webp" srcset="/assets/images/client/petit-salon-1024.webp 1024w, /assets/images/client/petit-salon-1168.webp 1168w, /assets/images/client/petit-salon-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 55vw" alt="Petit salon avec tapis de marche, vélo d’appartement et plantes" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
     <div class="lieu-texte">
       <span class="lieu-num" aria-hidden="true">02</span>
@@ -162,10 +162,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>Pour se reposer ou se retrouver, avec une bibliothèque, un vélo d&#39;appartement et un tapis de marche.</p>
     </div>
   </article><article class="lieu" id="grande-salle">
-    <figure class="media lieu-photo" data-anime="rideau" style="--cadrage:50% 50%">
+    <figure class="media lieu-photo" data-vraie data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/grande-salle-1600.webp" srcset="/assets/images/client/grande-salle-1024.webp 1024w, /assets/images/client/grande-salle-1168.webp 1168w, /assets/images/client/grande-salle-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 55vw" alt="Fête dans la grande salle d’animation, résidents et familles à table" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
     <div class="lieu-texte">
       <span class="lieu-num" aria-hidden="true">03</span>
@@ -181,10 +181,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p data-anime>Chaque logement a sa terrasse ouverte sur le jardin : on y discute avec ses voisins, on y fait des plantations, on y prend le soleil.</p>
       <p data-anime><a href="/les-logements#pieces" class="lien-fleche" data-libelle="Les logements">Voir les logements</a></p>
     </div>
-    <figure class="media terrasses-media" data-fx="zoom" style="--cadrage:55% 60%">
+    <figure class="media terrasses-media" data-vraie data-fx="zoom" style="--cadrage:55% 60%">
   <picture>
     <img src="/assets/images/client/logement-terrasse-1600.webp" srcset="/assets/images/client/logement-terrasse-1024.webp 1024w, /assets/images/client/logement-terrasse-1168.webp 1168w, /assets/images/client/logement-terrasse-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Terrasse devant un logement, chaises de jardin et pot de géraniums" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
   </div>
 </section>
@@ -195,8 +195,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">Venir se promener <em class="mot">dans le jardin</em></h2>
       <p data-anime>Le jardin se visite aussi : venez avec vos proches.</p>
       <p class="appel-actions" data-anime>
-        <a href="/contact?sujet=visite#visite" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
-        <a class="bouton bouton--contour-clair" href="tel:+33134780339">01 34 78 03 39</a>
+        <a href="/contact?sujet=visite#visite" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
+        <a class="bouton bouton--contour" href="tel:+33134780339">01 34 78 03 39</a>
       </p>
     </div>
   </div>
@@ -226,7 +226,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
-  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Une visite</a>
 </div>
 </body>
 </html>

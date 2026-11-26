@@ -34,6 +34,7 @@ export default (c) => {
     <h2 class="agd__h2" id="agd-titre" data-anime="lignes">${c.t('animations.agenda.titre')}</h2>
     <p class="agenda-aide">${c.t('animations.agenda.texte')}</p>
     <p class="agd__prochaine" data-prochaine aria-live="polite"></p>
+    <p class="agenda-imprimer"><button type="button" class="bouton bouton--contour" data-imprimer data-texte-fait="${c.s('animations.agenda.imprime')}">${c.t('animations.agenda.imprimer')}</button></p>
   </div>
   <div class="agd__outils">
     <div class="agd__filtres" role="group" aria-label="${c.s('animations.agenda.filtres')}"></div>

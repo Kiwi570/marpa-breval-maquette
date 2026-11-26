@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F2E8">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -71,7 +71,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil">
-      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230">
     </a>
     <nav data-nav aria-label="Navigation principale">
       <ul><li><a href="/les-logements" data-libelle="Les logements" aria-current="page">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
@@ -118,15 +118,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </div>
   </div>
   <div class="bandeau-photos">
-    <figure class="media bandeau-a" data-effet="bandeau" style="--cadrage:50% 45%">
+    <figure class="media bandeau-a" data-vraie data-effet="bandeau" style="--cadrage:50% 45%">
   <picture>
     <img src="/assets/images/client/logement-meuble-1600.webp" srcset="/assets/images/client/logement-meuble-1024.webp 1024w, /assets/images/client/logement-meuble-1168.webp 1168w, /assets/images/client/logement-meuble-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 60vw" alt="Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs" width="1600" height="1200" fetchpriority="high" loading="eager" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
-    <figure class="media bandeau-b" data-effet="bandeau" style="--cadrage:60% 55%">
+    <figure class="media bandeau-b" data-vraie data-effet="bandeau" style="--cadrage:60% 55%">
   <picture>
     <img src="/assets/images/client/logement-lit-1600.webp" srcset="/assets/images/client/logement-lit-1024.webp 1024w, /assets/images/client/logement-lit-1168.webp 1168w, /assets/images/client/logement-lit-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 40vw" alt="Chambre lumineuse avec lit et fauteuil" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
   </div>
 </section>
@@ -153,10 +153,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
       <ol class="pieces-liste">
         <li class="piece" id="piece-entree" data-piece="entree">
-          <figure class="media piece-media piece-media--petite" data-anime="rideau" style="--cadrage:50% 50%">
+          <figure class="media piece-media piece-media--petite" data-vraie data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/logement-cuisine-800.webp" srcset="/assets/images/client/logement-cuisine-640.webp 640w, /assets/images/client/logement-cuisine-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Coin cuisine avec évier et plaques" width="800" height="600" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
           <div class="piece-texte">
             <span class="piece-num" aria-hidden="true">1</span>
@@ -164,10 +164,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <p>Une entrée avec penderie et un coin cuisine pour préparer ses repas en toute autonomie.</p>
           </div>
         </li><li class="piece" id="piece-vie" data-piece="vie">
-          <figure class="media piece-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+          <figure class="media piece-media" data-vraie data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/logement-chambre-1600.webp" srcset="/assets/images/client/logement-chambre-1024.webp 1024w, /assets/images/client/logement-chambre-1168.webp 1168w, /assets/images/client/logement-chambre-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Chambre avec lit, fauteuil et grande penderie blanche" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
           <div class="piece-texte">
             <span class="piece-num" aria-hidden="true">2</span>
@@ -175,10 +175,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <p>Une salle de vie très ensoleillée. Des prises adaptées pour le téléphone, la télévision et internet, selon vos choix.</p>
           </div>
         </li><li class="piece" id="piece-eau" data-piece="eau">
-          <figure class="media piece-media piece-media--petite" data-anime="rideau" style="--cadrage:50% 50%">
+          <figure class="media piece-media piece-media--petite" data-vraie data-anime="rideau" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/logement-salle-eau-1600.webp" srcset="/assets/images/client/logement-salle-eau-1024.webp 1024w, /assets/images/client/logement-salle-eau-1168.webp 1168w, /assets/images/client/logement-salle-eau-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Salle d’eau avec douche de plain‑pied et barre d’appui" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
           <div class="piece-texte">
             <span class="piece-num" aria-hidden="true">3</span>
@@ -186,10 +186,10 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
             <p>Douche et WC sécurisés : l&#39;autonomie au quotidien, en toute sécurité.</p>
           </div>
         </li><li class="piece" id="piece-terrasse" data-piece="terrasse">
-          <figure class="media piece-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+          <figure class="media piece-media" data-vraie data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/client/logement-terrasse-1600.webp" srcset="/assets/images/client/logement-terrasse-1024.webp 1024w, /assets/images/client/logement-terrasse-1168.webp 1168w, /assets/images/client/logement-terrasse-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Terrasse devant un logement, chaises de jardin et pot de géraniums" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
           <div class="piece-texte">
             <span class="piece-num" aria-hidden="true">4</span>
@@ -256,8 +256,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">Voir un logement <em class="mot">en vrai</em></h2>
       <p data-anime>L&#39;équipe vous fait visiter un logement, la maison et le jardin.</p>
       <p class="appel-actions" data-anime>
-        <a href="/contact?sujet=visite#visite" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
-        <a class="bouton bouton--contour-clair" href="tel:+33134780339">01 34 78 03 39</a>
+        <a href="/contact?sujet=visite#visite" class="bouton" data-libelle="Contact" data-survol="magnetique">Demander une visite</a>
+        <a class="bouton bouton--contour" href="tel:+33134780339">01 34 78 03 39</a>
       </p>
     </div>
   </div>
@@ -287,7 +287,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
-  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Une visite</a>
 </div>
 </body>
 </html>

@@ -1,11 +1,11 @@
 /* Effets propres à la MARPA de Bréval. Le socle gère l'ouverture, le voile, l'en-tête, le défilement, les mesures
    et la bibliothèque d'effets (posés par attributs dans les pages). Ici : la fleur, le cadran de 24 h,
    le plan du logement, la rangée des lieux, le prochain rendez-vous, l'éventail des services, et les modules. */
-import { demarrer, boucle, quand, versObjet, rafraichir } from './socle/index.js?v=1';
-import { init as initSemainier } from './modules/semainier/module.js?v=1';
-import { init as initAgenda } from './modules/agenda-des-dates/module.js?v=1';
-import { init as initTiroirs } from './modules/offre-a-tiroirs/module.js?v=1';
-import { init as initFormulaire } from './modules/formulaire-par-etapes/module.js?v=1';
+import { demarrer, boucle, quand, versObjet, rafraichir } from './socle/index.js?v=2';
+import { init as initSemainier } from './modules/semainier/module.js?v=2';
+import { init as initAgenda } from './modules/agenda-des-dates/module.js?v=2';
+import { init as initTiroirs } from './modules/offre-a-tiroirs/module.js?v=2';
+import { init as initFormulaire } from './modules/formulaire-par-etapes/module.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -60,6 +60,18 @@ function petales() {
   });
   tailler();
   new ResizeObserver(tailler).observe(cv);
+  /* Cueillir la fleur : une gerbe de pétales part de son cœur. */
+  const bouton = $('[data-fleur-cueillir]');
+  let gerbe = [];
+  if (bouton) bouton.addEventListener('click', () => {
+    const rc = cv.getBoundingClientRect(), rf = (fl || bouton).getBoundingClientRect();
+    const cx = rf.left + rf.width / 2 - rc.left, cy = rf.top + rf.height / 2 - rc.top;
+    for (let i = 0; i < 26; i++) {
+      const ang = Math.random() * Math.PI * 2, v = 120 + Math.random() * 260;
+      gerbe.push({ x: cx, y: cy, vx: Math.cos(ang) * v, vy: Math.sin(ang) * v - 80, r: 9 + Math.random() * 9, a: ang, va: (Math.random() - 0.5) * 6, ph: Math.random() * 6.28, c: couleurs[i % couleurs.length], o: 0.95, vie: 0 });
+    }
+    if (gsap && fl) gsap.fromTo(fl, { scale: 0.82 }, { scale: 1, duration: 0.9, ease: 'elastic.out(1, 0.45)' });
+  });
   boucle(cv, (dt, t) => {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, W, H);
@@ -71,34 +83,85 @@ function petales() {
       ctx.beginPath(); ctx.moveTo(0, -p.r); ctx.bezierCurveTo(p.r * 0.9, -p.r * 0.6, p.r * 0.7, p.r * 0.7, 0, p.r); ctx.bezierCurveTo(-p.r * 0.7, p.r * 0.7, -p.r * 0.9, -p.r * 0.6, 0, -p.r); ctx.fill();
       ctx.restore();
     });
+    gerbe = gerbe.filter((p) => p.vie < 3.2 && p.y < H + 30);
+    gerbe.forEach((p) => {
+      p.vie += dt; p.vx *= 1 - 1.4 * dt; p.vy += (60 - p.vy) * 1.2 * dt; p.x += (p.vx + Math.sin(t * 1.5 + p.ph) * 26) * dt; p.y += p.vy * dt; p.a += p.va * dt;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.a); ctx.scale(1, 0.55 + 0.45 * Math.abs(Math.sin(t * 2 + p.ph)));
+      ctx.globalAlpha = p.o * Math.min(1, (3.2 - p.vie) / 0.8); ctx.fillStyle = p.c;
+      ctx.beginPath(); ctx.moveTo(0, -p.r); ctx.bezierCurveTo(p.r * 0.9, -p.r * 0.6, p.r * 0.7, p.r * 0.7, 0, p.r); ctx.bezierCurveTo(-p.r * 0.7, p.r * 0.7, -p.r * 0.9, -p.r * 0.6, 0, -p.r); ctx.fill();
+      ctx.restore();
+    });
     if (img) img.style.scale = (1.04 + Math.sin(t * 0.3) * 0.035).toFixed(4);
     if (fl) fl.style.rotate = ((t * 6) % 360).toFixed(2) + 'deg';
   });
 }
 
-/* ---------- Cadran de 24 h ---------- */
+/* ---------- Cadran de 24 h : l'aiguille rejoint l'heure de Bréval au défilement, puis on la fait tourner ---------- */
 function cadran() {
   const fig = $('[data-effet="cadran"]');
   if (!fig) return;
+  const zone = $('.cadran-zone', fig), svg = $('svg', fig), section = fig.closest('section');
   const aiguille = $('.cadran-aiguille', fig), heure = $('[data-cadran-heure]', fig), statut = $('[data-cadran-statut]', fig);
-  const textes = { jour: fig.closest('section').dataset.statutJour, nuit: fig.closest('section').dataset.statutNuit };
-  const angle = () => { const { h, m } = heureBreval(); return ((h + m / 60) / 24) * 360; };
+  const rdv = $('[data-cadran-rdv]', fig), retour = $('[data-cadran-retour]', fig), point = $('.cadran-maintenant', fig);
+  const textes = { jour: section.dataset.statutJour, nuit: section.dataset.statutNuit };
+  let moments = []; try { moments = JSON.parse(fig.dataset.moments || '[]'); } catch {}
+  const invite = rdv.textContent;
+  const maintenant = () => { const { h, m } = heureBreval(); return h + m / 60; };
+  const fmt = (x) => { let h = Math.floor(x), m = Math.round((x - h) * 60); if (m === 60) { h += 1; m = 0; } return heureTexte(h % 24, m); };
+  let choisie = null, st = null;
+  const placer = (x, duree = 0) => {
+    const a = (x / 24) * 360;
+    if (gsap) gsap.to(aiguille, { rotation: a, svgOrigin: '0 0', duration: duree, ease: 'power3.out', overwrite: true });
+  };
   const ecrire = () => {
-    const { h, m } = heureBreval();
-    const jour = h >= 7 && h < 21;
-    heure.textContent = heureTexte(h, m) + ' à Bréval';
+    const x = choisie ?? maintenant(), jour = x >= 7 && x < 21;
+    heure.textContent = choisie == null ? `${fmt(x)} à Bréval` : `À ${fmt(x)}`;
     statut.textContent = jour ? textes.jour : textes.nuit;
     fig.classList.toggle('est-nuit', !jour);
+    if (choisie == null) rdv.textContent = invite;
+    else {
+      const m = moments.find((o) => Math.abs(o.h - x) < 0.26);
+      rdv.textContent = m ? `${m.t}.` : jour ? 'Libre à chacun : sortir, recevoir, se reposer.' : 'Le médaillon veille : un appui suffit en cas d’urgence.';
+    }
+    retour.hidden = choisie == null;
+    zone.setAttribute('aria-valuenow', x.toFixed(2));
+    zone.setAttribute('aria-valuetext', fmt(x));
+    const n = maintenant(), a = (n / 24) * 2 * Math.PI - Math.PI / 2;
+    point.setAttribute('cx', (Math.cos(a) * 104).toFixed(1)); point.setAttribute('cy', (Math.sin(a) * 104).toFixed(1));
+  };
+  const choisir = (x, duree = 0) => {
+    if (st) { st.kill(); st = null; }
+    choisie = ((Math.round(x * 4) / 4) % 24 + 24) % 24;
+    placer(choisie, duree); ecrire();
   };
   ecrire();
-  setInterval(() => { if (!document.hidden) { ecrire(); if (gsap && aiguille.dataset.place) gsap.set(aiguille, { rotation: angle(), svgOrigin: '0 0' }); } }, 30000);
+  setInterval(() => { if (!document.hidden) { ecrire(); if (choisie == null && !st) placer(maintenant()); } }, 30000);
+  /* Glisser l'aiguille (souris ou doigt). */
+  const depuisPointeur = (e) => {
+    const r = svg.getBoundingClientRect();
+    const ang = Math.atan2(e.clientX - (r.left + r.width / 2), -(e.clientY - (r.top + r.height / 2)));
+    return ((ang / (2 * Math.PI)) * 24 + 24) % 24;
+  };
+  let tire = false;
+  zone.addEventListener('pointerdown', (e) => { tire = true; zone.setPointerCapture(e.pointerId); choisir(depuisPointeur(e), 0.25); });
+  zone.addEventListener('pointermove', (e) => { if (tire) choisir(depuisPointeur(e)); });
+  const lacherAiguille = () => { tire = false; };
+  zone.addEventListener('pointerup', lacherAiguille); zone.addEventListener('pointercancel', lacherAiguille);
+  zone.addEventListener('keydown', (e) => {
+    const x = choisie ?? maintenant(), pas = { ArrowRight: 0.5, ArrowUp: 0.5, ArrowLeft: -0.5, ArrowDown: -0.5 }[e.key];
+    if (pas) { e.preventDefault(); choisir(x + pas, 0.2); }
+    else if (e.key === 'Home') { e.preventDefault(); choisir(0, 0.3); }
+    else if (e.key === 'End') { e.preventDefault(); choisir(23.5, 0.3); }
+    else if (e.key === 'Escape' && choisie != null) { e.preventDefault(); retour.click(); }
+  });
+  retour.addEventListener('click', () => { choisie = null; placer(maintenant(), 0.8); ecrire(); zone.focus({ preventScroll: true }); });
   if (!gsap) return;
-  /* L'aiguille fait le tour jusqu'à l'heure réelle pendant que la section arrive ; les arcs se dessinent. */
-  const arcs = $$('.cadran-arc', fig);
-  arcs.forEach((a) => { const L = a.getTotalLength(); a.style.strokeDasharray = a.classList.contains('cadran-arc--nuit') ? '2 6' : `${L} ${L}`; if (!a.classList.contains('cadran-arc--nuit')) a.style.strokeDashoffset = L; a.dataset.l = L; });
-  gsap.timeline({ scrollTrigger: { trigger: fig, start: 'top 85%', end: 'center 50%', scrub: 0.7 } })
-    .fromTo(aiguille, { rotation: 0, svgOrigin: '0 0' }, { rotation: () => angle(), svgOrigin: '0 0', ease: 'none', onComplete: () => { aiguille.dataset.place = '1'; } }, 0)
-    .fromTo(arcs.filter((a) => !a.classList.contains('cadran-arc--nuit')), { strokeDashoffset: (i, a) => +a.dataset.l }, { strokeDashoffset: 0, ease: 'none' }, 0);
+  /* Au défilement : l'aiguille fait le tour jusqu'à l'heure réelle, l'arc du jour se dessine. */
+  const arcs = $$('.cadran-arc', fig).filter((a) => !a.classList.contains('cadran-arc--nuit'));
+  arcs.forEach((a) => { const L = a.getTotalLength(); a.style.strokeDasharray = `${L} ${L}`; a.style.strokeDashoffset = L; a.dataset.l = L; });
+  gsap.fromTo(arcs, { strokeDashoffset: (i, a) => +a.dataset.l }, { strokeDashoffset: 0, ease: 'none', scrollTrigger: { trigger: fig, start: 'top 85%', end: 'center 50%', scrub: 0.7 } });
+  const tw = gsap.fromTo(aiguille, { rotation: 0, svgOrigin: '0 0' }, { rotation: () => (maintenant() / 24) * 360, svgOrigin: '0 0', ease: 'none', scrollTrigger: { trigger: fig, start: 'top 85%', end: 'center 50%', scrub: 0.7 } });
+  st = tw.scrollTrigger;
 }
 
 /* ---------- Plan du logement : les pièces s'allument une à une ---------- */
@@ -208,17 +271,37 @@ function rangee() {
 function modules() {
   const smn = $('[data-module="semainier"]');
   if (smn) {
-    let formule;
+    let formule, courante = null;
     try {
       const d = JSON.parse(smn.querySelector('[data-donnees]').textContent);
       const auj = heureBreval().date;
-      const f = d.formules.find((x) => { const fin = new Date(x.lundi + 'T12:00:00'); fin.setDate(fin.getDate() + 6); return auj >= x.lundi && auj <= fin.toISOString().slice(0, 10); })
-        || d.formules.find((x) => x.lundi > auj) || d.formules[d.formules.length - 1];
+      const cour = d.formules.find((x) => { const fin = new Date(x.lundi + 'T12:00:00'); fin.setDate(fin.getDate() + 6); return auj >= x.lundi && auj <= fin.toISOString().slice(0, 10); });
+      const f = cour || d.formules.find((x) => x.lundi > auj) || d.formules[d.formules.length - 1];
       formule = f && f.id;
+      courante = cour ? cour.id : null;
     } catch {}
-    initSemainier(smn, { formule, mots: ['rendez-vous', 'rendez-vous'], format: (m) => `${m} rendez-vous` });
+    const idxJour = (new Date(heureBreval().date + 'T12:00:00').getDay() + 6) % 7;
+    const marquerJour = () => {
+      smn.querySelectorAll('.smn-aujourdhui, .smn-onglet-jour').forEach((e) => e.classList.remove('smn-aujourdhui', 'smn-onglet-jour'));
+      const bouton = smn.querySelector('[data-formule][aria-pressed="true"]');
+      if (!bouton || !courante || bouton.dataset.formule !== courante) return;
+      smn.querySelectorAll('table tr').forEach((tr) => { const cell = tr.children[idxJour + 1]; if (cell) cell.classList.add('smn-aujourdhui'); });
+      const onglet = smn.querySelectorAll('[role="tab"]')[idxJour]; if (onglet) onglet.classList.add('smn-onglet-jour');
+    };
+    Promise.resolve(initSemainier(smn, { formule, jour: idxJour, mots: ['rendez-vous', 'rendez-vous'], format: (m) => `${m} rendez-vous` }))
+      .then(() => { marquerJour(); smn.addEventListener('click', () => setTimeout(marquerJour, 60)); })
+      .catch((err) => console.error(err));
   }
-  $$('[data-module="agenda-des-dates"]').forEach((el) => initAgenda(el, { fuseau: 'Europe/Paris' }));
+  $$('[data-module="agenda-des-dates"]').forEach((el) => {
+    Promise.resolve(initAgenda(el, { fuseau: 'Europe/Paris' })).then(() => {
+      /* Typographie française dans la phrase du module : espace insécable avant « : », même quand elle se met à jour. */
+      const p = el.querySelector('.agd__prochaine');
+      if (!p) return;
+      const corriger = () => { if (/ :/.test(p.textContent)) p.textContent = p.textContent.replace(/ :/g, '\u00a0:'); };
+      corriger();
+      new MutationObserver(corriger).observe(p, { childList: true, characterData: true, subtree: true });
+    }).catch((err) => console.error(err));
+  });
   $$('[data-module="offre-a-tiroirs"]').forEach((el) => {
     const voulu = new URLSearchParams(location.search).get('service');
     const index = voulu ? $$('.ofr__tiroir', el).findIndex((t) => t.id === voulu) : -1;
@@ -227,6 +310,15 @@ function modules() {
   $$('[data-module="formulaire-par-etapes"]').forEach((el) => {
     Promise.resolve(initFormulaire(el, {})).then(() => preremplir(el.querySelector('form'))).catch((err) => console.error(err));
   });
+}
+
+/* ---------- Animations : imprimer le programme ---------- */
+function imprimer() {
+  $$('[data-imprimer]').forEach((b) => b.addEventListener('click', () => {
+    const t = b.textContent; b.textContent = b.dataset.texteFait;
+    setTimeout(() => { try { window.print(); } catch {} }, 60);
+    setTimeout(() => { b.textContent = t; }, 2600);
+  }));
 }
 
 /* ---------- Intro ---------- */
@@ -266,6 +358,7 @@ demarrer({
     eventail();
     prochain();
     telephone();
+    imprimer();
     try { modules(); } catch (err) { console.error('[site] modules', err); }
     /* Le titre de l'ouverture reste caché jusqu'à son arrivée (posé ici, pas après coup). */
     if (gsap && $('.ouv-accueil')) {

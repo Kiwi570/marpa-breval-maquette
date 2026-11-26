@@ -3,7 +3,7 @@
   "nomMaison": "La Maison des Fleurs",
   "adresse": "https://marpa-breval-maquette.vercel.app",
   "siteActuel": "www.marpadebreval.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr"],
   "navigation": ["accueil", "les-logements", "les-services", "les-lieux", "les-animations", "contact"],
   "actionEntete": { "page": "contact", "ancre": "visite" },

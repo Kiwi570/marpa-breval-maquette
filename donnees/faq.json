@@ -1,8 +1,34 @@
 [
-  { "q": "Pour qui est la MARPA ?", "r": "Pour des personnes âgées autonomes de plus de 60 ans, qui souhaitent vivre chez elles avec des services et la présence d'une équipe." },
-  { "q": "Est-ce une maison médicalisée ?", "r": "Non. La MARPA est une résidence autonomie : chacun garde son médecin et choisit librement ses intervenants à domicile." },
-  { "q": "Puis-je venir avec mes meubles et mon animal ?", "r": "Oui. Chaque logement se meuble à votre goût, avec vos meubles et vos souvenirs, et les animaux domestiques sont acceptés." },
-  { "q": "Que se passe-t-il la nuit ?", "r": "Le hall s'ouvre avec un digicode. Chaque résident porte un médaillon relié à l'équipe, qui intervient en cas d'appel d'urgence, 24 h/24." },
-  { "q": "Quels sont les tarifs ?", "r": "Les tarifs vous sont communiqués par l'équipe, au téléphone ou lors de la visite." },
-  { "q": "Peut-on visiter ?", "r": "Oui, l'équipe vous fait visiter la maison, le jardin et un logement. Appelez-nous ou laissez une demande de visite." }
+  {
+    "q": "Pour qui est la MARPA ?",
+    "r": "Pour des personnes âgées autonomes de plus de 60 ans, qui souhaitent vivre chez elles avec des services et la présence d'une équipe."
+  },
+  {
+    "q": "Est-ce une maison médicalisée ?",
+    "r": "Non. La MARPA est une résidence autonomie : chacun garde son médecin et choisit librement ses intervenants à domicile."
+  },
+  {
+    "q": "Puis-je venir avec mes meubles et mon animal ?",
+    "r": "Oui. Chaque logement se meuble à votre goût, avec vos meubles et vos souvenirs, et les animaux domestiques sont acceptés."
+  },
+  {
+    "q": "Que se passe-t-il la nuit ?",
+    "r": "Le hall s'ouvre avec un digicode. Chaque résident porte un médaillon relié à l'équipe, qui intervient en cas d'appel d'urgence, 24 h/24."
+  },
+  {
+    "q": "Quels sont les tarifs ?",
+    "r": "Les tarifs vous sont communiqués par l'équipe, au téléphone ou lors de la visite."
+  },
+  {
+    "q": "Existe-t-il des aides pour le loyer ?",
+    "r": "Posez la question à l'équipe : elle vous renseigne, au téléphone ou lors de la visite, selon votre situation."
+  },
+  {
+    "q": "Comment se passe une entrée ?",
+    "r": "Tout commence par une visite : l'équipe vous montre la maison, le jardin et un logement, répond à vos questions et vous explique les étapes."
+  },
+  {
+    "q": "Peut-on visiter ?",
+    "r": "Oui, l'équipe vous fait visiter la maison, le jardin et un logement. Appelez-nous ou laissez une demande de visite."
+  }
 ]

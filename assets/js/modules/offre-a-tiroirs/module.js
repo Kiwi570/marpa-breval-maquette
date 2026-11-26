@@ -2,7 +2,7 @@
 // le contenu se déplie) ; sur ordinateur, une colonne collante montre l'image du tiroir ouvert. « En parler » envoie
 // le sujet de la prestation dans l'adresse du formulaire. Un tiroir s'ouvre aussi par l'adresse (#identifiant).
 // Sans JavaScript, tout est déplié et lisible ; en mode calme, rien ne glisse.
-import { pret } from '../../socle/socle.js?v=1';
+import { pret } from '../../socle/socle.js?v=2';
 
 /**
  * Un tiroir : <li class="ofr__tiroir" id="renovation" data-sujet="Rénovation complète">

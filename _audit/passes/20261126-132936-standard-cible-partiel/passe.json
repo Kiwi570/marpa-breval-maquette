@@ -1,0 +1,16 @@
+{
+ "id": "20261126-132936-standard-cible-partiel",
+ "date": "2026-11-26T13:30:51.625Z",
+ "niveau": "standard",
+ "pages": "/,/les-lieux,/les-services",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 2,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

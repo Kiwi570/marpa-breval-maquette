@@ -3,7 +3,7 @@
 // les créneaux retirés s'effacent, le récapitulatif (heures par type) et le journal (aria-live) se mettent à jour.
 // Les données sont dans la page : <script type="application/json" data-donnees> (ou options.donnees).
 // Vraie <table> (en-têtes de colonnes = jours, en-têtes de lignes = moments) ; sur téléphone, un jour à la fois avec des onglets accessibles.
-import { pret } from '../../socle/socle.js?v=1';
+import { pret } from '../../socle/socle.js?v=2';
 
 let compteur = 0;
 

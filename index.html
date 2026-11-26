@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/alegreya-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F7F2E8">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -71,7 +71,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <header data-entete>
   <div class="entete-rangee">
     <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="MARPA de Bréval, accueil" aria-current="page">
-      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230"><span class="entete-lieu">de Bréval</span>
+      <img src="/assets/images/logo-maison.png" alt="" width="401" height="230">
     </a>
     <nav data-nav aria-label="Navigation principale">
       <ul><li><a href="/les-logements" data-libelle="Les logements">Les logements</a></li><li><a href="/les-services" data-libelle="Les services">Les services</a></li><li><a href="/les-lieux" data-libelle="Les lieux de vie">Les lieux de vie</a></li><li><a href="/les-animations" data-libelle="Les animations">Les animations</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
@@ -116,13 +116,33 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur ouv-accueil-texte">
     <p class="surtitre" data-anime="gsap">Résidence autonomie · Bréval (78)</p>
     <h1 class="ouv-titre"><span class="ouv-ligne"><span>Chez soi,</span></span> <span class="ouv-ligne"><span>au milieu</span></span> <span class="ouv-ligne"><span>d&#39;un <em class="mot">jardin</em></span></span></h1>
-    <p class="ouv-texte" data-anime="gsap">22 logements de plain‑pied ouverts sur 5 000 m² d&#39;arbres et de fleurs, une équipe présente de 7 h à 21 h, et la liberté d&#39;aller et venir.</p>
+    <p class="ouv-texte" data-anime="gsap">23 logements de plain‑pied ouverts sur 5 000 m² d&#39;arbres et de fleurs, une équipe présente de 7 h à 21 h, et la liberté d&#39;aller et venir.</p>
     <p class="ouv-actions" data-anime="gsap">
       <a href="/contact?sujet=visite#visite" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander une visite</a>
       <span class="ouv-info" data-info-cle><span class="point-vert" aria-hidden="true"></span>Équipe présente de 7 h à 21 h · médaillon 24 h/24</span>
     </p>
   </div>
-  <div class="ouv-fleur"><svg class="fleur fleur--accueil" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-iris-centre="disque" data-effet="fleur"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg></div>
+  <button type="button" class="ouv-fleur" aria-label="Faire tomber des pétales" data-fleur-cueillir><svg class="fleur fleur--accueil" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false" data-iris-centre="disque" data-effet="fleur"><g class="fleur-petales"><g transform="rotate(0)"><path class="petale" style="--i:0" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(72)"><path class="petale" style="--i:1" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(144)"><path class="petale" style="--i:2" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(216)"><path class="petale" style="--i:3" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g><g transform="rotate(288)"><path class="petale" style="--i:4" d="M0 -7 C 15 -15 18 -40 0 -47 C -18 -40 -15 -15 0 -7 Z"/></g></g><circle class="fleur-coeur" r="10"/></svg></button>
+</section>
+<section class="envrai" id="en-vrai">
+  <div class="conteneur envrai-grille">
+    <figure class="media envrai-photo" data-vraie data-anime="rideau" style="--cadrage:55% 55%">
+  <picture>
+    <img src="/assets/images/client/jardin-fleurs-1600.webp" srcset="/assets/images/client/jardin-fleurs-1024.webp 1024w, /assets/images/client/jardin-fleurs-1168.webp 1168w, /assets/images/client/jardin-fleurs-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 44vw" alt="Massif de pétunias et de géraniums devant la maison de plain‑pied, la serre et le jardin" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
+</figure>
+    <div class="envrai-texte">
+      <p class="surtitre" data-anime>La maison, en vrai</p>
+      <h2 data-anime="lignes">15 rue du Vieux Chêne, <em class="mot">à Bréval</em></h2>
+      <p data-anime>Une maison de plain‑pied dans un jardin arboré, près du centre commercial et du bourg. Chaque logement a sa terrasse sur le jardin.</p>
+      <ul class="envrai-chiffres" data-anime="cascade">
+        <li><strong data-compteur="23">23</strong><span>logements de plain‑pied</span></li>
+        <li><strong data-compteur="5000">5 000</strong><span>m² de jardin arboré</span></li>
+        <li class="envrai-asso"><svg class="picto picto--petit" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M24 40S8 30 8 18a8 8 0 0 1 16-3 8 8 0 0 1 16 3c0 12-16 22-16 22z"/></svg><span>Gérée par une association à but non lucratif</span></li>
+      </ul>
+      <p data-anime><a href="/les-lieux" class="lien-fleche" data-libelle="Les lieux de vie">Voir les lieux de vie</a></p>
+    </div>
+  </div>
 </section>
 <section class="pourqui conteneur" id="pour-qui">
   <h2 class="pourqui-titre" data-anime="mots">Pour les plus de 60 ans qui veulent garder leur liberté, sans vivre seuls.</h2>
@@ -138,15 +158,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 <section class="logement-a" id="logement">
   <div class="conteneur logement-a-grille">
     <div class="logement-a-photos">
-      <figure class="media logement-a-grand" data-anime="rideau" style="--cadrage:55% 45%">
+      <figure class="media logement-a-grand" data-vraie data-anime="rideau" style="--cadrage:55% 45%">
   <picture>
     <img src="/assets/images/client/logement-meuble-1600.webp" srcset="/assets/images/client/logement-meuble-1024.webp 1024w, /assets/images/client/logement-meuble-1168.webp 1168w, /assets/images/client/logement-meuble-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Logement meublé par une résidente : fauteuil, commode, télévision et souvenirs" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
-      <figure class="media logement-a-petit" data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 60%">
+      <figure class="media logement-a-petit" data-vraie data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 60%">
   <picture>
     <img src="/assets/images/client/logement-terrasse-1600.webp" srcset="/assets/images/client/logement-terrasse-1024.webp 1024w, /assets/images/client/logement-terrasse-1168.webp 1168w, /assets/images/client/logement-terrasse-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 20vw" alt="Terrasse devant un logement, chaises de jardin et pot de géraniums" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
     </div>
     <div class="logement-a-texte">
@@ -194,8 +214,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <li><span class="pastille pastille--nuit" aria-hidden="true"></span>21 h – 7 h : digicode, médaillon relié à l&#39;équipe</li>
       </ul>
     </div>
-    <figure class="cadran" data-effet="cadran" data-visuel>
-      <svg viewBox="-120 -120 240 240" role="img" aria-label="Cadran de 24 heures : présence de l&#39;équipe de 7 h à 21 h, médaillon la nuit">
+    <figure class="cadran" data-effet="cadran" data-visuel data-moments="[{&quot;h&quot;:7,&quot;t&quot;:&quot;Le hall ouvre, l’équipe arrive&quot;},{&quot;h&quot;:10,&quot;t&quot;:&quot;Jardinage, le mardi&quot;},{&quot;h&quot;:10.5,&quot;t&quot;:&quot;Promenade, le mercredi et le vendredi&quot;},{&quot;h&quot;:10.5,&quot;t&quot;:&quot;Enfants du RIPE, le jeudi&quot;},{&quot;h&quot;:15,&quot;t&quot;:&quot;Réveil sensoriel, le jeudi&quot;},{&quot;h&quot;:15,&quot;t&quot;:&quot;Jeux, le mercredi et le jeudi et le dimanche&quot;},{&quot;h&quot;:15.5,&quot;t&quot;:&quot;Cuisine, le samedi&quot;},{&quot;h&quot;:15.5,&quot;t&quot;:&quot;Loto, le mercredi et le samedi&quot;},{&quot;h&quot;:16.5,&quot;t&quot;:&quot;Gymnastique, le lundi&quot;},{&quot;h&quot;:21,&quot;t&quot;:&quot;Le hall passe au digicode, le médaillon veille&quot;}]">
+      <div class="cadran-zone" role="slider" tabindex="0" aria-label="Heure de la journée" aria-valuemin="0" aria-valuemax="23.5" aria-valuenow="12" aria-valuetext="12 h" data-grille="manipuler">
+      <svg viewBox="-120 -120 240 240" aria-hidden="true">
         <circle class="cadran-fond" r="112"/>
         <path class="cadran-arc cadran-arc--nuit" d="M-65.05 -65.05 A92 92 0 0 1 88.87 23.81"/>
         <path class="cadran-arc cadran-arc--jour" d="M88.87 23.81 A92 92 0 1 1 -65.05 -65.05"/>
@@ -203,9 +224,18 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <g class="cadran-heures">
           <text x="0" y="-60">0 h</text><text x="62" y="5">6 h</text><text x="0" y="70">12 h</text><text x="-62" y="5">18 h</text>
         </g>
-        <g class="cadran-aiguille"><path d="M0 8 V-96"/><circle r="7"/></g>
+        <g class="cadran-soleil" transform="translate(88.87 23.81)"><circle r="13"/><circle r="4.5"/><path d="M0 -9v3M0 9v-3M-9 0h3M9 0h-3M-6.4 -6.4l2 2M6.4 6.4l-2 -2M-6.4 6.4l2 -2M6.4 -6.4l-2 2"/></g>
+        <g class="cadran-lune" transform="translate(-65.05 -65.05)"><circle r="13"/><path d="M3 -6.5a7 7 0 1 0 3.5 10.5a5.5 5.5 0 1 1 -3.5 -10.5z"/></g>
+        <circle class="cadran-maintenant" r="5" cx="0" cy="-104"/>
+        <g class="cadran-aiguille"><path d="M0 8 V-96"/><circle r="7"/><circle class="cadran-poignee" cy="-84" r="9"/></g>
       </svg>
-      <figcaption class="cadran-statut" aria-live="polite"><span class="cadran-heure" data-cadran-heure>7 h – 21 h</span><span data-cadran-statut>7 h – 21 h : équipe présente, hall ouvert</span></figcaption>
+      </div>
+      <figcaption class="cadran-statut" aria-live="polite">
+        <span class="cadran-heure" data-cadran-heure>7 h – 21 h</span>
+        <span data-cadran-statut>7 h – 21 h : équipe présente, hall ouvert</span>
+        <span class="cadran-rdv" data-cadran-rdv>Faites tourner l&#39;aiguille : à chaque heure, ce qui se passe à la Maison.</span>
+        <span class="cadran-liens"><button type="button" class="cadran-retour" data-cadran-retour hidden>Revenir à maintenant</button><a href="/les-animations" class="lien-fleche lien-fleche--clair" data-libelle="Les animations">Voir le programme</a></span>
+      </figcaption>
     </figure>
   </div>
 </section>
@@ -218,49 +248,38 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <ul class="services-cartes" data-anime="cascade">
     <li class="service-carte">
       <a href="/les-services?service=restauration#les-cinq" data-libelle="Les services">
-        <figure class="media service-media" data-grok style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/services-table-1168.webp" srcset="/assets/images/grok/services-table-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 20vw" alt="Table dressée pour le déjeuner dans une salle à manger lumineuse" width="1168" height="730" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
+        <span class="service-dessin" data-visuel aria-hidden="true"><svg class="dessin-service" viewBox="0 0 96 96" aria-hidden="true" focusable="false" data-fx="trace"><circle cx="50" cy="52" r="24"/><circle cx="50" cy="52" r="14"/><path d="M14 22v16a5 5 0 0 0 10 0V22M19 22v56"/><path d="M84 22c-7 7-7 20 0 25v31"/></svg></span>
         <h3>La restauration</h3>
         <p>Trois repas cuisinés sur place, pour qui le souhaite</p>
+        <span class="service-plus">En savoir plus</span>
       </a>
     </li><li class="service-carte">
       <a href="/les-services?service=teleassistance#les-cinq" data-libelle="Les services">
-        <div class="media service-medaillon" data-visuel aria-hidden="true"><span class="onde-appel"></span><span class="onde-appel onde-appel--2"></span><svg viewBox="0 0 80 80"><circle cx="40" cy="44" r="18"/><path d="M40 10v16"/><path d="M33 10h14"/><circle cx="40" cy="44" r="7"/></svg></div>
+        <span class="service-dessin" data-visuel aria-hidden="true"><svg class="dessin-service" viewBox="0 0 96 96" aria-hidden="true" focusable="false" data-fx="trace"><path d="M32 12q16 28 32 0"/><circle cx="48" cy="54" r="20"/><circle cx="48" cy="54" r="7"/><path d="M76 42a16 16 0 0 1 0 24M84 34a26 26 0 0 1 0 40"/></svg></span>
         <h3>La téléassistance</h3>
         <p>Un médaillon relié à l&#39;équipe, 24 h/24</p>
+        <span class="service-plus">En savoir plus</span>
       </a>
     </li><li class="service-carte">
       <a href="/les-services?service=animations#les-cinq" data-libelle="Les services">
-        <figure class="media service-media" data-grok style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/grok/animations-atelier-1600.webp" srcset="/assets/images/grok/animations-atelier-1024.webp 1024w, /assets/images/grok/animations-atelier-1168.webp 1168w, /assets/images/grok/animations-atelier-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 20vw" alt="Table d&#39;atelier avec fleurs coupées, vases, argile et outils de modelage" width="1600" height="2000" loading="lazy" decoding="async">
-  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
-</figure>
+        <span class="service-dessin" data-visuel aria-hidden="true"><svg class="dessin-service" viewBox="0 0 96 96" aria-hidden="true" focusable="false" data-fx="trace"><path d="M36 62h24l-4 22H40z"/><path d="M48 62V36M48 48c-7-5-12-5-16-2M48 44c7-5 12-5 16-2"/><circle cx="48" cy="28" r="6"/><circle cx="38" cy="22" r="5"/><circle cx="58" cy="22" r="5"/><circle cx="48" cy="16" r="5"/></svg></span>
         <h3>Les animations</h3>
         <p>Toute l&#39;année, choisies avec les résidents</p>
+        <span class="service-plus">En savoir plus</span>
       </a>
     </li><li class="service-carte">
       <a href="/les-services?service=entretien#les-cinq" data-libelle="Les services">
-        <figure class="media service-media" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/client/logement-lit-1600.webp" srcset="/assets/images/client/logement-lit-1024.webp 1024w, /assets/images/client/logement-lit-1168.webp 1168w, /assets/images/client/logement-lit-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 20vw" alt="Chambre lumineuse avec lit et fauteuil" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
-</figure>
+        <span class="service-dessin" data-visuel aria-hidden="true"><svg class="dessin-service" viewBox="0 0 96 96" aria-hidden="true" focusable="false" data-fx="trace"><path d="M12 72V38M12 60h72v12M84 60V50a8 8 0 0 0-8-8H40v18"/><circle cx="24" cy="50" r="6"/><path d="M70 14v12M64 20h12M58 30v6M55 33h6"/></svg></span>
         <h3>L&#39;entretien du logement</h3>
         <p>Assuré par le personnel qualifié, si vous le souhaitez</p>
+        <span class="service-plus">En savoir plus</span>
       </a>
     </li><li class="service-carte">
       <a href="/les-services?service=linge#les-cinq" data-libelle="Les services">
-        <figure class="media service-media" style="--cadrage:50% 50%">
-  <picture>
-    <img src="/assets/images/client/linge-800.webp" srcset="/assets/images/client/linge-640.webp 640w, /assets/images/client/linge-800.webp 800w" sizes="(max-width: 760px) 50vw, 20vw" alt="Pile de pulls pliés" width="800" height="600" loading="lazy" decoding="async">
-  </picture>
-</figure>
+        <span class="service-dessin" data-visuel aria-hidden="true"><svg class="dessin-service" viewBox="0 0 96 96" aria-hidden="true" focusable="false" data-fx="trace"><path d="M34 16 16 26l8 15 8-4v41h32V37l8 4 8-15-18-10c-2 6-8 10-14 10s-12-4-14-10z"/><path d="M40 52h16M40 62h16"/></svg></span>
         <h3>L&#39;entretien du linge</h3>
         <p>Les vêtements de chacun lavés à part</p>
+        <span class="service-plus">En savoir plus</span>
       </a>
     </li>
   </ul>
@@ -288,55 +307,55 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="surtitre">Les lieux</p>
       <h2 data-anime="lignes">Une maison <em class="mot">qui se partage</em></h2>
     </div>
-    <p class="lieux-a-aide">Faites défiler : du jardin à la grande salle.</p>
+    <p class="lieux-a-aide">Du jardin à la grande salle, un lieu après l’autre.</p>
   </div>
   <div class="lieux-fenetre" data-galerie tabindex="0" role="region" aria-label="Les lieux de la maison, défilement horizontal"><div class="lieux-piste" data-effet="rangee">
     <article class="lieu-carte">
       <a href="/les-lieux#jardin" data-libelle="Les lieux de vie">
-        <figure class="media lieu-media" style="--cadrage:50% 55%">
-  <picture>
-    <img src="/assets/images/client/jardin-fleurs-1600.webp" srcset="/assets/images/client/jardin-fleurs-1024.webp 1024w, /assets/images/client/jardin-fleurs-1168.webp 1168w, /assets/images/client/jardin-fleurs-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="Massif de pétunias et de géraniums devant la maison, la serre et le jardin" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+        <figure class="media lieu-media" data-grok style="--cadrage:50% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/lieux-arbres-mobile-640.webp 640w, /assets/images/grok/lieux-arbres-mobile-1080.webp 1080w" sizes="(max-width: 760px) 80vw, 34vw">
+    <img src="/assets/images/grok/lieux-arbres-1280.webp" srcset="/assets/images/grok/lieux-arbres-640.webp 640w, /assets/images/grok/lieux-arbres-1280.webp 1280w, /assets/images/grok/lieux-arbres-1920.webp 1920w" sizes="(max-width: 760px) 80vw, 34vw" alt="Grands arbres au-dessus d’une pelouse, lumière d’été qui traverse les feuilles" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
 </figure>
         <h3>Le jardin</h3>
         <p>5 000 m² d’arbres et de fleurs</p>
       </a>
     </article><article class="lieu-carte">
       <a href="/les-lieux#salle-de-vie" data-libelle="Les lieux de vie">
-        <figure class="media lieu-media" style="--cadrage:50% 55%">
+        <figure class="media lieu-media" data-vraie style="--cadrage:50% 55%">
   <picture>
     <img src="/assets/images/client/salle-de-vie-1600.webp" srcset="/assets/images/client/salle-de-vie-1024.webp 1024w, /assets/images/client/salle-de-vie-1168.webp 1168w, /assets/images/client/salle-de-vie-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="Salle de vie : tables de la salle à manger et cheminée" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
         <h3>La salle de vie</h3>
         <p>Salle à manger, salon et cheminée</p>
       </a>
     </article><article class="lieu-carte">
       <a href="/les-lieux#petit-salon" data-libelle="Les lieux de vie">
-        <figure class="media lieu-media" style="--cadrage:50% 55%">
+        <figure class="media lieu-media" data-vraie style="--cadrage:50% 55%">
   <picture>
     <img src="/assets/images/client/petit-salon-1600.webp" srcset="/assets/images/client/petit-salon-1024.webp 1024w, /assets/images/client/petit-salon-1168.webp 1168w, /assets/images/client/petit-salon-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="Petit salon avec tapis de marche, vélo d’appartement et plantes" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
         <h3>Le petit salon</h3>
         <p>Bibliothèque, vélo et tapis de marche</p>
       </a>
     </article><article class="lieu-carte">
       <a href="/les-lieux#grande-salle" data-libelle="Les lieux de vie">
-        <figure class="media lieu-media" style="--cadrage:50% 55%">
+        <figure class="media lieu-media" data-vraie style="--cadrage:50% 55%">
   <picture>
     <img src="/assets/images/client/grande-salle-1600.webp" srcset="/assets/images/client/grande-salle-1024.webp 1024w, /assets/images/client/grande-salle-1168.webp 1168w, /assets/images/client/grande-salle-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="Fête dans la grande salle d’animation, résidents et familles à table" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
         <h3>La grande salle</h3>
         <p>Fêtes, belote et portes ouvertes</p>
       </a>
     </article><article class="lieu-carte">
       <a href="/les-lieux#terrasses" data-libelle="Les lieux de vie">
-        <figure class="media lieu-media" style="--cadrage:50% 55%">
+        <figure class="media lieu-media" data-vraie style="--cadrage:50% 55%">
   <picture>
     <img src="/assets/images/client/logement-terrasse-1600.webp" srcset="/assets/images/client/logement-terrasse-1024.webp 1024w, /assets/images/client/logement-terrasse-1168.webp 1168w, /assets/images/client/logement-terrasse-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="Terrasse devant un logement, chaises de jardin et pot de géraniums" width="1600" height="1200" loading="lazy" decoding="async">
-  </picture>
+  </picture><figcaption class="mention-vraie">Photo de la MARPA</figcaption>
 </figure>
         <h3>Les terrasses</h3>
         <p>Une par logement, sur le jardin</p>
@@ -352,6 +371,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <figcaption data-anime><strong>Manon</strong>, arrière-petite-fille d&#39;une résidente</figcaption>
     </figure>
   </div>
+</section>
+<section class="tarifs conteneur" id="tarifs">
+  <div class="tete-section tete-section--large">
+    <p class="surtitre" data-anime>Tarifs et entrée</p>
+    <h2 data-anime="lignes">Les questions <em class="mot">que l&#39;on n&#39;ose pas toujours poser</em></h2>
+    <p data-anime>Les réponses de l&#39;équipe, simplement.</p>
+  </div>
+  <ul class="tarifs-cartes" data-anime="cascade" data-visuel>
+    <li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><circle cx="24" cy="24" r="18"/><path d="M31 16.5a10 10 0 1 0 0 15"/><path d="M13 21h14M13 27h14"/></svg><h3>Quels sont les tarifs ?</h3><p>Les tarifs vous sont communiqués par l&#39;équipe, au téléphone ou lors de la visite.</p></li><li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><path d="M6 32h9l8 4h11a3 3 0 0 0 0-6h-8l-5-3H6"/><path d="M6 40h10"/><path d="M33 20s-7-4.5-7-9a4 4 0 0 1 7-2.4A4 4 0 0 1 40 11c0 4.5-7 9-7 9z"/></svg><h3>Existe-t-il des aides pour le loyer ?</h3><p>Posez la question à l&#39;équipe : elle vous renseigne, au téléphone ou lors de la visite, selon votre situation.</p></li><li><svg class="picto" viewBox="0 0 48 48" aria-hidden="true" focusable="false" data-fx="trace"><circle cx="15" cy="24" r="8"/><path d="M23 24h19M36 24v6M41 24v4"/><circle cx="15" cy="24" r="2.5"/></svg><h3>Comment se passe une entrée ?</h3><p>Tout commence par une visite : l&#39;équipe vous montre la maison, le jardin et un logement, répond à vos questions et vous explique les étapes.</p></li>
+  </ul>
+  <p data-anime><a href="/contact#questions" class="lien-fleche" data-libelle="Contact">Toutes les questions</a></p>
 </section>
 <section class="cafe" id="visite-accueil">
   <div class="conteneur cafe-grille">
@@ -396,7 +426,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </footer>
 <div data-barre-fixe>
   <a class="bouton bouton--contour" href="tel:+33134780339">Appeler</a>
-  <a class="bouton" href="/contact#visite" data-libelle="Contact">Visiter</a>
+  <a class="bouton" href="/contact#visite" data-libelle="Contact">Une visite</a>
 </div>
 </body>
 </html>

@@ -4,7 +4,7 @@
    Les lieux (galerie épinglée) · Le mot de Manon · Venez prendre un café. */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { fleur } from '../gabarits/fleur.mjs';
-import { titre, picto } from '../gabarits/blocs.mjs';
+import { titre, picto, pictoService } from '../gabarits/blocs.mjs';
 import { semaine } from '../gabarits/planning.mjs';
 
 export const page = { cle: 'accueil', fichier: 'index', imagePartage: 'client/jardin-fleurs-1600.webp' };
@@ -30,17 +30,37 @@ const pt = (h, r) => { const a = (h / 24) * 2 * Math.PI - Math.PI / 2; return `$
 const arc = (h1, h2, r) => { const d = ((h2 - h1 + 24) % 24); return `M${pt(h1, r)} A${r} ${r} 0 ${d > 12 ? 1 : 0} 1 ${pt(h2, r)}`; };
 const graduations = () => Array.from({ length: 24 }, (_, h) => { const a = (h / 24) * 2 * Math.PI - Math.PI / 2, r1 = h % 6 ? 108 : 104; return `<line x1="${(Math.cos(a) * r1).toFixed(2)}" y1="${(Math.sin(a) * r1).toFixed(2)}" x2="${(Math.cos(a) * 112).toFixed(2)}" y2="${(Math.sin(a) * 112).toFixed(2)}"/>`; }).join('');
 
+/* Ce qui se passe à chaque heure, pour le cadran qu'on fait tourner : repères de la journée (site actuel) et
+   rendez-vous qui reviennent chaque semaine dans le vrai planning (au moins deux fois). */
+const JOURS = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
+const moments = (pl) => {
+  const vus = new Map();
+  for (const e of pl.evenements.filter((x) => x.heure && !x.confirmer)) {
+    const k = e.heure + '|' + (e.court || e.titre);
+    const j = new Date(e.date + 'T12:00:00').getDay();
+    if (!vus.has(k)) vus.set(k, { n: 0, jours: new Set() });
+    const v = vus.get(k); v.n++; v.jours.add(j);
+  }
+  const liste = [...vus].filter(([, v]) => v.n >= 2).map(([k, v]) => {
+    const [h, t] = k.split('|'); const [hh, mm] = h.split(':');
+    const j = [...v.jours].sort((a, b) => ((a + 6) % 7) - ((b + 6) % 7)).map((x) => JOURS[x]);
+    return { h: +hh + +mm / 60, t: `${t}, le ${j.join(' et le ')}` };
+  });
+  return [{ h: 7, t: 'Le hall ouvre, l\u2019équipe arrive' }, { h: 21, t: 'Le hall passe au digicode, le médaillon veille' }, ...liste].sort((a, b) => a.h - b.h);
+};
+
 export default (c) => {
   const pieces = c.donnees.pieces;
   const sem = semaine(c.donnees.planning);
   const lieuxGalerie = [
-    { nom: 'client/jardin-fleurs', titre: 'Le jardin', texte: '5 000 m² d\u2019arbres et de fleurs', alt: 'Massif de pétunias et de géraniums devant la maison, la serre et le jardin', page: 'les-lieux', ancre: 'jardin' },
+    { nom: 'grok/lieux-arbres', titre: 'Le jardin', texte: '5 000 m² d\u2019arbres et de fleurs', alt: 'Grands arbres au-dessus d\u2019une pelouse, lumière d\u2019été qui traverse les feuilles', page: 'les-lieux', ancre: 'jardin' },
     { nom: 'client/salle-de-vie', titre: 'La salle de vie', texte: 'Salle à manger, salon et cheminée', alt: 'Salle de vie : tables de la salle à manger et cheminée', page: 'les-lieux', ancre: 'salle-de-vie' },
     { nom: 'client/petit-salon', titre: 'Le petit salon', texte: 'Bibliothèque, vélo et tapis de marche', alt: 'Petit salon avec tapis de marche, vélo d\u2019appartement et plantes', page: 'les-lieux', ancre: 'petit-salon' },
     { nom: 'client/grande-salle', titre: 'La grande salle', texte: 'Fêtes, belote et portes ouvertes', alt: 'Fête dans la grande salle d\u2019animation, résidents et familles à table', page: 'les-lieux', ancre: 'grande-salle' },
     { nom: 'client/logement-terrasse', titre: 'Les terrasses', texte: 'Une par logement, sur le jardin', alt: 'Terrasse devant un logement, chaises de jardin et pot de géraniums', page: 'les-lieux', ancre: 'terrasses' },
   ];
   const cartes = c.donnees.services;
+  const questions = ['Quels sont les tarifs ?', 'Existe-t-il des aides pour le loyer ?', 'Comment se passe une entrée ?'].map((q) => c.donnees.faq.find((f) => f.q === q)).filter(Boolean);
   return html`
 <section class="ouv-accueil" id="debut">
   ${c.media({ nom: 'grok/accueil-jardin', alt: 'Jardin arboré au printemps, banc de bois et massifs fleuris', cadrage: '62% 50%', cadrageMobile: '60% 50%', priorite: true, classe: 'ouv-accueil-media', sizes: '100vw', attrs: 'data-anime="gsap"' })}
@@ -55,7 +75,24 @@ export default (c) => {
       <span class="ouv-info" data-info-cle><span class="point-vert" aria-hidden="true"></span>Équipe présente de 7 h à 21 h · médaillon 24 h/24</span>
     </p>
   </div>
-  <div class="ouv-fleur">${fleur({ classe: 'fleur--accueil', attrs: 'data-iris-centre="disque" data-effet="fleur"' })}</div>
+  <button type="button" class="ouv-fleur" aria-label="${c.s('accueil.hero.fleur')}" data-fleur-cueillir>${fleur({ classe: 'fleur--accueil', attrs: 'data-iris-centre="disque" data-effet="fleur"' })}</button>
+</section>
+
+<section class="envrai" id="en-vrai">
+  <div class="conteneur envrai-grille">
+    ${c.media({ nom: 'client/jardin-fleurs', alt: 'Massif de pétunias et de géraniums devant la maison de plain\u2011pied, la serre et le jardin', cadrage: '55% 55%', classe: 'envrai-photo', sizes: '(max-width: 760px) 100vw, 44vw', attrs: 'data-anime="rideau"' })}
+    <div class="envrai-texte">
+      <p class="surtitre" data-anime>${c.t('accueil.envrai.surtitre')}</p>
+      <h2 data-anime="lignes">${titre(c, 'accueil.envrai')}</h2>
+      <p data-anime>${c.t('accueil.envrai.texte')}</p>
+      <ul class="envrai-chiffres" data-anime="cascade">
+        <li><strong data-compteur="23">23</strong><span>${c.t('accueil.envrai.c1')}</span></li>
+        <li><strong data-compteur="5000">5 000</strong><span>${c.t('accueil.envrai.c2')}</span></li>
+        <li class="envrai-asso">${picto('coeur', { classe: 'picto--petit' })}<span>${c.t('accueil.envrai.c3')}</span></li>
+      </ul>
+      <p data-anime>${c.lien('les-lieux', { classe: 'lien-fleche', texte: c.t('accueil.envrai.lien') })}</p>
+    </div>
+  </div>
 </section>
 
 <section class="pourqui conteneur" id="pour-qui">
@@ -105,8 +142,9 @@ export default (c) => {
         <li><span class="pastille pastille--nuit" aria-hidden="true"></span>${c.t('accueil.jour.nuit')}</li>
       </ul>
     </div>
-    <figure class="cadran" data-effet="cadran" data-visuel>
-      <svg viewBox="-120 -120 240 240" role="img" aria-label="${c.s('accueil.jour.cadran')}">
+    <figure class="cadran" data-effet="cadran" data-visuel data-moments="${JSON.stringify(moments(c.donnees.planning))}">
+      <div class="cadran-zone" role="slider" tabindex="0" aria-label="${c.s('accueil.jour.curseur')}" aria-valuemin="0" aria-valuemax="23.5" aria-valuenow="12" aria-valuetext="12 h" data-grille="manipuler">
+      <svg viewBox="-120 -120 240 240" aria-hidden="true">
         <circle class="cadran-fond" r="112"/>
         ${brut(`<path class="cadran-arc cadran-arc--nuit" d="${arc(21, 7, 92)}"/>`)}
         ${brut(`<path class="cadran-arc cadran-arc--jour" d="${arc(7, 21, 92)}"/>`)}
@@ -114,9 +152,18 @@ export default (c) => {
         <g class="cadran-heures">
           <text x="0" y="-60">0 h</text><text x="62" y="5">6 h</text><text x="0" y="70">12 h</text><text x="-62" y="5">18 h</text>
         </g>
-        <g class="cadran-aiguille"><path d="M0 8 V-96"/><circle r="7"/></g>
+        ${brut(`<g class="cadran-soleil" transform="translate(${pt(7, 92)})"><circle r="13"/><circle r="4.5"/><path d="M0 -9v3M0 9v-3M-9 0h3M9 0h-3M-6.4 -6.4l2 2M6.4 6.4l-2 -2M-6.4 6.4l2 -2M6.4 -6.4l-2 2"/></g>`)}
+        ${brut(`<g class="cadran-lune" transform="translate(${pt(21, 92)})"><circle r="13"/><path d="M3 -6.5a7 7 0 1 0 3.5 10.5a5.5 5.5 0 1 1 -3.5 -10.5z"/></g>`)}
+        <circle class="cadran-maintenant" r="5" cx="0" cy="-104"/>
+        <g class="cadran-aiguille"><path d="M0 8 V-96"/><circle r="7"/><circle class="cadran-poignee" cy="-84" r="9"/></g>
       </svg>
-      <figcaption class="cadran-statut" aria-live="polite"><span class="cadran-heure" data-cadran-heure>7 h – 21 h</span><span data-cadran-statut>${c.t('accueil.jour.jour')}</span></figcaption>
+      </div>
+      <figcaption class="cadran-statut" aria-live="polite">
+        <span class="cadran-heure" data-cadran-heure>7 h – 21 h</span>
+        <span data-cadran-statut>${c.t('accueil.jour.jour')}</span>
+        <span class="cadran-rdv" data-cadran-rdv>${c.t('accueil.jour.glisser')}</span>
+        <span class="cadran-liens"><button type="button" class="cadran-retour" data-cadran-retour hidden>${c.t('accueil.jour.retour')}</button>${c.lien('les-animations', { classe: 'lien-fleche lien-fleche--clair', texte: c.t('accueil.jour.programme') })}</span>
+      </figcaption>
     </figure>
   </div>
 </section>
@@ -128,13 +175,12 @@ export default (c) => {
     <p data-anime>${c.t('accueil.services.texte')}</p>
   </div>
   <ul class="services-cartes" data-anime="cascade">
-    ${cartes.map((s) => html`<li class="service-carte">
-      <a href="${c.url('les-services', 'les-cinq', 'service=' + s.id)}" data-libelle="${c.libelle('les-services')}">
-        ${s.id === 'teleassistance'
-          ? brut(`<div class="media service-medaillon" data-visuel aria-hidden="true"><span class="onde-appel"></span><span class="onde-appel onde-appel--2"></span><svg viewBox="0 0 80 80"><circle cx="40" cy="44" r="18"/><path d="M40 10v16"/><path d="M33 10h14"/><circle cx="40" cy="44" r="7"/></svg></div>`)
-          : c.media({ nom: s.id === 'entretien' ? 'client/logement-lit' : s.id === 'linge' ? 'client/linge' : s.image, alt: s.id === 'entretien' ? 'Chambre lumineuse avec lit et fauteuil' : s.id === 'linge' ? 'Pile de pulls pliés' : s.alt, cadrage: '50% 50%', classe: 'service-media', sizes: '(max-width: 760px) 50vw, 20vw' })}
-        <h3>${s.titre}</h3>
-        <p>${s.resume}</p>
+    ${cartes.map((x) => html`<li class="service-carte">
+      <a href="${c.url('les-services', 'les-cinq', 'service=' + x.id)}" data-libelle="${c.libelle('les-services')}">
+        <span class="service-dessin" data-visuel aria-hidden="true">${pictoService(x.id)}</span>
+        <h3>${x.titre}</h3>
+        <p>${x.resume}</p>
+        <span class="service-plus">${c.t('accueil.services.plus')}</span>
       </a>
     </li>`)}
   </ul>
@@ -185,6 +231,18 @@ export default (c) => {
       <figcaption data-anime><strong>${c.t('accueil.temoignage.auteur')}</strong>, ${c.t('accueil.temoignage.qui')}</figcaption>
     </figure>
   </div>
+</section>
+
+<section class="tarifs conteneur" id="tarifs">
+  <div class="tete-section tete-section--large">
+    <p class="surtitre" data-anime>${c.t('accueil.tarifs.surtitre')}</p>
+    <h2 data-anime="lignes">${titre(c, 'accueil.tarifs')}</h2>
+    <p data-anime>${c.t('accueil.tarifs.texte')}</p>
+  </div>
+  <ul class="tarifs-cartes" data-anime="cascade" data-visuel>
+    ${questions.map((q, i) => html`<li>${picto(['euro', 'aide', 'cle'][i])}<h3>${q.q}</h3><p>${q.r}</p></li>`)}
+  </ul>
+  <p data-anime>${c.lien('contact', { ancre: 'questions', classe: 'lien-fleche', texte: c.t('accueil.tarifs.lien') })}</p>
 </section>
 
 <section class="cafe" id="visite-accueil">
